@@ -1,0 +1,3388 @@
+{
+  "items": [
+    {
+      "original_pdf_text": "MANGO PICKLE",
+      "translated_text": "Mango Pickle",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT OIL",
+      "translated_text": "Coconut Oil",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT WHOLE",
+      "translated_text": "Whole Wheat",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT FLOUR",
+      "translated_text": "Wheat Flour",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW BANANA",
+      "translated_text": "Raw Banana",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRUMSTICK",
+      "translated_text": "Drumstick",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NANARI SARBATH",
+      "translated_text": "Nannari Sarbath",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CORN YELLOW",
+      "translated_text": "Yellow Corn",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GUNDU GREEN CHILLI",
+      "translated_text": "Round Green Chilli",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WATERMELON [ KIRAN ]",
+      "translated_text": "Watermelon [Kiran]",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WATER MELON [ NADU ]",
+      "translated_text": "Watermelon [Nadu]",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BARLEY",
+      "translated_text": "Barley",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AMLA PICKLE",
+      "translated_text": "Amla Pickle",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUTHIRAIVALLI BISCUITS",
+      "translated_text": "Barnyard Millet Biscuits",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MORINGA NOODLES",
+      "translated_text": "Moringa Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK RICE NOODLES",
+      "translated_text": "Black Rice Noodles",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CHOLAM NOODLES",
+      "translated_text": "Sorghum Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PANAM KARKANDU POWDER",
+      "translated_text": "Palm Candy Powder",
+      "selling_price": 700,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CAULIFLOWER",
+      "translated_text": "Cauliflower",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARAMANI",
+      "translated_text": "Cowpea",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PALAK KEERAI",
+      "translated_text": "Spinach Leaves",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CORIANDER LEAVES HILLS",
+      "translated_text": "Hill Coriander Leaves",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONNI FARM BOILED RICE",
+      "translated_text": "Ponni Farm Boiled Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VENDHAYA KEERAI",
+      "translated_text": "Fenugreek Leaves",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GREEN GRAPES",
+      "translated_text": "Green Grapes",
+      "selling_price": 210,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GOOSEBERRY",
+      "translated_text": "Gooseberry",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RADISH - RED",
+      "translated_text": "Red Radish",
+      "selling_price": 50,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RADISH",
+      "translated_text": "Radish",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAMBAR CUCUMBER",
+      "translated_text": "Sambar Cucumber",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AVARAKAI",
+      "translated_text": "Hyacinth Beans",
+      "selling_price": 160,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "IVY GOURD - (KOVAIKAI)",
+      "translated_text": "Ivy Gourd",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BOTTLE GOURD - (SURAIKAI)",
+      "translated_text": "Bottle Gourd",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RIDGE GOURD - (PEERKANKAI)",
+      "translated_text": "Ridge Gourd",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POTATO",
+      "translated_text": "Potato",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "LEMON",
+      "translated_text": "Lemon",
+      "selling_price": 240,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "YAM - (SENAI KILANGU)",
+      "translated_text": "Yam (Elephant Foot Yam)",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GREEN CHILLY - (MILAGAI)",
+      "translated_text": "Green Chilli",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ASH GOURD",
+      "translated_text": "Ash Gourd",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "YELLOW PUMKIN",
+      "translated_text": "Yellow Pumpkin",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CABBAGE",
+      "translated_text": "Cabbage",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SMALL ONION",
+      "translated_text": "Small Onion",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TOMATO",
+      "translated_text": "Tomato",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VINAYAGAR IDOL 12\"",
+      "translated_text": "Vinayagar Idol 12\"",
+      "selling_price": 750,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - KUTHIRAIVALLI",
+      "translated_text": "Barnyard Millet Vermicelli",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - KAMBU",
+      "translated_text": "Pearl Millet Vermicelli",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - MULTI MILLETS",
+      "translated_text": "Multi Millets Vermicelli",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - SAMAI",
+      "translated_text": "Little Millet Vermicelli",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - VARAGU",
+      "translated_text": "Kodo Millet Vermicelli",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - THINNAI",
+      "translated_text": "Foxtail Millet Vermicelli",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VERMICELLI - RAGI",
+      "translated_text": "Finger Millet Vermicelli",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VALLARAI SEV",
+      "translated_text": "Vallarai Sev",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI MURUKKU",
+      "translated_text": "Foxtail Millet Murukku",
+      "selling_price": 560,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI LADDU",
+      "translated_text": "Foxtail Millet Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THENKUZHAL MURUKKU",
+      "translated_text": "Thenkuzhal Murukku",
+      "selling_price": 640,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THATTAI THINAI",
+      "translated_text": "Thattai Thinai",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SPL MIXTURE",
+      "translated_text": "Special Mixture",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEEDAI (SWEET)",
+      "translated_text": "Sweet Seedai",
+      "selling_price": 700,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "REDCHILLI VADAMS",
+      "translated_text": "Red Chilli Vadams",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED BANANA CHIPS",
+      "translated_text": "Red Banana Chips",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAGI MURUKKU",
+      "translated_text": "Finger Millet Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PUTHINA SEV",
+      "translated_text": "Mint Sev",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PULIYODARAI MIX",
+      "translated_text": "Tamarind Rice Mix",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POTATO CHIPS STRIPES",
+      "translated_text": "Potato Chips Stripes",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POTATO CHIPS SALT",
+      "translated_text": "Salted Potato Chips",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POTATO CHIPS REGULAR",
+      "translated_text": "Regular Potato Chips",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PEPPER SEV",
+      "translated_text": "Pepper Sev",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PALGOVA",
+      "translated_text": "Palgova",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ONION SEV",
+      "translated_text": "Onion Sev",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "OMAM VADAMS",
+      "translated_text": "Carom Seed Vadams",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "OMAM PODI",
+      "translated_text": "Carom Seed Powder",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NENTHIRAM CHIPS",
+      "translated_text": "Nenthiram Chips",
+      "selling_price": 640,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NAVATHANIYAM MIXTURE",
+      "translated_text": "Nine Grains Mixture",
+      "selling_price": 680,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NATTUSAKKARAI PALGOVA",
+      "translated_text": "Country Sugar Palgova",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MURUKKU",
+      "translated_text": "Murukku",
+      "selling_price": 680,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MIXTURE SATTUR SEV (NG)",
+      "translated_text": "Sattur Sev Mixture (Non-Garlic)",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MIXTURE - SATTUR SEV",
+      "translated_text": "Sattur Sev Mixture",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MILLET MURUKKU",
+      "translated_text": "Millet Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPILLAI SAMBA RICE MURUKKU",
+      "translated_text": "Mapillai Samba Rice Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "LITTLE MILLET MURUKKU",
+      "translated_text": "Little Millet Murukku",
+      "selling_price": 720,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "LADIES FINGER PAKODA",
+      "translated_text": "Ladies Finger Pakoda",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "LADDOO",
+      "translated_text": "Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KEERAI PAKODA",
+      "translated_text": "Greens Pakoda",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KEELA NALLI",
+      "translated_text": "Keela Nalli",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAVUNI WHEAT HALWA",
+      "translated_text": "Kavuni Wheat Halwa",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAVUNI KANJI MIX",
+      "translated_text": "Kavuni Porridge Mix",
+      "selling_price": 550,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPPATI LADOO",
+      "translated_text": "Palm Jaggery Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPATTI WHEAT HALWA",
+      "translated_text": "Palm Jaggery Wheat Halwa",
+      "selling_price": 720,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPATTI MITTAI",
+      "translated_text": "Palm Jaggery Sweet",
+      "selling_price": 560,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPATTI KAVUNI HALWA",
+      "translated_text": "Palm Jaggery Kavuni Halwa",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPATTI JANGIRI",
+      "translated_text": "Palm Jaggery Jangiri",
+      "selling_price": 720,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARA BOONDI",
+      "translated_text": "Spicy Boondi",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAJU KATLI",
+      "translated_text": "Cashew Katli",
+      "selling_price": 1133,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "JEERA VADAMS",
+      "translated_text": "Cumin Vadams",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GREENCHILLI VADAMS",
+      "translated_text": "Green Chilli Vadams",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GARLIC VADAMS",
+      "translated_text": "Garlic Vadams",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ANDHRA THATAI",
+      "translated_text": "Andhra Thattai",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ALOO BHUJIYA",
+      "translated_text": "Potato Bhujiya",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "A2 GHEE MYSORE PA",
+      "translated_text": "A2 Ghee Mysore Pak",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW TURMERIC PICKLE",
+      "translated_text": "Raw Turmeric Pickle",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PERUNGAYAM",
+      "translated_text": "Asafoetida",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANKATTI THUVARAM PARUPU",
+      "translated_text": "Mankatti Toor Dal",
+      "selling_price": 260,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AVAKKA MANGO PICKLE",
+      "translated_text": "Avakka Mango Pickle",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BROWN RICE",
+      "translated_text": "Brown Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THOOYAMALLI IDYAPPAM FLOUR",
+      "translated_text": "Thooyamalli Idiyappam Flour",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THOOYAMALLI RAW BROKEN RICE",
+      "translated_text": "Thooyamalli Raw Broken Rice",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THANDU KEERAI",
+      "translated_text": "Amaranth Stem Leaves",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "IDLI RICE",
+      "translated_text": "Idli Rice",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GINGELLY OIL",
+      "translated_text": "Gingelly Oil",
+      "selling_price": 380,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PACKAGING",
+      "translated_text": "Packaging",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VALLI KILANGU",
+      "translated_text": "Sweet Potato",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED CHOLAM",
+      "translated_text": "Red Sorghum",
+      "selling_price": 125,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KICHALLI SAMBHA",
+      "translated_text": "Kichalli Samba",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VELLAM",
+      "translated_text": "Jaggery",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS TABASCO CHIPS",
+      "translated_text": "MGS Tabasco Chips",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS ROASTED PEANUTS",
+      "translated_text": "MGS Roasted Peanuts",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS THATTAI",
+      "translated_text": "MGS Thattai",
+      "selling_price": 250,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEEL CHIPS",
+      "translated_text": "Wheel Chips",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RING CHIPS",
+      "translated_text": "Ring Chips",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CORN CHIPS",
+      "translated_text": "Corn Chips",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS MASALA PEANUTS",
+      "translated_text": "MGS Masala Peanuts",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS KARABOONDHI",
+      "translated_text": "MGS Spicy Boondi",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS SUGAR SEV",
+      "translated_text": "MGS Sugar Sev",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS POTATO CHILLI",
+      "translated_text": "MGS Potato Chilli",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS POTATO CHIPS",
+      "translated_text": "MGS Potato Chips",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS NENTHIRAM CHIPS",
+      "translated_text": "MGS Nenthiram Chips",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS NICE SEV",
+      "translated_text": "MGS Nice Sev",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS BUTTER SEV",
+      "translated_text": "MGS Butter Sev",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS MIXTURE",
+      "translated_text": "MGS Mixture",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS RIBBON PAKODA",
+      "translated_text": "MGS Ribbon Pakoda",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS SATTUR SEV",
+      "translated_text": "MGS Sattur Sev",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MGS PEPPER SEV",
+      "translated_text": "MGS Pepper Sev",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NICE SEV",
+      "translated_text": "Nice Sev",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "HILL BANANA",
+      "translated_text": "Hill Banana",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PAPAYA",
+      "translated_text": "Papaya",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BUTTER SEV",
+      "translated_text": "Butter Sev",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPILLAI SAMBHA RICE FLOUR",
+      "translated_text": "Mapillai Samba Rice Flour",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT KOPARAI",
+      "translated_text": "Dried Coconut",
+      "selling_price": 280,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PORI KADALAI",
+      "translated_text": "Roasted Gram",
+      "selling_price": 220,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPILLAI SAMBHA AVAL",
+      "translated_text": "Mapillai Samba Flattened Rice",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KATTU YANAM",
+      "translated_text": "Kattu Yanam",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED RICE",
+      "translated_text": "Red Rice",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CASHEW SPLIT",
+      "translated_text": "Split Cashew",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY RED CHILLI POWDER",
+      "translated_text": "Dry Red Chilli Powder",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ALOE VERA GEL",
+      "translated_text": "Aloe Vera Gel",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MYSORE PAK",
+      "translated_text": "Mysore Pak",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI COMBO 5 1KG",
+      "translated_text": "Diwali Combo 5 1KG",
+      "selling_price": 480,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI COMBO 4 500GMS",
+      "translated_text": "Diwali Combo 4 500GMS",
+      "selling_price": 335,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPATTI KAJU KATILI",
+      "translated_text": "Palm Jaggery Cashew Katli",
+      "selling_price": 1375,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ELLU PODI",
+      "translated_text": "Sesame Powder",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TREEYAA SPL MIXTURE",
+      "translated_text": "Treeyaa Special Mixture",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI COMBO 1 250GM",
+      "translated_text": "Diwali Combo 1 250GM",
+      "selling_price": 199,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI COMBO 3 1KG",
+      "translated_text": "Diwali Combo 3 1KG",
+      "selling_price": 699,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI COMBO 2 500GM",
+      "translated_text": "Diwali Combo 2 500GM",
+      "selling_price": 349,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY FRUIT LADDOO",
+      "translated_text": "Dry Fruit Laddu",
+      "selling_price": 1125,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT POWDER",
+      "translated_text": "Coconut Powder",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "REFINED OIL",
+      "translated_text": "Refined Oil",
+      "selling_price": 450,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MILK POWDER",
+      "translated_text": "Milk Powder",
+      "selling_price": 455,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AYUDHA POOJA COMBO 250GM",
+      "translated_text": "Ayudha Pooja Combo 250GM",
+      "selling_price": 199,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AYUDHA POOJA COMBO 500GM",
+      "translated_text": "Ayudha Pooja Combo 500GM",
+      "selling_price": 349,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AYUDHA POOJA COMBO 1KG",
+      "translated_text": "Ayudha Pooja Combo 1KG",
+      "selling_price": 649,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAAVU ARISI RAW",
+      "translated_text": "Raw Rice Flour",
+      "selling_price": 35,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "LADIES FINGER",
+      "translated_text": "Ladies Finger (Okra)",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT PURFI",
+      "translated_text": "Coconut Burfi",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GROUND NUT OIL",
+      "translated_text": "Groundnut Oil",
+      "selling_price": 270,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CARROT HALWA",
+      "translated_text": "Carrot Halwa",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT BISCUIT",
+      "translated_text": "Wheat Biscuit",
+      "selling_price": 180,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHITE SUGAR ORGANIC",
+      "translated_text": "Organic White Sugar",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VINAYAGAR POOJA ITEMS",
+      "translated_text": "Vinayagar Pooja Items",
+      "selling_price": 35,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VINAYAKAR COMBO PACK",
+      "translated_text": "Vinayakar Combo Pack",
+      "selling_price": 375,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOZHUKATTAI MAAVU (PONNI)",
+      "translated_text": "Kozhukattai Flour (Ponni)",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VINAYAGAR IDOL 10\"",
+      "translated_text": "Vinayagar Idol 10\"",
+      "selling_price": 550,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VINAYAGAR IDOL 8\"",
+      "translated_text": "Vinayagar Idol 8\"",
+      "selling_price": 450,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RIBBON PAKKODA",
+      "translated_text": "Ribbon Pakoda",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PACKING COVER",
+      "translated_text": "Packing Cover",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KRISHNA JAYANTHI COMBO PACK",
+      "translated_text": "Krishna Jayanthi Combo Pack",
+      "selling_price": 599,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BABY POTATO",
+      "translated_text": "Baby Potato",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT",
+      "translated_text": "Coconut",
+      "selling_price": 45,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GARLIC",
+      "translated_text": "Garlic",
+      "selling_price": 360,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BRINJAL - PURPLE STRIPES",
+      "translated_text": "Brinjal - Purple Stripes",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SWEET POTATO",
+      "translated_text": "Sweet Potato",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MIXTURE",
+      "translated_text": "Mixture",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MIXTURE (NON GARLIC)",
+      "translated_text": "Mixture (Non Garlic)",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CHOLAM BISCUIT",
+      "translated_text": "Sorghum Biscuit",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VARAGU BISCUIT",
+      "translated_text": "Kodo Millet Biscuit",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI BISCUIT",
+      "translated_text": "Little Millet Biscuit",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI BISCUIT",
+      "translated_text": "Foxtail Millet Biscuit",
+      "selling_price": 180,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAMBU BISCUIT",
+      "translated_text": "Pearl Millet Biscuit",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAGI BISCUIT",
+      "translated_text": "Finger Millet Biscuit",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MULTI MILLET ATTA FLOUR",
+      "translated_text": "Multi Millet Atta Flour",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NATTUSAKKARAI",
+      "translated_text": "Country Sugar",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PUTHINA",
+      "translated_text": "Mint",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POMEGRANATE",
+      "translated_text": "Pomegranate",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NENTHIRAM BANANA",
+      "translated_text": "Nenthiram Banana",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MOSAMBI",
+      "translated_text": "Sweet Lime",
+      "selling_price": 160,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PUDALANKAI",
+      "translated_text": "Snake Gourd",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CARROT",
+      "translated_text": "Carrot",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CUCUMBER - (VELLARI PINJU)",
+      "translated_text": "Cucumber (Tender Cucumber)",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BIG ONION",
+      "translated_text": "Big Onion",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANI SAMBHA",
+      "translated_text": "Mani Samba",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "FARM MAPILLAI SAMBHA RICE",
+      "translated_text": "Farm Mapillai Samba Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOTHAVARANGA VATHAL",
+      "translated_text": "Cluster Beans Vathal",
+      "selling_price": 1500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOLLU",
+      "translated_text": "Horse Gram",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAMBU",
+      "translated_text": "Pearl Millet",
+      "selling_price": 170,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI",
+      "translated_text": "Little Millet",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "HERBAL TEA POWDER",
+      "translated_text": "Herbal Tea Powder",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PEANUT IDLI POWDER",
+      "translated_text": "Peanut Idli Powder",
+      "selling_price": 900,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SESAME IDLY POWDER",
+      "translated_text": "Sesame Idli Powder",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY PEANUTS",
+      "translated_text": "Dry Peanuts",
+      "selling_price": 220,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BENGAL GRAM KADALA PARUPPU",
+      "translated_text": "Bengal Gram Dal",
+      "selling_price": 170,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BROWN MOCHAI",
+      "translated_text": "Brown Mochai",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED SOIL DAL((THUVRAM)",
+      "translated_text": "Red Soil Dal (Toor Dal)",
+      "selling_price": 260,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NARI PAYIRU",
+      "translated_text": "Nari Payiru",
+      "selling_price": 175,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "JEERAGAM",
+      "translated_text": "Cumin",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THUVARAM PARUPU",
+      "translated_text": "Toor Dal",
+      "selling_price": 240,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CASHEWNUT",
+      "translated_text": "Cashewnut",
+      "selling_price": 1200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRUMSTICK POWDER",
+      "translated_text": "Drumstick Powder",
+      "selling_price": 1200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CABBAGE PURPLE",
+      "translated_text": "Purple Cabbage",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KULLAKAR RICE",
+      "translated_text": "Kullakar Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAGI",
+      "translated_text": "Ragi (Finger Millet)",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SUKKANGAI VATHAL",
+      "translated_text": "Dried Bitter Gourd Vathal",
+      "selling_price": 1500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TRADITIONAL RICE IDLI BATTER",
+      "translated_text": "Traditional Rice Idli Batter",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "STALL PRODUCTS",
+      "translated_text": "Stall Products",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BANANA FLOWER",
+      "translated_text": "Banana Flower",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEEDAI (KARAM)",
+      "translated_text": "Spicy Seedai",
+      "selling_price": 650,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PIRANDAI PODI",
+      "translated_text": "Pirandai Powder",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BADAM (ALMOND)",
+      "translated_text": "Almond",
+      "selling_price": 933,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AMLA",
+      "translated_text": "Amla (Indian Gooseberry)",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "YELLAKI BANANA",
+      "translated_text": "Yellaki Banana",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BETEL LEAVES( VETRILAI)",
+      "translated_text": "Betel Leaves",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CASHEW PAKODA",
+      "translated_text": "Cashew Pakoda",
+      "selling_price": 680,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ANDHRA MURUKKU",
+      "translated_text": "Andhra Murukku",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOLLU KANJI MIX",
+      "translated_text": "Horse Gram Porridge Mix",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUTHIRAIVALLI",
+      "translated_text": "Barnyard Millet",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BEANS",
+      "translated_text": "Beans",
+      "selling_price": 170,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CORIANDER SEEDS",
+      "translated_text": "Coriander Seeds",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ULLUNTHU (BLACK)",
+      "translated_text": "Black Urad Dal",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAMBAR POWDER",
+      "translated_text": "Sambar Powder",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ROMANI MANGO",
+      "translated_text": "Romani Mango",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NEELAM MANGO",
+      "translated_text": "Neelam Mango",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PALM JAGGERY LADOO",
+      "translated_text": "Palm Jaggery Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAARA SEV",
+      "translated_text": "Spicy Sev",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PACHAI PATTANI",
+      "translated_text": "Green Peas",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAIKUTHAL RICE NOODLES",
+      "translated_text": "Hand-pounded Rice Noodles",
+      "selling_price": 75,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOLLU RASAM POWDER",
+      "translated_text": "Horse Gram Rasam Powder",
+      "selling_price": 900,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "INSTANT MILLET IDLY DOSA FLOUR",
+      "translated_text": "Instant Millet Idli Dosa Flour",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SATHU MAAVU (HEALTH MIX)",
+      "translated_text": "Sathu Maavu (Health Mix)",
+      "selling_price": 360,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SATHUMAVU (LADDU)",
+      "translated_text": "Sathu Maavu (Laddu)",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MIRACLE POWDER",
+      "translated_text": "Miracle Powder",
+      "selling_price": 180,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARA MURUKKU",
+      "translated_text": "Spicy Murukku",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAAVU PAKODA",
+      "translated_text": "Flour Pakoda",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MASALA GROUNDNUT",
+      "translated_text": "Masala Groundnut",
+      "selling_price": 520,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED RICE ATHIRASAM",
+      "translated_text": "Red Rice Athirasam",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAMBU MURUKKU",
+      "translated_text": "Pearl Millet Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TRADITIONAL RICE MURRUKU",
+      "translated_text": "Traditional Rice Murukku",
+      "selling_price": 720,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THANGA SAMBA",
+      "translated_text": "Thanga Samba",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK KAVUNI AVAL",
+      "translated_text": "Black Kavuni Flattened Rice",
+      "selling_price": 230,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POONGAR AVAL",
+      "translated_text": "Poongar Flattened Rice",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KALAN NMAK(BLACK SALT)",
+      "translated_text": "Black Salt",
+      "selling_price": 0,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MUSK MELON",
+      "translated_text": "Musk Melon",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GINGER",
+      "translated_text": "Ginger",
+      "selling_price": 240,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BANANA STEM",
+      "translated_text": "Banana Stem",
+      "selling_price": 25,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CHOW CHOW",
+      "translated_text": "Chow Chow (Chayote)",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED BANANA",
+      "translated_text": "Red Banana",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARPORAVALI",
+      "translated_text": "Karpooravalli (Indian Borage)",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SUNDAKKAI",
+      "translated_text": "Turkey Berry",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THATTAI PAYAR DRY",
+      "translated_text": "Dry Thattai Payar",
+      "selling_price": 250,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CUSTARD APPLE",
+      "translated_text": "Custard Apple",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MS IDIYAPPAM FLOUR",
+      "translated_text": "MS Idiyappam Flour",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT HALWA",
+      "translated_text": "Wheat Halwa",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI MURUKKU",
+      "translated_text": "Little Millet Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANGO JAM",
+      "translated_text": "Mango Jam",
+      "selling_price": 750,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANGO HALWA",
+      "translated_text": "Mango Halwa",
+      "selling_price": 750,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GUAVA",
+      "translated_text": "Guava",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SENDHURA",
+      "translated_text": "Sendhura",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SIRU KEERAI",
+      "translated_text": "Siru Keerai",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SONA MASURI RAW",
+      "translated_text": "Sona Masuri Raw Rice",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUNG KURUVAI",
+      "translated_text": "Karung Kuruvai",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEERAGA SAMBHA RAW",
+      "translated_text": "Seeraga Samba Raw Rice",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MULAKEERAI",
+      "translated_text": "Mulakeerai",
+      "selling_price": 35,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "IDLI CHILLI POWDER",
+      "translated_text": "Idli Chilli Powder",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "FARM IDLI RICE",
+      "translated_text": "Farm Idli Rice",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEASAME LADOO",
+      "translated_text": "Sesame Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CURD CHILLI VATHAL",
+      "translated_text": "Curd Chilli Vathal",
+      "selling_price": 2000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPILLAI SAMBA RICE VADAM",
+      "translated_text": "Mapillai Samba Rice Vadam",
+      "selling_price": 750,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CAPSICUM GREEN",
+      "translated_text": "Green Capsicum",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BRINJAL VATHAL",
+      "translated_text": "Brinjal Vathal",
+      "selling_price": 2000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NARTHANGAI PICKLE",
+      "translated_text": "Narthangai Pickle",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ALPHONSO MANGO",
+      "translated_text": "Alphonso Mango",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW GROUNDNUT (FARM)",
+      "translated_text": "Raw Groundnut (Farm)",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "LEMON PICKLE",
+      "translated_text": "Lemon Pickle",
+      "selling_price": 750,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANGO",
+      "translated_text": "Mango",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAPOTA",
+      "translated_text": "Sapota",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POOVAN BANANNA",
+      "translated_text": "Poovan Banana",
+      "selling_price": 95,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONNAKANI",
+      "translated_text": "Ponnakani",
+      "selling_price": 25,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANATHAKALI KEERAI",
+      "translated_text": "Manathakali Keerai (Black Nightshade Leaves)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KHOL KHOL",
+      "translated_text": "Kohlrabi",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT RAGI PASTA",
+      "translated_text": "Wheat Ragi Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT KUTHIRAIVALLI PASTA",
+      "translated_text": "Wheat Barnyard Millet Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT THINAI PASTA",
+      "translated_text": "Wheat Foxtail Millet Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT BLACK KAVUNI PASTA",
+      "translated_text": "Wheat Black Kavuni Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT VARAGU PASTA",
+      "translated_text": "Wheat Kodo Millet Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT KAMBU PASTA",
+      "translated_text": "Wheat Pearl Millet Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT SAAMAI PASTA",
+      "translated_text": "Wheat Little Millet Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT MULTI MILLET PASTA",
+      "translated_text": "Wheat Multi Millet Pasta",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VARAGU",
+      "translated_text": "Kodo Millet",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MULTI GRAIN ATTA FLOUR",
+      "translated_text": "Multi Grain Atta Flour",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TURMERIC POWDER",
+      "translated_text": "Turmeric Powder",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MOONG DAL PAASIPARUPU",
+      "translated_text": "Moong Dal",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHITE ULLUNDU WHOLE",
+      "translated_text": "Whole White Urad Dal",
+      "selling_price": 195,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GREEN GRAM",
+      "translated_text": "Green Gram",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW TURMERIC",
+      "translated_text": "Raw Turmeric",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI LADOO",
+      "translated_text": "Little Millet Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHITE CHOLAM",
+      "translated_text": "White Sorghum",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAKKA CHOLAM",
+      "translated_text": "Maize",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAVUNI DOSA FLOUR",
+      "translated_text": "Kavuni Dosa Flour",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TRASPORTATION CHARGE",
+      "translated_text": "Transportation Charge",
+      "selling_price": 220,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "FARM TRIP",
+      "translated_text": "Farm Trip",
+      "selling_price": 10000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORANGE",
+      "translated_text": "Orange",
+      "selling_price": 160,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DISCOUNT",
+      "translated_text": "Discount",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOLI AVARAI",
+      "translated_text": "Koli Avarai",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "STRAW BERRY",
+      "translated_text": "Strawberry",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TURNIP",
+      "translated_text": "Turnip",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONMANI IDLI RICE",
+      "translated_text": "Ponmani Idli Rice",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TAMARIND(PULI)",
+      "translated_text": "Tamarind",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONNI KAIKUTHAL",
+      "translated_text": "Ponni Hand-pounded Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THATAI PEPPER",
+      "translated_text": "Thattai Pepper",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW BANANA CHIPS",
+      "translated_text": "Raw Banana Chips",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CLUSTER BEANS (KOTHAVARAI)",
+      "translated_text": "Cluster Beans",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RADISH KEERAI",
+      "translated_text": "Radish Leaves",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GREEN PEAS",
+      "translated_text": "Green Peas",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT POLI",
+      "translated_text": "Coconut Poli",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAALABATH",
+      "translated_text": "Kaalabath",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CAPSICUM RED",
+      "translated_text": "Red Capsicum",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY LONG RED CHILLI",
+      "translated_text": "Dry Long Red Chilli",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAGI RAVA",
+      "translated_text": "Finger Millet Rava",
+      "selling_price": 49,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VARAGU RAVA",
+      "translated_text": "Kodo Millet Rava",
+      "selling_price": 180,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI RAVA",
+      "translated_text": "Little Millet Rava",
+      "selling_price": 190,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAMBU RAVA",
+      "translated_text": "Pearl Millet Rava",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUTHIRAIVALLI RAVA",
+      "translated_text": "Barnyard Millet Rava",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PINEAPPLE",
+      "translated_text": "Pineapple",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CAPSICUM YELLOW",
+      "translated_text": "Yellow Capsicum",
+      "selling_price": 180,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "APPLE",
+      "translated_text": "Apple",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEASAME BLACK",
+      "translated_text": "Black Sesame",
+      "selling_price": 220,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BEETROOT",
+      "translated_text": "Beetroot",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY SHORT RED CHILLI",
+      "translated_text": "Dry Short Red Chilli",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MUSTARD(KADUGU)",
+      "translated_text": "Mustard",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY GRAPES",
+      "translated_text": "Dry Grapes",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAJAMUDI RICE",
+      "translated_text": "Rajamudi Rice",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RNR RAW RICE",
+      "translated_text": "RNR Raw Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI RAVA",
+      "translated_text": "Foxtail Millet Rava",
+      "selling_price": 180,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI",
+      "translated_text": "Foxtail Millet",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KULLAKAAR AVAL",
+      "translated_text": "Kullakar Flattened Rice",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHITE AVAL",
+      "translated_text": "White Flattened Rice",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THOOYAMALLI RAW RICE",
+      "translated_text": "Thooyamalli Raw Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NAVARA RICE",
+      "translated_text": "Navara Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PEPPER",
+      "translated_text": "Pepper",
+      "selling_price": 900,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VENDHAYAM",
+      "translated_text": "Fenugreek",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "INDU UPPU",
+      "translated_text": "Rock Salt",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ULLUNTHU(BLACK SPLIT)",
+      "translated_text": "Black Split Urad Dal",
+      "selling_price": 170,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK HORSE GRAM",
+      "translated_text": "Black Horse Gram",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MULTI NOODLES",
+      "translated_text": "Multi Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUTHIRAIVALLI NOODLES",
+      "translated_text": "Barnyard Millet Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SOYA NOODLES",
+      "translated_text": "Soya Noodles",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI NOODLES",
+      "translated_text": "Little Millet Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAGI NOODLES",
+      "translated_text": "Finger Millet Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAMBU NOODLES",
+      "translated_text": "Pearl Millet Noodles",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VARAGU NOODLES",
+      "translated_text": "Kodo Millet Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI NOODLES",
+      "translated_text": "Foxtail Millet Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED RICE NOODLES",
+      "translated_text": "Red Rice Noodles",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BASUMATHI RICE",
+      "translated_text": "Basmati Rice",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RED AVAL",
+      "translated_text": "Red Flattened Rice",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CORIANDER POWDER",
+      "translated_text": "Coriander Powder",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PANIVARAGU",
+      "translated_text": "Proso Millet",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "HAND MURUKKU",
+      "translated_text": "Hand Murukku",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CARDAMOM(YELLAKAI)",
+      "translated_text": "Cardamom",
+      "selling_price": 1600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PATTAI(CINNAMON STICK)",
+      "translated_text": "Cinnamon Stick",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BUTTER MURUKKU",
+      "translated_text": "Butter Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIABETIC KANJI MAVU",
+      "translated_text": "Diabetic Porridge Flour",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CHILLI POWDER",
+      "translated_text": "Chilli Powder",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK URAD DALL KANJI MIX",
+      "translated_text": "Black Urad Dal Porridge Mix",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PINK ROCK SALT",
+      "translated_text": "Pink Rock Salt",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THOOYAMALLI BOILED KAIKUTHAL",
+      "translated_text": "Thooyamalli Boiled Hand-pounded Rice",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPPU KAVUNI NOODLES",
+      "translated_text": "Black Kavuni Noodles",
+      "selling_price": 75,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPPILLAI SAMBA NOODLES",
+      "translated_text": "Mapillai Samba Noodles",
+      "selling_price": 75,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOLLU NOODLES",
+      "translated_text": "Horse Gram Noodles",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT NOODLES",
+      "translated_text": "Wheat Noodles",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEERAGA SAMBHA",
+      "translated_text": "Seeraga Samba",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK CHANNA",
+      "translated_text": "Black Chana",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHITE CHANNA",
+      "translated_text": "White Chana",
+      "selling_price": 190,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KERALA MATTA RICE",
+      "translated_text": "Kerala Matta Rice",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK KAVUNI RICE",
+      "translated_text": "Black Kavuni Rice",
+      "selling_price": 275,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THOOYAMALLI RICE",
+      "translated_text": "Thooyamalli Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONNI RAW",
+      "translated_text": "Ponni Raw Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "POONGAR",
+      "translated_text": "Poongar",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPILLAI SAMBHA",
+      "translated_text": "Mapillai Samba",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPATTI",
+      "translated_text": "Palm Jaggery",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PANAM KARKANDU",
+      "translated_text": "Palm Candy",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "EGG",
+      "translated_text": "Egg",
+      "selling_price": 16.7,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DELIVERY CHARGE",
+      "translated_text": "Delivery Charge",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PACKING & TRASPORTATION CHARGE",
+      "translated_text": "Packing & Transportation Charge",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAVUNI MURRUKU",
+      "translated_text": "Kavuni Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI ORGANIC SNACKS(500GM)",
+      "translated_text": "Diwali Organic Snacks (500GM)",
+      "selling_price": 399,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DIWALI ORGANIC SNACKS(1KG)",
+      "translated_text": "Diwali Organic Snacks (1KG)",
+      "selling_price": 699,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NATTUSAKKARAI MYSOREPAK",
+      "translated_text": "Country Sugar Mysore Pak",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRY FRUITS COCONUT BURFI",
+      "translated_text": "Dry Fruits Coconut Burfi",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BLACK URAD DHALL LADOO",
+      "translated_text": "Black Urad Dal Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SONA MASURI RICE",
+      "translated_text": "Sona Masuri Rice",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THOOYAMALLI BROKEN",
+      "translated_text": "Thooyamalli Broken Rice",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARAMANI PAYAR",
+      "translated_text": "Cowpea",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NAVRATHRI COMBO PACK",
+      "translated_text": "Navrathri Combo Pack",
+      "selling_price": 850,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CURD",
+      "translated_text": "Curd",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MASALA ITEMS",
+      "translated_text": "Masala Items",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUPU KAUVNI MURUKKU",
+      "translated_text": "Black Kavuni Murukku",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KICHALLI SAMBHA (RAW)",
+      "translated_text": "Kichalli Samba (Raw)",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VINAYAGAR IDOL & POT",
+      "translated_text": "Vinayagar Idol & Pot",
+      "selling_price": 350,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AGRO FARM TRIP",
+      "translated_text": "Agro Farm Trip",
+      "selling_price": 0,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VILANGA",
+      "translated_text": "Wood Apple",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NARTHANKAI",
+      "translated_text": "Citron",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KOZHUKATTAI MAAVU",
+      "translated_text": "Kozhukattai Flour",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ELLU URUNDAI",
+      "translated_text": "Sesame Laddu",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PORI VILANGA URUNDAI",
+      "translated_text": "Pori Vilanga Urundai",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ATHIRASAM",
+      "translated_text": "Athirasam",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SUKKU (DRY GINGER)",
+      "translated_text": "Dry Ginger",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "HERBAL TEA",
+      "translated_text": "Herbal Tea",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW MANGO",
+      "translated_text": "Raw Mango",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "FIG FRUIT",
+      "translated_text": "Fig Fruit",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "OLD BALANCE",
+      "translated_text": "Old Balance",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CHAPPATHI",
+      "translated_text": "Chapathi",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MALKOVA MANGO",
+      "translated_text": "Malkova Mango",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC SNACKS",
+      "translated_text": "Organic Snacks",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CASTOR OIL",
+      "translated_text": "Castor Oil",
+      "selling_price": 280,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NUNGU (ICE APPLE)",
+      "translated_text": "Ice Apple",
+      "selling_price": 5,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MULAIKEERAI SEEDS",
+      "translated_text": "Mulaikeerai Seeds",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ARAI KEERAI SEEDS",
+      "translated_text": "Arai Keerai Seeds",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VENDHAYA KEERAI SEEDS",
+      "translated_text": "Fenugreek Leaves Seeds",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PALAK KEERAI (SEEDS)",
+      "translated_text": "Spinach Leaves (Seeds)",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VARAGU LADDU",
+      "translated_text": "Kodo Millet Laddu",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC SPL MILK",
+      "translated_text": "Organic Special Milk",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BANANA BONDA",
+      "translated_text": "Banana Bonda",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC CHAAT",
+      "translated_text": "Organic Chaat",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "COCONUT WATER",
+      "translated_text": "Coconut Water",
+      "selling_price": 45,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PARUPPU KEERAI",
+      "translated_text": "Dal Leaves",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC PAYASAM",
+      "translated_text": "Organic Payasam",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SUNDAKKA PICKLE",
+      "translated_text": "Turkey Berry Pickle",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TOMATO THOKKU",
+      "translated_text": "Tomato Thokku",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PARRUPU PODI",
+      "translated_text": "Dal Powder",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PUTTU MAVU",
+      "translated_text": "Puttu Flour",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC SOUP",
+      "translated_text": "Organic Soup",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KULLAKAAR AVAL LADDU",
+      "translated_text": "Kullakar Flattened Rice Laddu",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUDAMPULLI",
+      "translated_text": "Kudampuli (Malabar Tamarind)",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAGI LADDU",
+      "translated_text": "Finger Millet Laddu",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC MIXER",
+      "translated_text": "Organic Mixer",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC PAYAR",
+      "translated_text": "Organic Payar",
+      "selling_price": 25,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC KEERAI SOUP",
+      "translated_text": "Organic Greens Soup",
+      "selling_price": 15,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEASAME WHITE",
+      "translated_text": "White Sesame",
+      "selling_price": 370,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANATHAKALI BERRIES",
+      "translated_text": "Manathakali Berries (Black Nightshade Berries)",
+      "selling_price": 360,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TURMERIC PLANT",
+      "translated_text": "Turmeric Plant",
+      "selling_price": 50,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PANAKIZHANGU",
+      "translated_text": "Palmyra Sprout",
+      "selling_price": 15,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MIXED VEGGIES",
+      "translated_text": "Mixed Veggies",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONGAL COMBO",
+      "translated_text": "Pongal Combo",
+      "selling_price": 699,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SUGARCANE",
+      "translated_text": "Sugarcane",
+      "selling_price": 60,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ORGANIC IDLI BATTER",
+      "translated_text": "Organic Idli Batter",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SWEET CORN",
+      "translated_text": "Sweet Corn",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PEERANDAI",
+      "translated_text": "Pirandai (Adamant Creeper)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KAMALA ORANGE",
+      "translated_text": "Kamala Orange",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "IDIYAPPAM FLOUR",
+      "translated_text": "Idiyappam Flour",
+      "selling_price": 160,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PEANUT BAR(KADALAI MITTAI)",
+      "translated_text": "Peanut Bar (Peanut Candy)",
+      "selling_price": 50,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MILLET IDLI BATTER",
+      "translated_text": "Millet Idli Batter",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PACHARISI MURUKKU",
+      "translated_text": "Raw Rice Murukku",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NATTUSAKKARAI LADDU",
+      "translated_text": "Country Sugar Laddu",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAIL KATTAM (SWEET)",
+      "translated_text": "Rail Kattam (Sweet)",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAIL KATTAM (KARAM)",
+      "translated_text": "Rail Kattam (Spicy)",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THATTAI RAGI",
+      "translated_text": "Thattai Ragi",
+      "selling_price": 600,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SOMAAS(RAGI)",
+      "translated_text": "Somaas (Ragi)",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SOMAAS(CHOLAM)",
+      "translated_text": "Somaas (Sorghum)",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SOMAAS(KAMBU)",
+      "translated_text": "Somaas (Pearl Millet)",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SOMAAS(WHEAT)",
+      "translated_text": "Somaas (Wheat)",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SWEET BOX (BIG)",
+      "translated_text": "Sweet Box (Big)",
+      "selling_price": 490,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SWEET BOX (SMALL)",
+      "translated_text": "Sweet Box (Small)",
+      "selling_price": 250,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PANNER GRAPES",
+      "translated_text": "Panner Grapes",
+      "selling_price": 170,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MAPILLAI SAMBHA PORI",
+      "translated_text": "Mapillai Samba Puffed Rice",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "FESTIVAL PACK",
+      "translated_text": "Festival Pack",
+      "selling_price": 799,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SEPPA KILANGU",
+      "translated_text": "Seppa Kilangu (Taro Root)",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHITE MOCHAI",
+      "translated_text": "White Mochai",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GHEE",
+      "translated_text": "Ghee",
+      "selling_price": 1500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUVEPILLAI PODI",
+      "translated_text": "Curry Leaves Powder",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "GARLIC HILLS",
+      "translated_text": "Garlic Hills",
+      "selling_price": 320,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KADALA MAAVU(FLOUR)",
+      "translated_text": "Bengal Gram Flour",
+      "selling_price": 160,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "RAW RICE FLOUR",
+      "translated_text": "Raw Rice Flour",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NARTHANKAI LEAVES",
+      "translated_text": "Citron Leaves",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BAJJI MILLAGAI",
+      "translated_text": "Bajji Chilli",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARUDAN SAMBHA",
+      "translated_text": "Karudan Samba",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ARUKAMPULL",
+      "translated_text": "Arukampull (Bermuda Grass)",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MANGO LEAVES",
+      "translated_text": "Mango Leaves",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "ERRUKKA MALAI",
+      "translated_text": "Erukka Malai (Crown Flower)",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARISELANGANNI",
+      "translated_text": "Kariselanganni (False Daisy)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THORANAM",
+      "translated_text": "Thoranam",
+      "selling_price": 10,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MYIL IRRAGU",
+      "translated_text": "Peacock Feather",
+      "selling_price": 25,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUPPAMANNI",
+      "translated_text": "Kuppamanni (Indian Acalypha)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "THINAI FLOUR",
+      "translated_text": "Foxtail Millet Flour",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "APPLE (GOLDEN GREEN)",
+      "translated_text": "Apple (Golden Green)",
+      "selling_price": 270,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CORN",
+      "translated_text": "Corn",
+      "selling_price": 65,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "AMMANPACHARISI",
+      "translated_text": "Ammanpacharisi (Spurge)",
+      "selling_price": 15,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SPINACH RED",
+      "translated_text": "Red Spinach",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "VARAGU FLOUR",
+      "translated_text": "Kodo Millet Flour",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SAAMAI FLOUR",
+      "translated_text": "Little Millet Flour",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "CURRY LEAVES",
+      "translated_text": "Curry Leaves",
+      "selling_price": 0,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KALYANA MURUNGAI",
+      "translated_text": "Kalyana Murungai (Indian Coral Tree)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PIRANDAI",
+      "translated_text": "Pirandai (Adamant Creeper)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MUSAMBI (SATHUKUTTI)",
+      "translated_text": "Sweet Lime",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "DRUM STICK LEAVES",
+      "translated_text": "Drumstick Leaves",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "SIVAN SAMBHA",
+      "translated_text": "Sivan Samba",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TOMOTA(BANGALORE)",
+      "translated_text": "Tomato (Bangalore)",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "PONNI BOILED",
+      "translated_text": "Ponni Boiled Rice",
+      "selling_price": 110,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MOTCHA",
+      "translated_text": "Mochai",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KUTHIRAIVALLI FLOUR",
+      "translated_text": "Barnyard Millet Flour",
+      "selling_price": 140,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "WHEAT RAVA",
+      "translated_text": "Wheat Rava",
+      "selling_price": 190,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "HERBAL LEAVES",
+      "translated_text": "Herbal Leaves",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BANANA LEAF",
+      "translated_text": "Banana Leaf",
+      "selling_price": 20,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "TREE TOMATO",
+      "translated_text": "Tree Tomato",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "BROCOLI",
+      "translated_text": "Broccoli",
+      "selling_price": 285,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "JAMUN(NAVAL)",
+      "translated_text": "Jamun",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "NEEM OIL",
+      "translated_text": "Neem Oil",
+      "selling_price": 400,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "MINI YELLOW PUMKIN",
+      "translated_text": "Mini Yellow Pumpkin",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "KARNA KILANGU",
+      "translated_text": "Karna Kilangu",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Mango thokku",
+      "translated_text": "Mango Thokku",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Cut mango pickle",
+      "translated_text": "Cut Mango Pickle",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Roasted peanut",
+      "translated_text": "Roasted Peanut",
+      "selling_price": 250,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Kulambu milagai podi",
+      "translated_text": "Kulambu Chilli Powder",
+      "selling_price": 700,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Sombu",
+      "translated_text": "Fennel",
+      "selling_price": 800,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Organic powder",
+      "translated_text": "Organic Powder",
+      "selling_price": 175,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Kavuni rice flour",
+      "translated_text": "Kavuni Rice Flour",
+      "selling_price": 220,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Naarthangai Dry vathal",
+      "translated_text": "Dry Citron Vathal",
+      "selling_price": 500,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Sundakkai vathal",
+      "translated_text": "Turkey Berry Vathal",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Ladies finger dry vathal",
+      "translated_text": "Dry Ladies Finger Vathal",
+      "selling_price": 1000,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Ragi flour",
+      "translated_text": "Finger Millet Flour",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Kambu Flour",
+      "translated_text": "Pearl Millet Flour",
+      "selling_price": 190,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Veppalai oil",
+      "translated_text": "Veppalai Oil (Neem Oil)",
+      "selling_price": 300,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Plums",
+      "translated_text": "Plums",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Pears-Honey Sweet",
+      "translated_text": "Pears-Honey Sweet",
+      "selling_price": 260,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Passion fruit",
+      "translated_text": "Passion Fruit",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Jack fruit",
+      "translated_text": "Jack Fruit",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Imampasanth",
+      "translated_text": "Imampasanth",
+      "selling_price": 250,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Casalat",
+      "translated_text": "Casalat",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Kundu mango",
+      "translated_text": "Kundu Mango",
+      "selling_price": 80,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Black Grapes (Panner)",
+      "translated_text": "Black Grapes (Panner)",
+      "selling_price": 220,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Banganapalli",
+      "translated_text": "Banganapalli",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Rasthali",
+      "translated_text": "Rasthali",
+      "selling_price": 100,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Panjavarnam",
+      "translated_text": "Panjavarnam",
+      "selling_price": 120,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Pachai nadan",
+      "translated_text": "Pachai Nadan",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Dates Fresh Fruit",
+      "translated_text": "Dates Fresh Fruit",
+      "selling_price": 150,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Dragon Fruit",
+      "translated_text": "Dragon Fruit",
+      "selling_price": 200,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Avocado",
+      "translated_text": "Avocado",
+      "selling_price": 210,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Vallarai",
+      "translated_text": "Vallarai (Indian Pennywort)",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Pasalai keerai",
+      "translated_text": "Pasalai Keerai (Indian Spinach)",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Swiss chad",
+      "translated_text": "Swiss Chard",
+      "selling_price": 40,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Agathi Keerai",
+      "translated_text": "Agathi Keerai (Sesbania Grandiflora Leaves)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Arai keerai",
+      "translated_text": "Arai Keerai",
+      "selling_price": 35,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Red Keerai",
+      "translated_text": "Red Keerai (Red Amaranth)",
+      "selling_price": 30,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Mudakathan",
+      "translated_text": "Mudakathan (Balloon Vine)",
+      "selling_price": 25,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Tapioca",
+      "translated_text": "Tapioca",
+      "selling_price": 70,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Killimokku",
+      "translated_text": "Killimokku",
+      "selling_price": 50,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Bitter Gourd - (pavarkai)",
+      "translated_text": "Bitter Gourd",
+      "selling_price": 90,
+      "quantity_type": "Kg"
+    },
+    {
+      "original_pdf_text": "Butter Beans",
+      "translated_text": "Butter Beans",
+      "selling_price": 130,
+      "quantity_type": "Kg"
+    }
+  ]
+}

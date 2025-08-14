@@ -1,0 +1,12 @@
+{
+    "919344549700": [
+        {
+            "role": "user",
+            "data": "Thinai 1kg, coconut 2kg"
+        },
+        {
+            "role": "model",
+            "data": "{\"data\": [{\"matched_database_item\": {\"original_pdf_text\": \"THINAI\", \"translated_text\": \"திணை\"}, \"quantity\": 1, \"quantity_type\": \"Kg\", \"price_per_quantity\": 140, \"total_price\": 140}, {\"matched_database_item\": {\"original_pdf_text\": \"COCONUT\", \"translated_text\": \"தேங்காய்\"}, \"quantity\": 2, \"quantity_type\": \"Kg\", \"price_per_quantity\": 45, \"total_price\": 90}], \"total_sum\": 230, \"status\": \"success\"}"
+        }
+    ]
+}
