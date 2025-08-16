@@ -72,10 +72,10 @@ class TREEYA:
         
     def save_conversation(self, query, response, prev_conv):
         res_obj = json.loads(response)
-        if res_obj['status'] == "success":
+        '''if res_obj['status'] == "success":
             response = json.dumps({"data" : res_obj['data'], "total_sum" : res_obj['total_sum'], "status" : res_obj['status']}, ensure_ascii = False)
         else:
-            response = json.dumps({"data" : res_obj['data'], "status" : res_obj['status']}, ensure_ascii = False)
+            response = json.dumps({"data" : res_obj['data'], "status" : res_obj['status']}, ensure_ascii = False)'''
             
         conversation = [{"role" : "user", "data" : query}, {"role" : "model", "data" : response}]
         

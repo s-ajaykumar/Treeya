@@ -1,1 +1,12 @@
-{}
+{
+    "919344549700": [
+        {
+            "role": "user",
+            "data": "Tomato 1kg"
+        },
+        {
+            "role": "model",
+            "data": "{\n    \"think\": \"The user wants to order 1kg of Tomato. I have checked the inventory and confirmed that Tomato is available in sufficient quantity (8Kg) and the selling price is 100 per Kg. I will now calculate the total price for this item and the overall total sum, then return the success response.\",\n    \"data\": [\n        {\n            \"matched_database_item\": {\n                \"original_pdf_text\": \"TOMATO\",\n                \"translated_text\": \"தக்காளி\"\n            },\n            \"quantity\": 1,\n            \"quantity_type\": \"Kg\",\n            \"price_per_quantity\": 100,\n            \"total_price\": 100\n        }\n    ],\n    \"total_sum\": 100,\n    \"status\": \"success\"\n}"
+        }
+    ]
+}
