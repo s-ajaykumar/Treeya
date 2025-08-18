@@ -2,10 +2,14 @@ from azure.data.tables import TableServiceClient
 from azure.core.exceptions import ResourceNotFoundError
 import time
 import json
+from dotenv import load_dotenv
+import os
 #import csv
 
-connection_string = "DefaultEndpointsProtocol=https;AccountName=whatsmediastorage;AccountKey=AlZN9MP3JCkctp7PHvuSl5Jqbvw768aJU/2ZN+N2PcToNEQ0/RGTbPrpTbkGXEeSzSXRDhsuj90p+ASta6hCXw==;EndpointSuffix=core.windows.net"
-table_service_client = TableServiceClient.from_connection_string(conn_str = connection_string)
+load_dotenv()
+
+CONNECTION_STRING = os.environ["AZURE_TABLE_STORAGE_CONNECTION_STRING"]
+table_service_client = TableServiceClient.from_connection_string(conn_str = CONNECTION_STRING)
 
 items_table = table_service_client.get_table_client(table_name = "items")
 users_in_process_table = table_service_client.get_table_client(table_name = "usersInProcess")
