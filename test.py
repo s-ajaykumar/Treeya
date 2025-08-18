@@ -3,7 +3,7 @@ import csv
 
 def csv_to_json():
     data = {}
-    with open('data/items_version2_progress.csv', mode='r', newline='', encoding='utf-8') as csvfile:
+    with open('data/items_version2.csv', mode='r', newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             row["QUANTITY"] = int(row['QUANTITY']) 

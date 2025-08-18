@@ -3,7 +3,7 @@ item names are feeded in "Tanglish" and "Pure English" to the AI.
 '''
 
 
-import data.config as config
+import config
 
 import json
 from datetime import datetime

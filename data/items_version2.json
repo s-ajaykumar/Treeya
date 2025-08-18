@@ -1,3965 +1,3908 @@
-{"items" : [
-    {
-        "TANGLISH NAME": "MANGO PICKLE",
+{
+    "MANGO PICKLE": {
         "TAMIL NAME": "மாங்காய் ஊறுகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "COCONUT OIL",
+    "COCONUT OIL": {
         "TAMIL NAME": "தேங்காய் எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT WHOLE",
+    "WHEAT WHOLE": {
         "TAMIL NAME": "கோதுமை முழு",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT FLOUR ",
-        "TAMIL NAME": "கோதுமை மாவு ",
+    "WHEAT FLOUR": {
+        "TAMIL NAME": "கோதுமை மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAW BANANA ",
-        "TAMIL NAME": "பச்சை வாழைப்பழம் ",
+    "RAW BANANA": {
+        "TAMIL NAME": "பச்சை வாழைப்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "piece"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "DRUMSTICK",
+    "DRUMSTICK": {
         "TAMIL NAME": "முருங்கைக்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "NANARI SARBATH",
+    "NANARI SARBATH": {
         "TAMIL NAME": "நானாரி சர்பத்",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CORN YELLOW",
+    "CORN YELLOW": {
         "TAMIL NAME": "கார்ன் மஞ்சள்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "GUNDU GREEN CHILLI",
+    "GUNDU GREEN CHILLI": {
         "TAMIL NAME": "குண்டு பச்சை மிளகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "WATERMELON [ KIRAN ]",
+    "WATERMELON [ KIRAN ]": {
         "TAMIL NAME": "தர்பூசணி [ கிரண் ]",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "WATER MELON [ NADU ]",
+    "WATER MELON [ NADU ]": {
         "TAMIL NAME": "நீர் முலாம்பழம் [ நாடு ]",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "BARLEY",
+    "BARLEY": {
         "TAMIL NAME": "பார்லி",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "AMLA PICKLE",
+    "AMLA PICKLE": {
         "TAMIL NAME": "ஆம்லா ஊறுகாய்",
         "QUANTITY": 0,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KUTHIRAIVALLI BISCUITS",
+    "KUTHIRAIVALLI BISCUITS": {
         "TAMIL NAME": "குதிரைவல்லி பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "MORINGA NOODLES",
+    "MORINGA NOODLES": {
         "TAMIL NAME": "மோரிங்கா நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "BLACK RICE NOODLES",
+    "BLACK RICE NOODLES": {
         "TAMIL NAME": "கருப்பு அரிசி நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "CHOLAM NOODLES",
+    "CHOLAM NOODLES": {
         "TAMIL NAME": "சோலம் நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PANAM KARKANDU POWDER",
+    "PANAM KARKANDU POWDER": {
         "TAMIL NAME": "பனம் கற்கண்டு பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 700,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "CAULIFLOWER",
+    "CAULIFLOWER": {
         "TAMIL NAME": "காலிஃபிளவர்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KARAMANI",
+    "KARAMANI": {
         "TAMIL NAME": "காராமணி",
         "QUANTITY": 0,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "PALAK  KEERAI",
+    "PALAK KEERAI": {
         "TAMIL NAME": "பாலக் கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "CORIANDER LEAVES HILLS",
+    "CORIANDER LEAVES HILLS": {
         "TAMIL NAME": "கொத்தமல்லி மலைகளை விட்டு வெளியேறுகிறது",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "PONNI FARM BOILED RICE",
+    "PONNI FARM BOILED RICE": {
         "TAMIL NAME": "பொன்னி பண்ணை புழுங்கல் அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "VENDHAYA KEERAI",
+    "VENDHAYA KEERAI": {
         "TAMIL NAME": "வெண்தாய கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "GREEN GRAPES",
+    "GREEN GRAPES": {
         "TAMIL NAME": "பச்சை திராட்சைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 210,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "GOOSEBERRY",
+    "GOOSEBERRY": {
         "TAMIL NAME": "நெல்லிக்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "RADISH  - RED",
+    "RADISH - RED": {
         "TAMIL NAME": "முள்ளங்கி - சிவப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 50,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "RADISH",
+    "RADISH": {
         "TAMIL NAME": "முள்ளங்கி",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "SAMBAR CUCUMBER",
+    "SAMBAR CUCUMBER": {
         "TAMIL NAME": "சாம்பார் வெள்ளரிக்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "AVARAKAI",
+    "AVARAKAI": {
         "TAMIL NAME": "அவரகை",
         "QUANTITY": 8,
         "SELLING PRICE": 160,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "IVY GOURD - (KOVAIKAI)",
+    "IVY GOURD - (KOVAIKAI)": {
         "TAMIL NAME": "ஐவி பாக்கு - (கோவைகை)",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "BOTTLE GOURD - (SURAIKAI)",
+    "BOTTLE GOURD - (SURAIKAI)": {
         "TAMIL NAME": "சுரைக்காய் - (சுரைக்காய்)",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "RIDGE GOURD - (PEERKANKAI)",
+    "RIDGE GOURD - (PEERKANKAI)": {
         "TAMIL NAME": "ரிட்ஜ் கோர்ட் - (பீர்க்கங்காய்)",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "POTATO",
+    "POTATO": {
         "TAMIL NAME": "உருளைக்கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "LEMON",
+    "LEMON": {
         "TAMIL NAME": "எலுமிச்சை",
         "QUANTITY": 8,
         "SELLING PRICE": 240,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "YAM - (SENAI KILANGU)",
+    "YAM - (SENAI KILANGU)": {
         "TAMIL NAME": "யாம் - (சேனை கிழங்கு)",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "GREEN CHILLY - (MILAGAI)",
+    "GREEN CHILLY - (MILAGAI)": {
         "TAMIL NAME": "பச்சை மிளகாய் - (மிளகாய்)",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "ASH GOURD",
+    "ASH GOURD": {
         "TAMIL NAME": "சாம்பல் பூசணி",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "YELLOW PUMKIN",
+    "YELLOW PUMKIN": {
         "TAMIL NAME": "மஞ்சள் பூசணிக்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "CABBAGE",
+    "CABBAGE": {
         "TAMIL NAME": "முட்டைக்கோஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "SMALL ONION",
+    "SMALL ONION": {
         "TAMIL NAME": "சின்ன வெங்காயம்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "TOMATO",
+    "TOMATO": {
         "TAMIL NAME": "தக்காளி",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "VINAYAGAR IDOL 12''",
+    "VINAYAGAR IDOL 12''": {
         "TAMIL NAME": "விநாயகர் சிலை 12''",
         "QUANTITY": 8,
         "SELLING PRICE": 750,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - KUTHIRAIVALLI",
+    "VERMICELLI - KUTHIRAIVALLI": {
         "TAMIL NAME": "வெர்மிசெல்லி - குதிரைவல்லி",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - KAMBU",
+    "VERMICELLI - KAMBU": {
         "TAMIL NAME": "வெர்மிசெல்லி - கம்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - MULTI MILLETS",
+    "VERMICELLI - MULTI MILLETS": {
         "TAMIL NAME": "வெர்மிசெல்லி - பல தினைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - SAMAI",
+    "VERMICELLI - SAMAI": {
         "TAMIL NAME": "வெர்மிசெல்லி - சாமை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - VARAGU",
+    "VERMICELLI - VARAGU": {
         "TAMIL NAME": "வெர்மிசெல்லி - வரகு",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - THINNAI",
+    "VERMICELLI - THINNAI": {
         "TAMIL NAME": "வெர்மிசெல்லி - திண்ணை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VERMICELLI - RAGI",
+    "VERMICELLI - RAGI": {
         "TAMIL NAME": "வெர்மிசெல்லி - ராகி",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VALLARAI SEV",
+    "VALLARAI SEV": {
         "TAMIL NAME": "வல்லாரை செவி",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THINAI MURUKKU",
+    "THINAI MURUKKU": {
         "TAMIL NAME": "தினை முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 560,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THINAI LADDU",
+    "THINAI LADDU": {
         "TAMIL NAME": "தினை லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THENKUZHAL MURUKKU",
+    "THENKUZHAL MURUKKU": {
         "TAMIL NAME": "தென்குழல் முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 640,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THATTAI THINAI",
+    "THATTAI THINAI": {
         "TAMIL NAME": "தட்டை திணை",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SPL MIXTURE",
+    "SPL MIXTURE": {
         "TAMIL NAME": "SPL கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SEEDAI (SWEET)",
+    "SEEDAI (SWEET)": {
         "TAMIL NAME": "சீதை (இனிப்பு)",
         "QUANTITY": 8,
         "SELLING PRICE": 700,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "REDCHILLI VADAMS",
+    "REDCHILLI VADAMS": {
         "TAMIL NAME": "ரெட்சில்லி வடாம்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RED BANANA CHIPS",
+    "RED BANANA CHIPS": {
         "TAMIL NAME": "சிவப்பு வாழைப்பழ சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAGI MURUKKU",
+    "RAGI MURUKKU": {
         "TAMIL NAME": "ராகி முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PUTHINA SEV",
+    "PUTHINA SEV": {
         "TAMIL NAME": "புதினா SEV",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PULIYODARAI MIX",
+    "PULIYODARAI MIX": {
         "TAMIL NAME": "புளியோதரை கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "POTATO CHIPS STRIPES",
+    "POTATO CHIPS STRIPES": {
         "TAMIL NAME": "உருளைக்கிழங்கு சிப்ஸ் கோடுகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "POTATO CHIPS SALT",
+    "POTATO CHIPS SALT": {
         "TAMIL NAME": "உருளைக்கிழங்கு சிப்ஸ் உப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "POTATO CHIPS REGULAR",
+    "POTATO CHIPS REGULAR": {
         "TAMIL NAME": "உருளைக்கிழங்கு சிப்ஸ் வழக்கமான",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PEPPER SEV",
+    "PEPPER SEV": {
         "TAMIL NAME": "மிளகு SEV",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PALGOVA",
+    "PALGOVA": {
         "TAMIL NAME": "பால்கோவா",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ONION SEV",
+    "ONION SEV": {
         "TAMIL NAME": "வெங்காயம் SEV",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "OMAM VADAMS",
+    "OMAM VADAMS": {
         "TAMIL NAME": "ஓமம் வடம்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "OMAM PODI",
+    "OMAM PODI": {
         "TAMIL NAME": "ஓமம் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "NENTHIRAM CHIPS",
+    "NENTHIRAM CHIPS": {
         "TAMIL NAME": "நெந்திரம் சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 640,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "NAVATHANIYAM MIXTURE",
-        "TAMIL NAME": "நவதானியம் கலவை",
+    "NAVATHANIYAM MIXTURE": {
+        "TAMIL NAME": "நவதனியம் கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 680,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "NATTUSAKKARAI PALGOVA",
+    "NATTUSAKKARAI PALGOVA": {
         "TAMIL NAME": "நாட்டுசக்கரை பால்கோவா",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MURUKKU",
+    "MURUKKU": {
         "TAMIL NAME": "முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 680,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MIXTURE SATTUR SEV (NG)",
+    "MIXTURE SATTUR SEV (NG)": {
         "TAMIL NAME": "கலவை சாத்தூர் SEV (NG)",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MIXTURE  - SATTUR SEV",
+    "MIXTURE - SATTUR SEV": {
         "TAMIL NAME": "கலவை - சாத்தூர் SEV",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MILLET MURUKKU",
+    "MILLET MURUKKU": {
         "TAMIL NAME": "தினை முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MAPILLAI SAMBA RICE MURUKKU",
+    "MAPILLAI SAMBA RICE MURUKKU": {
         "TAMIL NAME": "மாப்பிள்ளை சம்பா அரிசி முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "LITTLE MILLET MURUKKU",
+    "LITTLE MILLET MURUKKU": {
         "TAMIL NAME": "சிறிய தினை முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 720,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "LADIES FINGER PAKODA",
+    "LADIES FINGER PAKODA": {
         "TAMIL NAME": "பெண்களின் விரல் பக்கோடா",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "LADDOO",
+    "LADDOO": {
         "TAMIL NAME": "லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "KEERAI PAKODA",
+    "KEERAI PAKODA": {
         "TAMIL NAME": "கீரை பக்கோடா",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KEELA NALLI",
+    "KEELA NALLI": {
         "TAMIL NAME": "கீல நல்லி",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "KAVUNI WHEAT HALWA",
+    "KAVUNI WHEAT HALWA": {
         "TAMIL NAME": "கவுனி கோதுமை அல்வா",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KAVUNI KANJI MIX",
+    "KAVUNI KANJI MIX": {
         "TAMIL NAME": "கவுனி கஞ்சி கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 550,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARUPPATI LADOO",
+    "KARUPPATI LADOO": {
         "TAMIL NAME": "கருப்பட்டி லடூ",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KARUPATTI WHEAT HALWA",
+    "KARUPATTI WHEAT HALWA": {
         "TAMIL NAME": "கருப்பட்டி கோதுமை அல்வா",
         "QUANTITY": 8,
         "SELLING PRICE": 720,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KARUPATTI MITTAI",
+    "KARUPATTI MITTAI": {
         "TAMIL NAME": "கருப்பட்டி மிட்டாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 560,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KARUPATTI KAVUNI HALWA",
+    "KARUPATTI KAVUNI HALWA": {
         "TAMIL NAME": "கருப்பட்டி கவுனி ஹல்வா",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KARUPATTI JANGIRI",
+    "KARUPATTI JANGIRI": {
         "TAMIL NAME": "கருப்பட்டி ஜாங்கிரி",
         "QUANTITY": 8,
         "SELLING PRICE": 720,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "KARA BOONDI",
+    "KARA BOONDI": {
         "TAMIL NAME": "காரா பூண்டி",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "KAJU KATLI",
+    "KAJU KATLI": {
         "TAMIL NAME": "காஜு கட்லி",
         "QUANTITY": 8,
         "SELLING PRICE": 1133,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "JEERA VADAMS",
+    "JEERA VADAMS": {
         "TAMIL NAME": "ஜீரா வடம்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "GREENCHILLI VADAMS",
+    "GREENCHILLI VADAMS": {
         "TAMIL NAME": "கிரீன்சில்லி வடாம்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "GARLIC VADAMS",
+    "GARLIC VADAMS": {
         "TAMIL NAME": "பூண்டு வடாம்கள்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ANDHRA THATAI",
+    "ANDHRA THATAI": {
         "TAMIL NAME": "ஆந்திர தாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "ALOO BHUJIYA",
+    "ALOO BHUJIYA": {
         "TAMIL NAME": "ஆலு புஜியா",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "A2 GHEE MYSORE PA",
+    "A2 GHEE MYSORE PA": {
         "TAMIL NAME": "A2 நெய் மைசூர் பா",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAW TURMERIC PICKLE",
+    "RAW TURMERIC PICKLE": {
         "TAMIL NAME": "பச்சை மஞ்சள் ஊறுகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "PERUNGAYAM ",
-        "TAMIL NAME": "பெருங்காயம் ",
+    "PERUNGAYAM": {
+        "TAMIL NAME": "பெருங்காயம்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "MANKATTI THUVARAM PARUPU",
+    "MANKATTI THUVARAM PARUPU": {
         "TAMIL NAME": "மண்கட்டி துவரம் பருப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 260,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "AVAKKA MANGO PICKLE",
+    "AVAKKA MANGO PICKLE": {
         "TAMIL NAME": "அவக்கா மாங்காய் ஊறுகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BROWN RICE",
+    "BROWN RICE": {
         "TAMIL NAME": "பிரவுன் ரைஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THOOYAMALLI IDYAPPAM FLOUR",
+    "THOOYAMALLI IDYAPPAM FLOUR": {
         "TAMIL NAME": "தூயமல்லி இடியாப்பம் மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THOOYAMALLI RAW BROKEN RICE",
+    "THOOYAMALLI RAW BROKEN RICE": {
         "TAMIL NAME": "தூயமல்லி பச்சை உடைந்த அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THANDU KEERAI",
+    "THANDU KEERAI": {
         "TAMIL NAME": "தண்டு கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "IDLI RICE ",
-        "TAMIL NAME": "இட்லி அரிசி ",
+    "IDLI RICE": {
+        "TAMIL NAME": "இட்லி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "GINGELLY OIL",
+    "GINGELLY OIL": {
         "TAMIL NAME": "ஜிஞ்சல்லி எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 380,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PACKAGING",
-        "TAMIL NAME": "பேக்கேஜிங்",
-        "QUANTITY": 8,
-        "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "VALLI KILANGU",
+    "VALLI KILANGU": {
         "TAMIL NAME": "வள்ளி கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "RED CHOLAM",
+    "RED CHOLAM": {
         "TAMIL NAME": "சிவப்பு சோளம்",
         "QUANTITY": 8,
         "SELLING PRICE": 125,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KICHALLI SAMBHA",
+    "KICHALLI SAMBHA": {
         "TAMIL NAME": "கிச்சல்லி சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VELLAM",
+    "VELLAM": {
         "TAMIL NAME": "வெல்லம்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MGS TABASCO CHIPS",
+    "MGS TABASCO CHIPS": {
         "TAMIL NAME": "எம்ஜிஎஸ் தபாஸ்கோ சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS ROASTED PEANUTS",
+    "MGS ROASTED PEANUTS": {
         "TAMIL NAME": "MGS வறுத்த வேர்க்கடலை",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS THATTAI",
+    "MGS THATTAI": {
         "TAMIL NAME": "எம்ஜிஎஸ் தட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 250,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "WHEEL CHIPS",
+    "WHEEL CHIPS": {
         "TAMIL NAME": "வீல் சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "RING CHIPS",
+    "RING CHIPS": {
         "TAMIL NAME": "ரிங் சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "CORN CHIPS",
+    "CORN CHIPS": {
         "TAMIL NAME": "கார்ன் சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS MASALA PEANUTS",
+    "MGS MASALA PEANUTS": {
         "TAMIL NAME": "எம்ஜிஎஸ் மசாலா வேர்க்கடலை",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS KARABOONDHI",
+    "MGS KARABOONDHI": {
         "TAMIL NAME": "எம்ஜிஎஸ் கராபூந்தி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS SUGAR SEV",
+    "MGS SUGAR SEV": {
         "TAMIL NAME": "எம்ஜிஎஸ் சுகர் எஸ்இவி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS POTATO CHILLI",
+    "MGS POTATO CHILLI": {
         "TAMIL NAME": "MGS உருளைக்கிழங்கு மிளகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS POTATO CHIPS",
+    "MGS POTATO CHIPS": {
         "TAMIL NAME": "எம்ஜிஎஸ் உருளைக்கிழங்கு சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS NENTHIRAM CHIPS",
+    "MGS NENTHIRAM CHIPS": {
         "TAMIL NAME": "எம்ஜிஎஸ் நெந்திரம் சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS NICE SEV",
+    "MGS NICE SEV": {
         "TAMIL NAME": "எம்ஜிஎஸ் நைஸ் எஸ்இவி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS BUTTER SEV",
+    "MGS BUTTER SEV": {
         "TAMIL NAME": "எம்ஜிஎஸ் பட்டர் எஸ்இவி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS MIXTURE",
+    "MGS MIXTURE": {
         "TAMIL NAME": "எம்ஜிஎஸ் கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS RIBBON PAKODA",
+    "MGS RIBBON PAKODA": {
         "TAMIL NAME": "எம்ஜிஎஸ் ரிப்பன் பகோடா",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS SATTUR SEV",
+    "MGS SATTUR SEV": {
         "TAMIL NAME": "எம்ஜிஎஸ் சாத்தூர் எஸ்இவி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "MGS PEPPER SEV",
+    "MGS PEPPER SEV": {
         "TAMIL NAME": "எம்ஜிஎஸ் பெப்பர் எஸ்இவி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "NICE SEV",
+    "NICE SEV": {
         "TAMIL NAME": "NICE SEV",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "MANGALSHA"
     },
-    {
-        "TANGLISH NAME": "HILL BANANA",
+    "HILL BANANA": {
         "TAMIL NAME": "மலை வாழை",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "PAPAYA",
+    "PAPAYA": {
         "TAMIL NAME": "பப்பாளி",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "BUTTER SEV",
+    "BUTTER SEV": {
         "TAMIL NAME": "வெண்ணெய் SEV",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "MAPILLAI SAMBHA RICE FLOUR",
+    "MAPILLAI SAMBHA RICE FLOUR": {
         "TAMIL NAME": "மாப்பிள்ளை சம்பா அரிசி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "COCONUT KOPARAI",
+    "COCONUT KOPARAI": {
         "TAMIL NAME": "தேங்காய் கொப்பரை",
         "QUANTITY": 8,
         "SELLING PRICE": 280,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PORI KADALAI",
+    "PORI KADALAI": {
         "TAMIL NAME": "பொரி கடலாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 220,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MAPILLAI SAMBHA AVAL ",
-        "TAMIL NAME": "மாப்பிள்ளை சம்ப அவள் ",
+    "MAPILLAI SAMBHA AVAL": {
+        "TAMIL NAME": "மாப்பிள்ளை சம்ப அவள்",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KATTU YANAM ",
-        "TAMIL NAME": "கட்டு யானம் ",
+    "KATTU YANAM": {
+        "TAMIL NAME": "கட்டு யானம்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RED RICE",
+    "RED RICE": {
         "TAMIL NAME": "சிவப்பு அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CASHEW SPLIT",
+    "CASHEW SPLIT": {
         "TAMIL NAME": "முந்திரி பிளவு",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "DRY RED CHILLI POWDER",
+    "DRY RED CHILLI POWDER": {
         "TAMIL NAME": "உலர் சிவப்பு மிளகாய் தூள்",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ALOE VERA GEL",
+    "ALOE VERA GEL": {
         "TAMIL NAME": "அலோ வேரா ஜெல்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "MYSORE PAK",
+    "MYSORE PAK": {
         "TAMIL NAME": "மைசூர் பாக்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "DIWALI COMBO 5 1KG",
+    "DIWALI COMBO 5 1KG": {
         "TAMIL NAME": "தீபாவளி காம்போ 5 1KG",
         "QUANTITY": 8,
         "SELLING PRICE": 480,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "DIWALI COMBO 4 500GMS",
+    "DIWALI COMBO 4 500GMS": {
         "TAMIL NAME": "தீபாவளி காம்போ 4 500GMS",
         "QUANTITY": 8,
         "SELLING PRICE": 335,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KARUPATTI KAJU KATILI",
+    "KARUPATTI KAJU KATILI": {
         "TAMIL NAME": "கருப்பட்டி காஜு கட்டிலி",
         "QUANTITY": 8,
         "SELLING PRICE": 1375,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ELLU PODI",
+    "ELLU PODI": {
         "TAMIL NAME": "எல்லு பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TREEYAA SPL MIXTURE",
+    "TREEYAA SPL MIXTURE": {
         "TAMIL NAME": "ட்ரீயா ஸ்பிஎல் கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "DIWALI COMBO 1 250GM",
+    "DIWALI COMBO 1 250GM": {
         "TAMIL NAME": "தீபாவளி காம்போ 1 250GM",
         "QUANTITY": 8,
         "SELLING PRICE": 199,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "DIWALI COMBO 3 1KG",
+    "DIWALI COMBO 3 1KG": {
         "TAMIL NAME": "தீபாவளி காம்போ 3 1KG",
         "QUANTITY": 8,
         "SELLING PRICE": 699,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "DIWALI COMBO 2 500GM",
+    "DIWALI COMBO 2 500GM": {
         "TAMIL NAME": "தீபாவளி காம்போ 2 500GM",
         "QUANTITY": 8,
         "SELLING PRICE": 349,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "DRY FRUIT LADDOO",
+    "DRY FRUIT LADDOO": {
         "TAMIL NAME": "உலர் பழ லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 1125,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "COCONUT POWDER",
+    "COCONUT POWDER": {
         "TAMIL NAME": "தேங்காய் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "REFINED OIL",
+    "REFINED OIL": {
         "TAMIL NAME": "சுத்திகரிக்கப்பட்ட எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 450,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "MILK POWDER",
+    "MILK POWDER": {
         "TAMIL NAME": "பால் பவுடர்",
         "QUANTITY": 8,
         "SELLING PRICE": 455,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "AYUDHA POOJA COMBO 250GM",
+    "AYUDHA POOJA COMBO 250GM": {
         "TAMIL NAME": "ஆயுத பூஜை காம்போ 250GM",
         "QUANTITY": 8,
         "SELLING PRICE": 199,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "AYUDHA POOJA COMBO 500GM",
+    "AYUDHA POOJA COMBO 500GM": {
         "TAMIL NAME": "ஆயுத பூஜை காம்போ 500GM",
         "QUANTITY": 8,
         "SELLING PRICE": 349,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "AYUDHA POOJA COMBO 1KG",
+    "AYUDHA POOJA COMBO 1KG": {
         "TAMIL NAME": "ஆயுத பூஜை காம்போ 1 கிலோ",
         "QUANTITY": 8,
         "SELLING PRICE": 649,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "MAAVU ARISI RAW",
+    "MAAVU ARISI RAW": {
         "TAMIL NAME": "மாவு அரிசி ரா",
         "QUANTITY": 8,
         "SELLING PRICE": 35,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "LADIES FINGER",
+    "LADIES FINGER": {
         "TAMIL NAME": "பெண்களின் விரல்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "COCONUT PURFI",
+    "COCONUT PURFI": {
         "TAMIL NAME": "தேங்காய் பர்ஃபி",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "GROUND NUT OIL",
+    "GROUND NUT OIL": {
         "TAMIL NAME": "நிலக்கடலை எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 270,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CARROT HALWA",
+    "CARROT HALWA": {
         "TAMIL NAME": "கேரட் அல்வா",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "WHEAT BISCUIT",
+    "WHEAT BISCUIT": {
         "TAMIL NAME": "கோதுமை பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 180,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "WHITE SUGAR ORGANIC",
+    "WHITE SUGAR ORGANIC": {
         "TAMIL NAME": "ஒயிட் சுகர் ஆர்கானிக்",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VINAYAGAR POOJA ITEMS",
+    "VINAYAGAR POOJA ITEMS": {
         "TAMIL NAME": "விநாயகர் பூஜை பொருட்கள்",
         "QUANTITY": 8,
         "SELLING PRICE": 35,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "VINAYAKAR COMBO PACK",
+    "VINAYAKAR COMBO PACK": {
         "TAMIL NAME": "விநாயகர் காம்போ பேக்",
         "QUANTITY": 8,
         "SELLING PRICE": 375,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "KOZHUKATTAI MAAVU (PONNI)",
+    "KOZHUKATTAI MAAVU (PONNI)": {
         "TAMIL NAME": "கொழுக்கட்டை மாவு (பொன்னி)",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "VINAYAGAR IDOL 10\"",
+    "VINAYAGAR IDOL 10\"": {
         "TAMIL NAME": "விநாயகர் சிலை 10\"",
         "QUANTITY": 8,
         "SELLING PRICE": 550,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "VINAYAGAR IDOL 8\"",
+    "VINAYAGAR IDOL 8\"": {
         "TAMIL NAME": "விநாயகர் சிலை 8\"",
         "QUANTITY": 8,
         "SELLING PRICE": 450,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "RIBBON PAKKODA",
+    "RIBBON PAKKODA": {
         "TAMIL NAME": "ரிப்பன் பக்கோடா",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PACKING COVER",
+    "PACKING COVER": {
         "TAMIL NAME": "பேக்கிங் கவர்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "KRISHNA JAYANTHI COMBO PACK",
+    "KRISHNA JAYANTHI COMBO PACK": {
         "TAMIL NAME": "கிருஷ்ண ஜெயந்தி காம்போ பேக்",
         "QUANTITY": 8,
         "SELLING PRICE": 599,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "BABY POTATO",
+    "BABY POTATO": {
         "TAMIL NAME": "குழந்தை உருளைக்கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "COCONUT",
+    "COCONUT": {
         "TAMIL NAME": "தேங்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 45,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "GARLIC",
+    "GARLIC": {
         "TAMIL NAME": "பூண்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 360,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "BRINJAL  - PURPLE STRIPES",
+    "BRINJAL - PURPLE STRIPES": {
         "TAMIL NAME": "பிரிஞ்சி - ஊதா நிற கோடுகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "SWEET POTATO",
+    "SWEET POTATO": {
         "TAMIL NAME": "இனிப்பு உருளைக்கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "MIXTURE",
+    "MIXTURE": {
         "TAMIL NAME": "கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MIXTURE (NON GARLIC)",
+    "MIXTURE (NON GARLIC)": {
         "TAMIL NAME": "கலவை (பூண்டு அல்லாதது)",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "CHOLAM BISCUIT",
+    "CHOLAM BISCUIT": {
         "TAMIL NAME": "சோளம் பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "VARAGU BISCUIT",
+    "VARAGU BISCUIT": {
         "TAMIL NAME": "வரகு பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SAAMAI BISCUIT",
+    "SAAMAI BISCUIT": {
         "TAMIL NAME": "சாமை பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THINAI BISCUIT",
+    "THINAI BISCUIT": {
         "TAMIL NAME": "திணை பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 180,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KAMBU BISCUIT",
+    "KAMBU BISCUIT": {
         "TAMIL NAME": "கம்பு பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAGI BISCUIT",
+    "RAGI BISCUIT": {
         "TAMIL NAME": "ராகி பிஸ்கட்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MULTI MILLET ATTA FLOUR",
+    "MULTI MILLET ATTA FLOUR": {
         "TAMIL NAME": "MULTI MILLET ATTA FLOUR",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "NATTUSAKKARAI",
+    "NATTUSAKKARAI": {
         "TAMIL NAME": "நாட்டுசக்கரை",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PUTHINA",
+    "PUTHINA": {
         "TAMIL NAME": "புதினா",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "POMEGRANATE",
+    "POMEGRANATE": {
         "TAMIL NAME": "மாதுளை",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "NENTHIRAM BANANA",
+    "NENTHIRAM BANANA": {
         "TAMIL NAME": "நெந்திரம் வாழை",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "MOSAMBI",
+    "MOSAMBI": {
         "TAMIL NAME": "மோசம்பி",
         "QUANTITY": 8,
         "SELLING PRICE": 160,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "PUDALANKAI",
+    "PUDALANKAI": {
         "TAMIL NAME": "புடலங்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "CARROT",
+    "CARROT": {
         "TAMIL NAME": "கேரட்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "CUCUMBER  - (VELLARI PINJU)",
+    "CUCUMBER - (VELLARI PINJU)": {
         "TAMIL NAME": "வெள்ளரி - (வெள்ளரி பிஞ்சு)",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "BIG ONION",
+    "BIG ONION": {
         "TAMIL NAME": "பெரிய வெங்காயம்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "MANI SAMBHA",
+    "MANI SAMBHA": {
         "TAMIL NAME": "மணி சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "FARM MAPILLAI SAMBHA RICE",
+    "FARM MAPILLAI SAMBHA RICE": {
         "TAMIL NAME": "பண்ணை மாப்பிள்ளை சம்பா அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KOTHAVARANGA VATHAL",
+    "KOTHAVARANGA VATHAL": {
         "TAMIL NAME": "கொத்தவரங்க வத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 1500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KOLLU ",
-        "TAMIL NAME": "கொல்லு ",
+    "KOLLU": {
+        "TAMIL NAME": "கொல்லு",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KAMBU",
+    "KAMBU": {
         "TAMIL NAME": "கம்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 170,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SAAMAI",
+    "SAAMAI": {
         "TAMIL NAME": "SAAMAI",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "HERBAL TEA POWDER",
+    "HERBAL TEA POWDER": {
         "TAMIL NAME": "ஹெர்பல் டீ பவுடர்",
         "QUANTITY": 0,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PEANUT IDLI POWDER",
+    "PEANUT IDLI POWDER": {
         "TAMIL NAME": "கடலை இட்லி பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 900,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SESAME IDLY POWDER",
+    "SESAME IDLY POWDER": {
         "TAMIL NAME": "எள் இட்லி பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "DRY PEANUTS ",
-        "TAMIL NAME": "உலர் வேர்க்கடலை ",
+    "DRY PEANUTS": {
+        "TAMIL NAME": "உலர் வேர்க்கடலை",
         "QUANTITY": 8,
         "SELLING PRICE": 220,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BENGAL GRAM KADALA PARUPPU",
+    "BENGAL GRAM KADALA PARUPPU": {
         "TAMIL NAME": "பெங்கால் கிராம் கடல பருப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 170,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BROWN MOCHAI",
+    "BROWN MOCHAI": {
         "TAMIL NAME": "பிரவுன் மொச்சை",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RED SOIL DAL((THUVRAM)",
+    "RED SOIL DAL((THUVRAM)": {
         "TAMIL NAME": "சிவப்பு மண் டல் ((துவரம்)",
         "QUANTITY": 8,
         "SELLING PRICE": 260,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "NARI PAYIRU",
+    "NARI PAYIRU": {
         "TAMIL NAME": "நாரி பயிறு",
         "QUANTITY": 8,
         "SELLING PRICE": 175,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "JEERAGAM",
+    "JEERAGAM": {
         "TAMIL NAME": "ஜீரகம்",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THUVARAM PARUPU",
+    "THUVARAM PARUPU": {
         "TAMIL NAME": "துவரம் பருப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 240,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CASHEWNUT",
+    "CASHEWNUT": {
         "TAMIL NAME": "முந்திரி",
         "QUANTITY": 8,
         "SELLING PRICE": 1200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "DRUMSTICK POWDER",
+    "DRUMSTICK POWDER": {
         "TAMIL NAME": "முருங்கைக்காய் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 1200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "CABBAGE PURPLE",
+    "CABBAGE PURPLE": {
         "TAMIL NAME": "முட்டைக்கோஸ் ஊதா",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KULLAKAR RICE",
+    "KULLAKAR RICE": {
         "TAMIL NAME": "குல்லகர் அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAGI",
+    "RAGI": {
         "TAMIL NAME": "ராகி",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SUKKANGAI VATHAL",
+    "SUKKANGAI VATHAL": {
         "TAMIL NAME": "சுக்கங்கை வாத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 1500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TRADITIONAL RICE  IDLI BATTER",
+    "TRADITIONAL RICE IDLI BATTER": {
         "TAMIL NAME": "பாரம்பரிய அரிசி இட்லி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "STALL PRODUCTS",
+    "STALL PRODUCTS": {
         "TAMIL NAME": "ஸ்டால் தயாரிப்புகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "BANANA FLOWER",
+    "BANANA FLOWER": {
         "TAMIL NAME": "வாழைப்பூ",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "SEEDAI (KARAM)",
+    "SEEDAI (KARAM)": {
         "TAMIL NAME": "சீதை (கரம்)",
         "QUANTITY": 8,
         "SELLING PRICE": 650,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "PIRANDAI PODI",
-        "TAMIL NAME": "பிறண்டைப் பொடி",
+    "PIRANDAI PODI": {
+        "TAMIL NAME": "பிறண்டை பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BADAM (ALMOND)",
+    "BADAM (ALMOND)": {
         "TAMIL NAME": "பாதாம் (பாதாம்)",
         "QUANTITY": 8,
         "SELLING PRICE": 933,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "AMLA",
+    "AMLA": {
         "TAMIL NAME": "ஆம்லா",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "YELLAKI BANANA",
-        "TAMIL NAME": "ஏலக்கி வாழை",
+    "YELLAKI BANANA": {
+        "TAMIL NAME": "ஏலக்கி வாழைப்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "BETEL LEAVES( VETRILAI)",
+    "BETEL LEAVES( VETRILAI)": {
         "TAMIL NAME": "வெற்றிலை (வெற்றிலை)",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "CASHEW PAKODA",
+    "CASHEW PAKODA": {
         "TAMIL NAME": "முந்திரி பக்கோடா",
         "QUANTITY": 8,
         "SELLING PRICE": 680,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "ANDHRA MURUKKU",
+    "ANDHRA MURUKKU": {
         "TAMIL NAME": "ஆந்திர முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "TREEYAA"
     },
-    {
-        "TANGLISH NAME": "KOLLU KANJI MIX",
+    "KOLLU KANJI MIX": {
         "TAMIL NAME": "கொள்ளு கஞ்சி கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KUTHIRAIVALLI",
+    "KUTHIRAIVALLI": {
         "TAMIL NAME": "குதிரைவல்லி",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BEANS",
+    "BEANS": {
         "TAMIL NAME": "பீன்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 170,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "CORIANDER SEEDS",
+    "CORIANDER SEEDS": {
         "TAMIL NAME": "கொத்தமல்லி விதைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ULLUNTHU(BLACK)",
+    "ULLUNTHU(BLACK)": {
         "TAMIL NAME": "உளுந்து(கருப்பு)",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SAMBAR POWDER",
+    "SAMBAR POWDER": {
         "TAMIL NAME": "சாம்பார் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ROMANI MANGO",
+    "ROMANI MANGO": {
         "TAMIL NAME": "ரோமானி மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "NEELAM MANGO",
+    "NEELAM MANGO": {
         "TAMIL NAME": "நீலம் மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "PALM JAGGERY LADOO",
+    "PALM JAGGERY LADOO": {
         "TAMIL NAME": "பனை வெல்லம் லடூ",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "KAARA SEV",
+    "KAARA SEV": {
         "TAMIL NAME": "காரா செவ்",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "PACHAI PATTANI",
+    "PACHAI PATTANI": {
         "TAMIL NAME": "பச்சை பட்டாணி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KAIKUTHAL RICE NOODLES",
+    "KAIKUTHAL RICE NOODLES": {
         "TAMIL NAME": "கைகுத்தல் அரிசி நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 75,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Packet",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KOLLU RASAM POWDER",
+    "KOLLU RASAM POWDER": {
         "TAMIL NAME": "கொள்ளு ரசம் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 900,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "INSTANT MILLET IDLY DOSA FLOUR",
+    "INSTANT MILLET IDLY DOSA FLOUR": {
         "TAMIL NAME": "உடனடி தினை இட்லி தோசை மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SATHU MAAVU (HEALTH MIX)",
+    "SATHU MAAVU (HEALTH MIX)": {
         "TAMIL NAME": "சாத்து மாவு (ஹெல்த் மிக்ஸ்)",
         "QUANTITY": 8,
         "SELLING PRICE": 360,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SATHUMAVU (LADDU)",
+    "SATHUMAVU (LADDU)": {
         "TAMIL NAME": "சாத்துமாவு (லட்டு)",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MIRACLE POWDER",
+    "MIRACLE POWDER": {
         "TAMIL NAME": "மிராக்கிள் பவுடர்",
         "QUANTITY": 8,
         "SELLING PRICE": 180,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARA MURUKKU",
+    "KARA MURUKKU": {
         "TAMIL NAME": "கார முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MAAVU PAKODA",
+    "MAAVU PAKODA": {
         "TAMIL NAME": "மாவு பகோடா",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MASALA GROUNDNUT",
+    "MASALA GROUNDNUT": {
         "TAMIL NAME": "மசாலா நிலக்கடலை",
         "QUANTITY": 8,
         "SELLING PRICE": 520,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RED RICE ATHIRASAM",
+    "RED RICE ATHIRASAM": {
         "TAMIL NAME": "சிவப்பு அரிசி அதிரசம்",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KAMBU MURUKKU",
+    "KAMBU MURUKKU": {
         "TAMIL NAME": "கம்பு முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "TRADITIONAL RICE MURRUKU",
+    "TRADITIONAL RICE MURRUKU": {
         "TAMIL NAME": "பாரம்பரிய அரிசி முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 720,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THANGA SAMBA",
+    "THANGA SAMBA": {
         "TAMIL NAME": "தங்க சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BLACK KAVUNI AVAL",
+    "BLACK KAVUNI AVAL": {
         "TAMIL NAME": "கருப்பு கவுனி அவல்",
         "QUANTITY": 8,
         "SELLING PRICE": 230,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "POONGAR AVAL",
+    "POONGAR AVAL": {
         "TAMIL NAME": "பூங்கர் அவல்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KALAN NMAK(BLACK SALT)",
+    "KALAN NMAK(BLACK SALT)": {
         "TAMIL NAME": "கலன் நமக் (கருப்பு உப்பு)",
         "QUANTITY": 8,
         "SELLING PRICE": 0,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MUSK MELON",
+    "MUSK MELON": {
         "TAMIL NAME": "கஸ்தூரி முலாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "GINGER",
+    "GINGER": {
         "TAMIL NAME": "இஞ்சி",
         "QUANTITY": 8,
         "SELLING PRICE": 240,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "BANANA STEM",
-        "TAMIL NAME": "வாழைத் தண்டு",
+    "BANANA STEM": {
+        "TAMIL NAME": "வாழை தண்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 25,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "CHOW CHOW",
+    "CHOW CHOW": {
         "TAMIL NAME": "சோவ் சோ",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "RED BANANA",
+    "RED BANANA": {
         "TAMIL NAME": "சிவப்பு வாழைப்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "KARPORAVALI",
+    "KARPORAVALI": {
         "TAMIL NAME": "கற்போரவளி",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "SUNDAKKAI ",
-        "TAMIL NAME": "சுண்டக்காய் ",
+    "SUNDAKKAI": {
+        "TAMIL NAME": "சுண்டக்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "THATTAI PAYAR DRY",
+    "THATTAI PAYAR DRY": {
         "TAMIL NAME": "தட்டைப் பயர் உலர்",
         "QUANTITY": 8,
         "SELLING PRICE": 250,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CUSTARD APPLE",
-        "TAMIL NAME": "கஸ்டர்ட் ஆப்பிள் ",
+    "CUSTARD APPLE": {
+        "TAMIL NAME": "கஸ்டர்ட் ஆப்பிள்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "MS IDIYAPPAM FLOUR",
+    "MS IDIYAPPAM FLOUR": {
         "TAMIL NAME": "எம்.எஸ் இடியப்பம் மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT HALWA",
+    "WHEAT HALWA": {
         "TAMIL NAME": "கோதுமை ஹல்வா",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SAAMAI MURUKKU",
+    "SAAMAI MURUKKU": {
         "TAMIL NAME": "சாமை முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "MANGO JAM ",
-        "TAMIL NAME": "மாங்காய் ஜாம் ",
+    "MANGO JAM": {
+        "TAMIL NAME": "மாங்காய் ஜாம்",
         "QUANTITY": 8,
         "SELLING PRICE": 750,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MANGO HALWA",
+    "MANGO HALWA": {
         "TAMIL NAME": "மாம்பழ ஹல்வா",
         "QUANTITY": 8,
         "SELLING PRICE": 750,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "GUAVA",
+    "GUAVA": {
         "TAMIL NAME": "கொய்யா",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "SENDHURA",
+    "SENDHURA": {
         "TAMIL NAME": "செந்துரா",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "SIRU KEERAI",
+    "SIRU KEERAI": {
         "TAMIL NAME": "சிறு கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "SONA MASURI RAW",
+    "SONA MASURI RAW": {
         "TAMIL NAME": "சோனா மசூரி ரா",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARUNG KURUVAI",
+    "KARUNG KURUVAI": {
         "TAMIL NAME": "கருங் குருவை",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SEERAGA SAMBHA  RAW",
+    "SEERAGA SAMBHA RAW": {
         "TAMIL NAME": "சீரக சம்பா ரா",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MULAKEERAI",
+    "MULAKEERAI": {
         "TAMIL NAME": "முலகீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 35,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "IDLI CHILLI POWDER",
+    "IDLI CHILLI POWDER": {
         "TAMIL NAME": "இட்லி மிளகாய் தூள்",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "FARM IDLI RICE",
+    "FARM IDLI RICE": {
         "TAMIL NAME": "பண்ணை இட்லி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SEASAME LADOO",
+    "SEASAME LADOO": {
         "TAMIL NAME": "சீசேம் லடூ",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "CURD CHILLI VATHAL",
+    "CURD CHILLI VATHAL": {
         "TAMIL NAME": "தயிர் மிளகாய் வத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 2000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "MAPILLAI SAMBA RICE VADAM",
+    "MAPILLAI SAMBA RICE VADAM": {
         "TAMIL NAME": "மாப்பிள்ளை சம்பா அரிசி வடம்",
         "QUANTITY": 8,
         "SELLING PRICE": 750,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "CAPSICUM GREEN ",
-        "TAMIL NAME": "கேப்சிகம் பச்சை ",
+    "CAPSICUM GREEN": {
+        "TAMIL NAME": "கேப்சிகம் பச்சை",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "BRINJAL VATHAL",
+    "BRINJAL VATHAL": {
         "TAMIL NAME": "பிரிஞ்சல் வத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 2000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "NARTHANGAI PICKLE",
+    "NARTHANGAI PICKLE": {
         "TAMIL NAME": "நர்த்தங்கை ஊறுகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "ALPHONSO MANGO",
+    "ALPHONSO MANGO": {
         "TAMIL NAME": "அல்போன்சா மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "RAW GROUNDNUT (FARM)",
+    "RAW GROUNDNUT (FARM)": {
         "TAMIL NAME": "மூல நிலக்கடலை (பண்ணை)",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "LEMON PICKLE",
+    "LEMON PICKLE": {
         "TAMIL NAME": "எலுமிச்சை ஊறுகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 750,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MANGO",
+    "MANGO": {
         "TAMIL NAME": "மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "SAPOTA",
+    "SAPOTA": {
         "TAMIL NAME": "சப்போட்டா",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "POOVAN BANANNA",
+    "POOVAN BANANNA": {
         "TAMIL NAME": "பூவன் வாழை",
         "QUANTITY": 8,
         "SELLING PRICE": 95,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "PONNAKANI ",
-        "TAMIL NAME": "பொன்னகனி ",
+    "PONNAKANI": {
+        "TAMIL NAME": "பொன்னகனி",
         "QUANTITY": 8,
         "SELLING PRICE": 25,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "MANATHAKALI KEERAI",
+    "MANATHAKALI KEERAI": {
         "TAMIL NAME": "மணத்தக்காளி கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "KHOL KHOL",
+    "KHOL KHOL": {
         "TAMIL NAME": "KHOL KHOL",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "WHEAT RAGI PASTA",
+    "WHEAT RAGI PASTA": {
         "TAMIL NAME": "கோதுமை ராகி பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT KUTHIRAIVALLI PASTA",
+    "WHEAT KUTHIRAIVALLI PASTA": {
         "TAMIL NAME": "கோதுமை குதிரைவல்லி பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT THINAI PASTA",
+    "WHEAT THINAI PASTA": {
         "TAMIL NAME": "கோதுமை தினை பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT BLACK KAVUNI PASTA",
+    "WHEAT BLACK KAVUNI PASTA": {
         "TAMIL NAME": "கோதுமை கருப்பு கவுனி பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT VARAGU PASTA",
+    "WHEAT VARAGU PASTA": {
         "TAMIL NAME": "கோதுமை வரகு பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT KAMBU PASTA",
+    "WHEAT KAMBU PASTA": {
         "TAMIL NAME": "கோதுமை கம்பு பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT SAAMAI PASTA",
+    "WHEAT SAAMAI PASTA": {
         "TAMIL NAME": "கோதுமை சாமை பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT MULTI MILLET PASTA",
+    "WHEAT MULTI MILLET PASTA": {
         "TAMIL NAME": "கோதுமை மல்டி மில்லட் பாஸ்தா",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VARAGU ",
-        "TAMIL NAME": "வரகு ",
+    "VARAGU": {
+        "TAMIL NAME": "வரகு",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MULTI GRAIN ATTA FLOUR",
+    "MULTI GRAIN ATTA FLOUR": {
         "TAMIL NAME": "மல்டி கிரெய்ன் அட்டா மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TURMERIC POWDER",
+    "TURMERIC POWDER": {
         "TAMIL NAME": "மஞ்சள் தூள்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MOONG DAL PAASIPARUPU",
+    "MOONG DAL PAASIPARUPU": {
         "TAMIL NAME": "மூங் டால் பசிபருப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHITE ULLUNDU WHOLE",
+    "WHITE ULLUNDU WHOLE": {
         "TAMIL NAME": "வெள்ளை உளுந்து முழுக்க",
         "QUANTITY": 8,
         "SELLING PRICE": 195,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "GREEN GRAM",
+    "GREEN GRAM": {
         "TAMIL NAME": "பச்சை கிராம்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAW TURMERIC",
+    "RAW TURMERIC": {
         "TAMIL NAME": "பச்சை மஞ்சள்",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "SAAMAI LADOO",
+    "SAAMAI LADOO": {
         "TAMIL NAME": "SAAMAI LADOO",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "WHITE CHOLAM",
+    "WHITE CHOLAM": {
         "TAMIL NAME": "வெள்ளை சோளம்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MAKKA CHOLAM",
+    "MAKKA CHOLAM": {
         "TAMIL NAME": "மக்கா சோளம்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KAVUNI DOSA FLOUR",
+    "KAVUNI DOSA FLOUR": {
         "TAMIL NAME": "கவுனி தோசை மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TRASPORTATION CHARGE",
-        "TAMIL NAME": "போக்குவரத்து கட்டணம்",
-        "QUANTITY": 8,
-        "SELLING PRICE": 220,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "FARM TRIP",
-        "TAMIL NAME": "பண்ணை பயணம்",
-        "QUANTITY": 8,
-        "SELLING PRICE": 10000,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "ORANGE",
+    "ORANGE": {
         "TAMIL NAME": "ஆரஞ்சு",
         "QUANTITY": 8,
         "SELLING PRICE": 160,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "DISCOUNT",
-        "TAMIL NAME": "தள்ளுபடி",
-        "QUANTITY": 8,
-        "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "KOLI AVARAI",
+    "KOLI AVARAI": {
         "TAMIL NAME": "கோலி ஆவரை",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "STRAW BERRY",
+    "STRAW BERRY": {
         "TAMIL NAME": "வைக்கோல் பெர்ரி",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "TURNIP",
+    "TURNIP": {
         "TAMIL NAME": "டர்னிப்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "PONMANI IDLI RICE",
+    "PONMANI IDLI RICE": {
         "TAMIL NAME": "பொன்மணி இட்லி சாதம்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TAMARIND(PULI)",
+    "TAMARIND(PULI)": {
         "TAMIL NAME": "புளி(புளி)",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PONNI KAIKUTHAL",
+    "PONNI KAIKUTHAL": {
         "TAMIL NAME": "பொன்னி கைகூடல்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THATAI PEPPER",
+    "THATAI PEPPER": {
         "TAMIL NAME": "தாய் மிளகு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAW BANANA CHIPS",
+    "RAW BANANA CHIPS": {
         "TAMIL NAME": "பச்சை வாழைப்பழ சிப்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "CLUSTER BEANS (KOTHAVARAI)",
+    "CLUSTER BEANS (KOTHAVARAI)": {
         "TAMIL NAME": "கொத்து பீன்ஸ் (கொத்தவரை)",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "RADISH KEERAI",
+    "RADISH KEERAI": {
         "TAMIL NAME": "முள்ளங்கி கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "GREEN PEAS",
+    "GREEN PEAS": {
         "TAMIL NAME": "பச்சை பட்டாணி",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "COCONUT POLI",
+    "COCONUT POLI": {
         "TAMIL NAME": "தேங்காய் போலி",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KAALABATH",
+    "KAALABATH": {
         "TAMIL NAME": "கலாபத்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CAPSICUM RED",
-        "TAMIL NAME": "காப்சிகம் சிவப்பு",
+    "CAPSICUM RED": {
+        "TAMIL NAME": "கேப்சிகம் சிவப்பு",
         "QUANTITY": 8,
-        "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "SELLING PRICE": 400,
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "DRY LONG RED CHILLI",
+    "DRY LONG RED CHILLI": {
         "TAMIL NAME": "உலர் நீண்ட சிவப்பு மிளகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAGI RAVA",
+    "RAGI RAVA": {
         "TAMIL NAME": "ராகி ராவா",
         "QUANTITY": 8,
         "SELLING PRICE": 49,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VARAGU RAVA",
+    "VARAGU RAVA": {
         "TAMIL NAME": "வரகு ராவா",
         "QUANTITY": 8,
         "SELLING PRICE": 180,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SAAMAI RAVA",
+    "SAAMAI RAVA": {
         "TAMIL NAME": "சாமை ராவா",
         "QUANTITY": 8,
         "SELLING PRICE": 190,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KAMBU RAVA",
+    "KAMBU RAVA": {
         "TAMIL NAME": "கம்பு ரவா",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KUTHIRAIVALLI RAVA",
+    "KUTHIRAIVALLI RAVA": {
         "TAMIL NAME": "குதிரைவல்லி ராவா",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PINEAPPLE ",
-        "TAMIL NAME": "அன்னாசிப்பழம் ",
+    "PINEAPPLE": {
+        "TAMIL NAME": "அன்னாசிப்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "CAPSICUM YELLOW",
-        "TAMIL NAME": "காப்சிகம் மஞ்சள்",
+    "CAPSICUM YELLOW": {
+        "TAMIL NAME": "கேப்சிகம் மஞ்சள்",
         "QUANTITY": 8,
         "SELLING PRICE": 180,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": " CAPSICUM RED",
-        "TAMIL NAME": " காப்சிகம் சிவப்பு",
-        "QUANTITY": 8,
-        "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "APPLE",
+    "APPLE": {
         "TAMIL NAME": "ஆப்பிள்",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "SEASAME BLACK",
+    "SEASAME BLACK": {
         "TAMIL NAME": "சீசேம் பிளாக்",
         "QUANTITY": 8,
         "SELLING PRICE": 220,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BEETROOT",
+    "BEETROOT": {
         "TAMIL NAME": "பீட்ரூட்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "DRY SHORT RED CHILLI",
+    "DRY SHORT RED CHILLI": {
         "TAMIL NAME": "உலர் குறுகிய சிவப்பு மிளகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MUSTARD(KADUGU)",
+    "MUSTARD(KADUGU)": {
         "TAMIL NAME": "கடுகு(கடுகு)",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "DRY GRAPES ",
-        "TAMIL NAME": "உலர் திராட்சை ",
+    "DRY GRAPES": {
+        "TAMIL NAME": "உலர் திராட்சை",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAJAMUDI RICE",
+    "RAJAMUDI RICE": {
         "TAMIL NAME": "ராஜமுடி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RNR RAW RICE",
+    "RNR RAW RICE": {
         "TAMIL NAME": "RNR மூல அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THINAI RAVA",
+    "THINAI RAVA": {
         "TAMIL NAME": "திணை ராவா",
         "QUANTITY": 8,
         "SELLING PRICE": 180,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THINAI ",
-        "TAMIL NAME": "திணை ",
+    "THINAI": {
+        "TAMIL NAME": "திணை",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KULLAKAAR AVAL",
+    "KULLAKAAR AVAL": {
         "TAMIL NAME": "குல்லக்கார் அவள்",
         "QUANTITY": 0,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHITE AVAL",
+    "WHITE AVAL": {
         "TAMIL NAME": "வெள்ளை அவல்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THOOYAMALLI RAW RICE",
+    "THOOYAMALLI RAW RICE": {
         "TAMIL NAME": "தூயமல்லி பச்சை அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "NAVARA RICE",
+    "NAVARA RICE": {
         "TAMIL NAME": "நவரா அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PEPPER",
+    "PEPPER": {
         "TAMIL NAME": "மிளகு",
         "QUANTITY": 8,
         "SELLING PRICE": 900,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VENDHAYAM ",
-        "TAMIL NAME": "வேந்தயம் ",
+    "VENDHAYAM": {
+        "TAMIL NAME": "வேந்தயம்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "INDU UPPU",
+    "INDU UPPU": {
         "TAMIL NAME": "இந்து உப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ULLUNTHU(BLACK SPLIT)",
+    "ULLUNTHU(BLACK SPLIT)": {
         "TAMIL NAME": "உளுந்து (கருப்பு பிளவு)",
         "QUANTITY": 8,
         "SELLING PRICE": 170,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BLACK HORSE GRAM",
+    "BLACK HORSE GRAM": {
         "TAMIL NAME": "கருப்பு குதிரை கிராம்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MULTI NOODLES",
+    "MULTI NOODLES": {
         "TAMIL NAME": "பல நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KUTHIRAIVALLI NOODLES",
+    "KUTHIRAIVALLI NOODLES": {
         "TAMIL NAME": "குதிரைவல்லி நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SOYA NOODLES",
+    "SOYA NOODLES": {
         "TAMIL NAME": "சோயா நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SAAMAI NOODLES",
+    "SAAMAI NOODLES": {
         "TAMIL NAME": "சாமை நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAGI NOODLES",
+    "RAGI NOODLES": {
         "TAMIL NAME": "ராகி நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KAMBU NOODLES",
+    "KAMBU NOODLES": {
         "TAMIL NAME": "கம்பு நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VARAGU NOODLES",
+    "VARAGU NOODLES": {
         "TAMIL NAME": "வரகு நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THINAI NOODLES",
-        "TAMIL NAME": "திணை நூடுல்ஸ்",
+    "THINAI NOODLES": {
+        "TAMIL NAME": "தைனை நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RED RICE NOODLES",
+    "RED RICE NOODLES": {
         "TAMIL NAME": "சிவப்பு அரிசி நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BASUMATHI RICE",
+    "BASUMATHI RICE": {
         "TAMIL NAME": "பாசுமதி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RED AVAL",
+    "RED AVAL": {
         "TAMIL NAME": "சிவப்பு அவல்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CORIANDER POWDER",
+    "CORIANDER POWDER": {
         "TAMIL NAME": "கொத்தமல்லி தூள்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PANIVARAGU",
+    "PANIVARAGU": {
         "TAMIL NAME": "பனிவரகு",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "HAND MURUKKU",
+    "HAND MURUKKU": {
         "TAMIL NAME": "கை முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "CARDAMOM(YELLAKAI)",
+    "CARDAMOM(YELLAKAI)": {
         "TAMIL NAME": "ஏலக்காய்(யெல்லக்கை)",
         "QUANTITY": 8,
         "SELLING PRICE": 1600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PATTAI(CINNAMON STICK)",
+    "PATTAI(CINNAMON STICK)": {
         "TAMIL NAME": "பட்டை (இலவங்கப்பட்டை)",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BUTTER MURUKKU",
+    "BUTTER MURUKKU": {
         "TAMIL NAME": "வெண்ணெய் முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "DIABETIC KANJI MAVU",
+    "DIABETIC KANJI MAVU": {
         "TAMIL NAME": "சர்க்கரை நோய் கஞ்சி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CHILLI POWDER",
+    "CHILLI POWDER": {
         "TAMIL NAME": "மிளகாய் தூள்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BLACK URAD DALL KANJI MIX",
+    "BLACK URAD DALL KANJI MIX": {
         "TAMIL NAME": "கருப்பு உரட் டால் கஞ்சி கலவை",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "PINK ROCK SALT",
+    "PINK ROCK SALT": {
         "TAMIL NAME": "பிங்க் ராக் சால்ட்",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THOOYAMALLI BOILED KAIKUTHAL",
+    "THOOYAMALLI BOILED KAIKUTHAL": {
         "TAMIL NAME": "தூயமல்லி வேகவைத்த கைகுத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARUPPU KAVUNI NOODLES",
+    "KARUPPU KAVUNI NOODLES": {
         "TAMIL NAME": "கருப்பு கவுனி நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 75,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MAPPILLAI SAMBA NOODLES",
+    "MAPPILLAI SAMBA NOODLES": {
         "TAMIL NAME": "மாப்பிள்ளை சம்பா நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 75,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KOLLU NO0DLES",
+    "KOLLU NO0DLES": {
         "TAMIL NAME": "கொல்லு நொடில்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT NOODLES",
+    "WHEAT NOODLES": {
         "TAMIL NAME": "கோதுமை நூடுல்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SEERAGA SAMBHA ",
-        "TAMIL NAME": "சீரக சம்பா ",
+    "SEERAGA SAMBHA": {
+        "TAMIL NAME": "சீரக சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BLACK CHANNA",
+    "BLACK CHANNA": {
         "TAMIL NAME": "பிளாக் சன்னா",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHITE CHANNA",
+    "WHITE CHANNA": {
         "TAMIL NAME": "வெள்ளை சன்னா",
         "QUANTITY": 8,
         "SELLING PRICE": 190,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KERALA MATTA RICE",
-        "TAMIL NAME": "கேரளா மட்டா அரிசி",
+    "KERALA MATTA RICE": {
+        "TAMIL NAME": "கேரளா மத்தா அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "BLACK KAVUNI RICE  ",
-        "TAMIL NAME": "கருப்பு கவுனி அரிசி  ",
+    "BLACK KAVUNI RICE": {
+        "TAMIL NAME": "கருப்பு கவுனி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 275,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THOOYAMALLI RICE ",
-        "TAMIL NAME": "தூயமல்லி அரிசி ",
+    "THOOYAMALLI RICE": {
+        "TAMIL NAME": "தூயமல்லி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PONNI RAW",
+    "PONNI RAW": {
         "TAMIL NAME": "பொன்னி ரா",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "POONGAR ",
-        "TAMIL NAME": "பூங்கர் ",
+    "POONGAR": {
+        "TAMIL NAME": "பூங்கர்",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MAPILLAI SAMBHA ",
-        "TAMIL NAME": "மாப்பிள்ளை சம்பா ",
+    "MAPILLAI SAMBHA": {
+        "TAMIL NAME": "மாப்பிள்ளை சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARUPATTI",
+    "KARUPATTI": {
         "TAMIL NAME": "கருப்பட்டி",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PANAM KARKANDU",
+    "PANAM KARKANDU": {
         "TAMIL NAME": "பணம் கற்கண்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "EGG",
+    "EGG": {
         "TAMIL NAME": "முட்டை",
         "QUANTITY": 8,
         "SELLING PRICE": 17,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "DELIVERY CHARGE",
+    "DELIVERY CHARGE": {
         "TAMIL NAME": "டெலிவரி கட்டணம்",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "PACKING  & TRASPORTATION CHARGE",
-        "TAMIL NAME": "பேக்கிங் & போக்குவரத்து கட்டணம்",
-        "QUANTITY": 8,
-        "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "KAVUNI MURRUKU",
+    "KAVUNI MURRUKU": {
         "TAMIL NAME": "கவுனி முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "DIWALI  ORGANIC SNACKS(500GM)",
+    "DIWALI ORGANIC SNACKS(500GM)": {
         "TAMIL NAME": "தீபாவளி ஆர்கானிக் ஸ்நாக்ஸ் (500GM)",
         "QUANTITY": 8,
         "SELLING PRICE": 399,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "DIWALI ORGANIC SNACKS(1KG)",
+    "DIWALI ORGANIC SNACKS(1KG)": {
         "TAMIL NAME": "தீபாவளி ஆர்கானிக் ஸ்நாக்ஸ் (1 கிலோ)",
         "QUANTITY": 8,
         "SELLING PRICE": 699,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "NATTUSAKKARAI MYSOREPAK",
+    "NATTUSAKKARAI MYSOREPAK": {
         "TAMIL NAME": "நாட்டுசக்கரை மைசூர்பாக்",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "DRY FRUITS COCONUT BURFI",
+    "DRY FRUITS COCONUT BURFI": {
         "TAMIL NAME": "உலர் பழங்கள் தேங்காய் பர்ஃபி",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "BLACK URAD DHALL LADOO",
+    "BLACK URAD DHALL LADOO": {
         "TAMIL NAME": "கருப்பு உரத் தால் லடூ",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SONA MASURI RICE",
+    "SONA MASURI RICE": {
         "TAMIL NAME": "சோனா மசூரி அரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "THOOYAMALLI BROKEN",
+    "THOOYAMALLI BROKEN": {
         "TAMIL NAME": "தூயமல்லி உடைந்தது",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARAMANI PAYAR",
+    "KARAMANI PAYAR": {
         "TAMIL NAME": "காராமணி பயர்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "NAVRATHRI COMBO PACK",
+    "NAVRATHRI COMBO PACK": {
         "TAMIL NAME": "நவராத்திரி காம்போ பேக்",
         "QUANTITY": 8,
         "SELLING PRICE": 850,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CURD",
+    "CURD": {
         "TAMIL NAME": "தயிர்",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MASALA ITEMS",
+    "MASALA ITEMS": {
         "TAMIL NAME": "மசாலா பொருட்கள்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARUPU KAUVNI MURUKKU",
+    "KARUPU KAUVNI MURUKKU": {
         "TAMIL NAME": "கருப்பு கவுனி முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KICHALLI SAMBHA (RAW)",
+    "KICHALLI SAMBHA (RAW)": {
         "TAMIL NAME": "கிச்சல்லி சம்பா (ரா)",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VINAYAGAR IDOL &POT",
+    "VINAYAGAR IDOL &POT": {
         "TAMIL NAME": "விநாயகர் சிலை & பானை",
         "QUANTITY": 8,
         "SELLING PRICE": 350,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "AGRO FARM TRIP",
-        "TAMIL NAME": "அக்ரோ ஃபார்ம் பயணம்",
-        "QUANTITY": 8,
-        "SELLING PRICE": 0,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "VILANGA",
+    "VILANGA": {
         "TAMIL NAME": "விலாங்கா",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "NARTHANKAI",
+    "NARTHANKAI": {
         "TAMIL NAME": "நர்த்தங்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KOZHUKATTAI MAAVU",
+    "KOZHUKATTAI MAAVU": {
         "TAMIL NAME": "கோழிக்கட்டை மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ELLU URUNDAI",
+    "ELLU URUNDAI": {
         "TAMIL NAME": "எழு உருண்டை",
         "QUANTITY": 0,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PORI VILANGA URUNDAI",
+    "PORI VILANGA URUNDAI": {
         "TAMIL NAME": "பொரி விளாங்க உருண்டை",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ATHIRASAM",
+    "ATHIRASAM": {
         "TAMIL NAME": "அதிரசம்",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SUKKU (DRY GINGER)",
+    "SUKKU (DRY GINGER)": {
         "TAMIL NAME": "சுக்கு (உலர்ந்த இஞ்சி)",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "HERBAL TEA",
+    "HERBAL TEA": {
         "TAMIL NAME": "மூலிகை தேநீர்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAW MANGO",
+    "RAW MANGO": {
         "TAMIL NAME": "பச்சை மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "FIG FRUIT",
+    "FIG FRUIT": {
         "TAMIL NAME": "அத்திப்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "OLD BALANCE",
+    "OLD BALANCE": {
         "TAMIL NAME": "பழைய இருப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ASTRIYA"
     },
-    {
-        "TANGLISH NAME": "CHAPPATHI",
+    "CHAPPATHI": {
         "TAMIL NAME": "சப்பாத்தி",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "ORGANIC FOOD"
     },
-    {
-        "TANGLISH NAME": "MALKOVA MANGO",
+    "MALKOVA MANGO": {
         "TAMIL NAME": "மல்கோவா மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC SNACKS",
+    "ORGANIC SNACKS": {
         "TAMIL NAME": "ஆர்கானிக் ஸ்நாக்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "CASTOR OIL",
+    "CASTOR OIL": {
         "TAMIL NAME": "ஆமணக்கு எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 280,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "NUNGU (ICE APPLE)",
+    "NUNGU (ICE APPLE)": {
         "TAMIL NAME": "நுங்கு (ஐஸ் ஆப்பிள்)",
         "QUANTITY": 8,
         "SELLING PRICE": 5,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "MULAIKEERAI SEEDS",
+    "MULAIKEERAI SEEDS": {
         "TAMIL NAME": "முலைகீரை விதைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ARAI KEERAI SEEDS",
+    "ARAI KEERAI SEEDS": {
         "TAMIL NAME": "ARAI கீரை விதைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VENDHAYA KEERAI SEEDS",
+    "VENDHAYA KEERAI SEEDS": {
         "TAMIL NAME": "வெண்தாய கீரை விதைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PALAK KEERAI (SEEDS)",
+    "PALAK KEERAI (SEEDS)": {
         "TAMIL NAME": "பாலக் கீரை (விதைகள்)",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "VARAGU LADDU",
+    "VARAGU LADDU": {
         "TAMIL NAME": "வரகு லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC SPL MILK",
+    "ORGANIC SPL MILK": {
         "TAMIL NAME": "ஆர்கானிக் ஸ்பிஎல் பால்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "BANANA BONDA",
+    "BANANA BONDA": {
         "TAMIL NAME": "வாழை போண்டா",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC CHAAT",
+    "ORGANIC CHAAT": {
         "TAMIL NAME": "ஆர்கானிக் அரட்டை",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "COCONUT WATER",
+    "COCONUT WATER": {
         "TAMIL NAME": "தேங்காய் தண்ணீர்",
         "QUANTITY": 8,
         "SELLING PRICE": 45,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "PARUPPU KEERAI",
+    "PARUPPU KEERAI": {
         "TAMIL NAME": "பருப்பு கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC PAYASAM",
+    "ORGANIC PAYASAM": {
         "TAMIL NAME": "ஆர்கானிக் பாயாசம்",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SUNDAKKA PICKLE",
+    "SUNDAKKA PICKLE": {
         "TAMIL NAME": "சுண்டக்கா ஊறுகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TOMATO THOKKU",
+    "TOMATO THOKKU": {
         "TAMIL NAME": "தக்காளி தொக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PARRUPU PODI",
+    "PARRUPU PODI": {
         "TAMIL NAME": "பருப்பு பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PUTTU MAVU",
+    "PUTTU MAVU": {
         "TAMIL NAME": "புட்டு மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC SOUP",
+    "ORGANIC SOUP": {
         "TAMIL NAME": "ஆர்கானிக் சூப்",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KULLAKAAR AVAL LADDU",
+    "KULLAKAAR AVAL LADDU": {
         "TAMIL NAME": "குல்லக்கார் அவள் லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "KUDAMPULLI",
+    "KUDAMPULLI": {
         "TAMIL NAME": "குடம்புள்ளி",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAGI LADDU",
+    "RAGI LADDU": {
         "TAMIL NAME": "ராகி லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC MIXER",
+    "ORGANIC MIXER": {
         "TAMIL NAME": "ஆர்கானிக் மிக்சர்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC PAYAR",
+    "ORGANIC PAYAR": {
         "TAMIL NAME": "ஆர்கானிக் பையர்",
         "QUANTITY": 8,
         "SELLING PRICE": 25,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC KEERAI SOUP",
+    "ORGANIC KEERAI SOUP": {
         "TAMIL NAME": "ஆர்கானிக் கீரை சூப்",
         "QUANTITY": 8,
         "SELLING PRICE": 15,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SEASAME WHITE",
+    "SEASAME WHITE": {
         "TAMIL NAME": "கடல் வெள்ளை",
         "QUANTITY": 8,
         "SELLING PRICE": 370,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MANATHAKALI BERRIES",
+    "MANATHAKALI BERRIES": {
         "TAMIL NAME": "மணத்தக்காளி பெர்ரி",
         "QUANTITY": 8,
         "SELLING PRICE": 360,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "TURMERIC PLANT",
+    "TURMERIC PLANT": {
         "TAMIL NAME": "மஞ்சள் செடி",
         "QUANTITY": 8,
         "SELLING PRICE": 50,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PANAKIZHANGU",
+    "PANAKIZHANGU": {
         "TAMIL NAME": "பனகிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 15,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "MIXED VEGGIES",
+    "MIXED VEGGIES": {
         "TAMIL NAME": "கலப்பு காய்கறிகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "PONGAL COMBO",
+    "PONGAL COMBO": {
         "TAMIL NAME": "பொங்கல் சேர்க்கை",
         "QUANTITY": 8,
         "SELLING PRICE": 699,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SUGARCANE",
+    "SUGARCANE": {
         "TAMIL NAME": "கரும்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 60,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "ORGANIC IDLI BATTER",
+    "ORGANIC IDLI BATTER": {
         "TAMIL NAME": "ஆர்கானிக் இட்லி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SWEET CORN",
+    "SWEET CORN": {
         "TAMIL NAME": "ஸ்வீட் கார்ன்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "PEERANDAI",
+    "PEERANDAI": {
         "TAMIL NAME": "பீரந்தை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "KAMALA ORANGE ",
-        "TAMIL NAME": "கமலா ஆரஞ்சு ",
+    "KAMALA ORANGE": {
+        "TAMIL NAME": "கமலா ஆரஞ்சு",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "IDIYAPPAM FLOUR",
+    "IDIYAPPAM FLOUR": {
         "TAMIL NAME": "இடியப்பம் மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 160,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PEANUT BAR(KADALAI MITTAI)",
+    "PEANUT BAR(KADALAI MITTAI)": {
         "TAMIL NAME": "வேர்க்கடலை பார்(கடலை மிட்டாய்)",
         "QUANTITY": 8,
         "SELLING PRICE": 50,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "MILLET IDLI BATTER",
+    "MILLET IDLI BATTER": {
         "TAMIL NAME": "தினை இட்லி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "PACHARISI MURUKKU",
+    "PACHARISI MURUKKU": {
         "TAMIL NAME": "பச்சரிசி முறுக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "NATTUSAKKARAI LADDU",
+    "NATTUSAKKARAI LADDU": {
         "TAMIL NAME": "நாட்டுசக்கரை லட்டு",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAIL KATTAM (SWEET)",
+    "RAIL KATTAM (SWEET)": {
         "TAMIL NAME": "ரயில் கட்டம் (இனிப்பு)",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "RAIL KATTAM (KARAM)",
+    "RAIL KATTAM (KARAM)": {
         "TAMIL NAME": "ரயில் கட்டம் (கரம்)",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "THATTAI RAGI",
+    "THATTAI RAGI": {
         "TAMIL NAME": "தட்டாய் ராகி",
         "QUANTITY": 8,
         "SELLING PRICE": 600,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SOMAAS(RAGI)",
+    "SOMAAS(RAGI)": {
         "TAMIL NAME": "சோமாஸ்(ராகி)",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SOMAAS(CHOLAM)",
+    "SOMAAS(CHOLAM)": {
         "TAMIL NAME": "சோமாஸ்(சோலம்)",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SOMAAS(KAMBU)",
+    "SOMAAS(KAMBU)": {
         "TAMIL NAME": "சோமாஸ்(கம்பு)",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SOMAAS(WHEAT)",
+    "SOMAAS(WHEAT)": {
         "TAMIL NAME": "சோமாஸ் (கோதுமை)",
         "QUANTITY": 0,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SWEET BOX (BIG)",
+    "SWEET BOX (BIG)": {
         "TAMIL NAME": "ஸ்வீட் பாக்ஸ் (பெரிய)",
         "QUANTITY": 8,
         "SELLING PRICE": 490,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "SWEET BOX (SMALL)",
+    "SWEET BOX (SMALL)": {
         "TAMIL NAME": "ஸ்வீட் பாக்ஸ் (சிறியது)",
         "QUANTITY": 8,
         "SELLING PRICE": 250,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "SNACKS"
     },
-    {
-        "TANGLISH NAME": "PANNER GRAPES",
+    "PANNER GRAPES": {
         "TAMIL NAME": "பன்னீர் திராட்சை",
         "QUANTITY": 8,
         "SELLING PRICE": 170,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "MAPILLAI SAMBHA PORI",
+    "MAPILLAI SAMBHA PORI": {
         "TAMIL NAME": "மாப்பிள்ளை சம்ப பொரி",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "FESTIVAL PACK",
+    "FESTIVAL PACK": {
         "TAMIL NAME": "பண்டிகை பேக்",
         "QUANTITY": 8,
         "SELLING PRICE": 799,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SEPPA KILANGU",
+    "SEPPA KILANGU": {
         "TAMIL NAME": "செப்ப கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "WHITE MOCHAI",
+    "WHITE MOCHAI": {
         "TAMIL NAME": "வெள்ளை மொச்சை",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "GHEE",
+    "GHEE": {
         "TAMIL NAME": "நெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 1500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARUVEPILLAI PODI",
+    "KARUVEPILLAI PODI": {
         "TAMIL NAME": "கருவேப்பிலைப் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "GARLIC HILLS",
+    "GARLIC HILLS": {
         "TAMIL NAME": "பூண்டு மலைகள்",
         "QUANTITY": 0,
         "SELLING PRICE": 320,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KADALA MAAVU(FLOUR)",
+    "KADALA MAAVU(FLOUR)": {
         "TAMIL NAME": "கடல மாவு (மாவு)",
         "QUANTITY": 8,
         "SELLING PRICE": 160,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "RAW RICE FLOUR",
+    "RAW RICE FLOUR": {
         "TAMIL NAME": "கச்சா அரிசி மாவு",
         "QUANTITY": 0,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "NARTHANKAI LEAVES",
+    "NARTHANKAI LEAVES": {
         "TAMIL NAME": "நர்த்தங்காய் வெளியேறுகிறது",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "BAJJI MILLAGAI",
+    "BAJJI MILLAGAI": {
         "TAMIL NAME": "பஜ்ஜி மிளகாய்",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KARUDAN SAMBHA",
+    "KARUDAN SAMBHA": {
         "TAMIL NAME": "கருடன் சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ARUKAMPULL",
+    "ARUKAMPULL": {
         "TAMIL NAME": "அருகம்புல்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MANGO LEAVES",
+    "MANGO LEAVES": {
         "TAMIL NAME": "மாங்காய் இலைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "ERRUKKA MALAI",
+    "ERRUKKA MALAI": {
         "TAMIL NAME": "எருக்க மலை",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KARISELANGANNI",
+    "KARISELANGANNI": {
         "TAMIL NAME": "கரிசெலங்கண்ணி",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "THORANAM",
+    "THORANAM": {
         "TAMIL NAME": "தோரணம்",
         "QUANTITY": 8,
         "SELLING PRICE": 10,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MYIL IRRAGU",
+    "MYIL IRRAGU": {
         "TAMIL NAME": "மயில் இரகு",
         "QUANTITY": 8,
         "SELLING PRICE": 25,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "KUPPAMANNI",
+    "KUPPAMANNI": {
         "TAMIL NAME": "குப்பமன்னி",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "THINAI FLOUR",
+    "THINAI FLOUR": {
         "TAMIL NAME": "திணை மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "APPLE (GOLDEN GREEN)",
+    "APPLE (GOLDEN GREEN)": {
         "TAMIL NAME": "ஆப்பிள் (கோல்டன் கிரீன்)",
         "QUANTITY": 8,
         "SELLING PRICE": 270,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "CORN",
+    "CORN": {
         "TAMIL NAME": "சோளம்",
         "QUANTITY": 8,
         "SELLING PRICE": 65,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "AMMANPACHARISI",
+    "AMMANPACHARISI": {
         "TAMIL NAME": "அம்மன்பச்சாரிசி",
         "QUANTITY": 8,
         "SELLING PRICE": 15,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "SPINACH RED",
+    "SPINACH RED": {
         "TAMIL NAME": "கீரை சிவப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "VARAGU FLOUR",
+    "VARAGU FLOUR": {
         "TAMIL NAME": "வரகு மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "SAAMAI FLOUR",
+    "SAAMAI FLOUR": {
         "TAMIL NAME": "சாமை மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "CURRY LEAVES",
+    "CURRY LEAVES": {
         "TAMIL NAME": "கறிவேப்பிலை",
         "QUANTITY": 8,
         "SELLING PRICE": 0,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "KALYANA MURUNGAI",
+    "KALYANA MURUNGAI": {
         "TAMIL NAME": "கல்யாண முருங்கை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "PIRANDAI",
+    "PIRANDAI": {
         "TAMIL NAME": "பிறண்டை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "MUSAMBI  (SATHUKUTTI)",
+    "MUSAMBI (SATHUKUTTI)": {
         "TAMIL NAME": "முசம்பி (சத்துக்குட்டி)",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "DRUM STICK LEAVES",
+    "DRUM STICK LEAVES": {
         "TAMIL NAME": "டிரம் ஸ்டிக் இலைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "SIVAN SAMBHA",
+    "SIVAN SAMBHA": {
         "TAMIL NAME": "சிவன் சம்பா",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "TOMOTA(BANGALORE)",
+    "TOMOTA(BANGALORE)": {
         "TAMIL NAME": "தக்காளி (பெங்களூர்)",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "PONNI BOILED",
+    "PONNI BOILED": {
         "TAMIL NAME": "பொன்னி கொதித்தது",
         "QUANTITY": 8,
         "SELLING PRICE": 110,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MOTCHA",
+    "MOTCHA": {
         "TAMIL NAME": "மோட்சா",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KUTHIRAIVALLI FLOUR",
+    "KUTHIRAIVALLI FLOUR": {
         "TAMIL NAME": "குதிரைவல்லி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 140,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "WHEAT RAVA",
+    "WHEAT RAVA": {
         "TAMIL NAME": "கோதுமை ரவா",
         "QUANTITY": 8,
         "SELLING PRICE": 190,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "HERBAL LEAVES",
+    "HERBAL LEAVES": {
         "TAMIL NAME": "மூலிகை இலைகள்",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "BANANA LEAF",
+    "BANANA LEAF": {
         "TAMIL NAME": "வாழை இலை",
         "QUANTITY": 8,
         "SELLING PRICE": 20,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "TREE TOMATO",
+    "TREE TOMATO": {
         "TAMIL NAME": "மரம் தக்காளி",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "BROCOLI",
+    "BROCOLI": {
         "TAMIL NAME": "ப்ரோகோலி",
         "QUANTITY": 8,
         "SELLING PRICE": 285,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "JAMUN(NAVAL)",
+    "JAMUN(NAVAL)": {
         "TAMIL NAME": "ஜாமுன் (நாவல்)",
         "QUANTITY": 0,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "NEEM OIL",
+    "NEEM OIL": {
         "TAMIL NAME": "வேப்ப எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 400,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "MINI YELLOW PUMKIN",
+    "MINI YELLOW PUMKIN": {
         "TAMIL NAME": "மினி மஞ்சள் பூசணிக்காய்",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "KARNA KILANGU",
+    "KARNA KILANGU": {
         "TAMIL NAME": "கர்ண கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "Mango thokku",
+    "Mango thokku": {
         "TAMIL NAME": "மாங்காய் தோக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Cut mango pickle",
+    "Cut mango pickle": {
         "TAMIL NAME": "மாங்காய் ஊறுகாயை நறுக்கவும்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Roasted peanut",
+    "Roasted peanut": {
         "TAMIL NAME": "வறுத்த வேர்க்கடலை",
         "QUANTITY": 8,
         "SELLING PRICE": 250,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Kulambu milagai podi",
+    "Kulambu milagai podi": {
         "TAMIL NAME": "குழம்பு மிளகாய் பொடி",
         "QUANTITY": 8,
         "SELLING PRICE": 700,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Sombu ",
-        "TAMIL NAME": "சோம்பு ",
+    "Sombu": {
+        "TAMIL NAME": "சோம்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 800,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Organic powder ",
-        "TAMIL NAME": "ஆர்கானிக் தூள் ",
+    "Organic powder": {
+        "TAMIL NAME": "ஆர்கானிக் தூள்",
         "QUANTITY": 8,
         "SELLING PRICE": 175,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Kavuni rice flour ",
-        "TAMIL NAME": "கவுனி அரிசி மாவு ",
+    "Kavuni rice flour": {
+        "TAMIL NAME": "கவுனி அரிசி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 220,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Naarthangai Dry vathal",
+    "Naarthangai Dry vathal": {
         "TAMIL NAME": "நார்த்தங்கை உலர் வத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 500,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Sundakkai vathal",
+    "Sundakkai vathal": {
         "TAMIL NAME": "சுண்டக்காய் வத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Ladies finger dry vathal ",
-        "TAMIL NAME": "பெண்களின் விரல் உலர் வத்தல் ",
+    "Ladies finger dry vathal": {
+        "TAMIL NAME": "பெண்கள் விரல் உலர் வத்தல்",
         "QUANTITY": 8,
         "SELLING PRICE": 1000,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Ragi flour",
+    "Ragi flour": {
         "TAMIL NAME": "ராகி மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Kambu Flour",
+    "Kambu Flour": {
         "TAMIL NAME": "கம்பு மாவு",
         "QUANTITY": 8,
         "SELLING PRICE": 190,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Veppalai oil",
+    "Veppalai oil": {
         "TAMIL NAME": "வேப்பலை எண்ணெய்",
         "QUANTITY": 8,
         "SELLING PRICE": 300,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "PROVISIONS"
     },
-    {
-        "TANGLISH NAME": "Plums",
+    "Plums": {
         "TAMIL NAME": "பிளம்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Pears-Honey Sweet",
+    "Pears-Honey Sweet": {
         "TAMIL NAME": "பேரிக்காய்-தேன் இனிப்பு",
         "QUANTITY": 8,
         "SELLING PRICE": 260,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Passion fruit",
+    "Passion fruit": {
         "TAMIL NAME": "பேஷன் பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Jack fruit",
+    "Jack fruit": {
         "TAMIL NAME": "பலா பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Imampasanth",
+    "Imampasanth": {
         "TAMIL NAME": "இமாம்பசாந்த்",
         "QUANTITY": 8,
         "SELLING PRICE": 250,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Casalat",
+    "Casalat": {
         "TAMIL NAME": "கசலாட்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Kundu mango",
+    "Kundu mango": {
         "TAMIL NAME": "குண்டு மாம்பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 80,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Black Grapes (Panner)",
+    "Black Grapes (Panner)": {
         "TAMIL NAME": "கருப்பு திராட்சை (பன்னீர்)",
         "QUANTITY": 8,
         "SELLING PRICE": 220,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Banganapalli",
+    "Banganapalli": {
         "TAMIL NAME": "பங்கனப்பள்ளி",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Rasthali",
+    "Rasthali": {
         "TAMIL NAME": "ரஸ்தாலி",
         "QUANTITY": 8,
         "SELLING PRICE": 100,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Panjavarnam",
+    "Panjavarnam": {
         "TAMIL NAME": "பஞ்சவர்ணம்",
         "QUANTITY": 8,
         "SELLING PRICE": 120,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Pachai nadan",
+    "Pachai nadan": {
         "TAMIL NAME": "பச்சை நாடன்",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Dates Fresh Fruit",
+    "Dates Fresh Fruit": {
         "TAMIL NAME": "தேதிகள் புதிய பழங்கள்",
         "QUANTITY": 8,
         "SELLING PRICE": 150,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Dragon Fruit",
+    "Dragon Fruit": {
         "TAMIL NAME": "டிராகன் பழம்",
         "QUANTITY": 8,
         "SELLING PRICE": 200,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Avocado",
+    "Avocado": {
         "TAMIL NAME": "அவகேடோ",
         "QUANTITY": 8,
         "SELLING PRICE": 210,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "FRUITS"
     },
-    {
-        "TANGLISH NAME": "Vallarai",
+    "Vallarai": {
         "TAMIL NAME": "வல்லாரை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Pasalai keerai",
+    "Pasalai keerai": {
         "TAMIL NAME": "பசலை கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Swiss chad",
+    "Swiss chad": {
         "TAMIL NAME": "சுவிஸ் சாட்",
         "QUANTITY": 8,
         "SELLING PRICE": 40,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Agathi  Keerai",
+    "Agathi Keerai": {
         "TAMIL NAME": "அகத்தி கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Arai keerai",
+    "Arai keerai": {
         "TAMIL NAME": "அரை கீரை",
         "QUANTITY": 0,
         "SELLING PRICE": 35,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Red Keerai",
+    "Red Keerai": {
         "TAMIL NAME": "சிவப்பு கீரை",
         "QUANTITY": 8,
         "SELLING PRICE": 30,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Mudakathan",
+    "Mudakathan": {
         "TAMIL NAME": "முடக்கத்தான்",
         "QUANTITY": 8,
         "SELLING PRICE": 25,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Piece",
+        "CATEGORY": "GREENS"
     },
-    {
-        "TANGLISH NAME": "Tapioca",
+    "Tapioca": {
         "TAMIL NAME": "மரவள்ளிக்கிழங்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 70,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "Killimokku",
+    "Killimokku": {
         "TAMIL NAME": "கிள்ளிமொக்கு",
         "QUANTITY": 8,
         "SELLING PRICE": 50,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "Bitter Gourd - (pavarkai)",
+    "Bitter Gourd - (pavarkai)": {
         "TAMIL NAME": "பாகற்காய் - (பாவற்காய்)",
         "QUANTITY": 8,
         "SELLING PRICE": 90,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     },
-    {
-        "TANGLISH NAME": "Butter Beans ",
-        "TAMIL NAME": "பட்டர் பீன்ஸ் ",
+    "Butter Beans": {
+        "TAMIL NAME": "பட்டர் பீன்ஸ்",
         "QUANTITY": 8,
         "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
-    },
-    {
-        "TANGLISH NAME": "Meat",
-        "TAMIL NAME": "இறைச்சி",
-        "QUANTITY": 0,
-        "SELLING PRICE": 130,
-        "QUANTITY TYPE": "Kg"
+        "QUANTITY TYPE": "Kg",
+        "CATEGORY": "VEG"
     }
-]
 }

@@ -30,6 +30,38 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level = logging.INFO)
 
 
+
+
+
+class STOCK_OPS:
+    def __init__(self):
+        self.stock_db = self.get_stock_db()
+    
+    def update(self, response):
+        items_list = response['data']
+        for item in items_list:
+            item_id = item['TANGLISH NAME']
+            json_item = self.get_item(item_id)
+            json_item['QUANTITY'] = json_item['QUANTITY'] - item["QUANTITY"]
+            self.update_item(item_id, json_item)
+        self.update_db()
+    
+    def get_item(self, item_id):
+        return self.stock_db[item_id]
+    
+    def update_item(self, item_id, json_item):
+        self.stock_db[item_id] = json_item
+        
+    def update_db(self):
+        with open("data/items_version2.json", "w", encoding = "utf-8") as f:
+            json.dump(self.stock_db, f, indent = 4, ensure_ascii = False)
+    
+    def get_stock_db(self):
+        stock_db = open("data/items_version2.json", "r").read()
+        return stock_db
+
+
+
 class TREEYA:
     def __init__(self):
         self.user_id = None
@@ -59,7 +91,7 @@ class TREEYA:
         return response.text
     
     def get_items_database(self):
-        items_database = open("data/items_version2.json", "r").read()
+        items_database = open("data/items_version2_progress.json", "r").read()
         items_database = types.Content(role = "model", parts = [types.Part.from_text(text = items_database)])
         '''items_database = open("data/items_progress.json", "rb").read()
         items_database = types.Content(role = "model", parts = [types.Part.from_bytes(mime_type = "application/json", data = items_database)])'''
@@ -72,18 +104,17 @@ class TREEYA:
         
     def save_conversation(self, query, response, prev_conv):
         res_obj = json.loads(response)
-        '''if res_obj['status'] == "success":
-            response = json.dumps({"data" : res_obj['data'], "total_sum" : res_obj['total_sum'], "status" : res_obj['status']}, ensure_ascii = False)
-        else:
-            response = json.dumps({"data" : res_obj['data'], "status" : res_obj['status']}, ensure_ascii = False)'''
-            
         conversation = [{"role" : "user", "data" : query}, {"role" : "model", "data" : response}]
         
+        # Update stock
+        if res_obj['status'] == "success":
+            stock_ops.update(res_obj)
+            
         if self.is_user_in_process:
-            '''if res_obj['status'] == 'success':
+            if res_obj['status'] == 'success':
                 conversation = [conversation[1]]
-            elif res_obj['status'] != 'success':'''
-            conversation = prev_conv + conversation
+            elif res_obj['status'] != 'success':
+                conversation = prev_conv + conversation
         
         self.users_in_process_database[self.user_id] = conversation
         with open("data/users_in_process.json", "w", encoding = "utf-8") as f:
@@ -125,12 +156,12 @@ class TREEYA:
             contents = contents,
             config = config.ttt.config_1,
         )
+        logger.info(f"model: {response.text}")
         '''response = json.loads(response.text)
         if response['status'] == 'success':
             response = json.dumps({"status" : response["status"], "data" : response["data"], "total_sum" : response['total_sum']}, ensure_ascii = False)
         else:
             response = json.dumps({"status" : response["status"], "data" : response["data"]}, ensure_ascii = False)'''
-        logger.info(f"model: {response.text}") 
         return response.text
             
             
@@ -174,13 +205,16 @@ class TREEYA:
         self.save_conversation(query, TTT_response, prev_conv)
         
         logger.info(f"user: {query}") 
-        #logger.info(f"model: {TTT_response}") 
+        logger.info(f"model: {TTT_response}") 
     
         return TTT_response
     
     
     
 treeya = TREEYA()
+stock_ops = STOCK_OPS()
+
+
 
 @app.post("/upload-audio/") 
 async def process_data(
@@ -194,4 +228,13 @@ async def process_data(
     
   
 if __name__ == '__main__':
-    uvicorn.run("main_version2:app", host = "localhost", port = 8000, reload = True)
+    uvicorn.run("main_version2_progress:app", host = "localhost", port = 8000, reload = True)
+
+
+
+
+
+
+
+
+

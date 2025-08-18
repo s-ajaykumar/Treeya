@@ -15,7 +15,7 @@ class TTT:
     
     config_1 = types.GenerateContentConfig(
         temperature = 0,
-        thinking_config = types.ThinkingConfig(thinking_budget = 8000),
+        thinking_config = types.ThinkingConfig(thinking_budget = 500),
         response_mime_type = "application/json",
         system_instruction = [types.Part.from_text(text = main_prompt)]
     )
