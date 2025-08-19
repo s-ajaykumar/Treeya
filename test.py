@@ -25,7 +25,8 @@ def csv_to_json():
 
 
 
-'''audio_link = "https://whatsmediastorage.blob.core.windows.net/whatsappmediacontainer/919344549700_1755588495769.ogg?sv=2025-05-05&spr=https&se=2025-08-19T08%3A28%3A16Z&sr=b&sp=r&sig=QV7l6FTrOQrA608KNnfv2jozRItS4AEDrpBRIy0X8Pw%3D"
+'''
+audio_link = ""
 ogg_file_path = "audio.ogg"
 async def main(audio_link, ogg_file_path):
     async with aiohttp.ClientSession() as session:
