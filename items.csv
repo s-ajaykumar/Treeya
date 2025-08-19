@@ -1,0 +1,560 @@
+TANGLISH_NAME,TAMIL_NAME,QUANTITY,SELLING_PRICE,QUANTITY_TYPE,CATEGORY
+MANGO PICKLE,மாங்காய் ஊறுகாய்,8,200,Piece,TREEYAA
+COCONUT OIL,தேங்காய் எண்ணெய்,8,300,Kg,PROVISIONS
+WHEAT WHOLE,கோதுமை முழு,8,110,Kg,PROVISIONS
+WHEAT FLOUR,கோதுமை மாவு,8,90,Kg,PROVISIONS
+RAW BANANA,பச்சை வாழைப்பழம்,8,10,Kg,VEG
+DRUMSTICK,முருங்கைக்காய்,8,10,Kg,VEG
+NANARI SARBATH,நானாரி சர்பத்,8,150,Kg,PROVISIONS
+CORN YELLOW,கார்ன் மஞ்சள்,8,120,Kg,PROVISIONS
+GUNDU GREEN CHILLI,குண்டு பச்சை மிளகாய்,8,200,Kg,VEG
+WATERMELON [ KIRAN ],தர்பூசணி [ கிரண் ],8,70,Kg,FRUITS
+WATER MELON [ NADU ],நீர் முலாம்பழம் [ நாடு ],8,60,Kg,FRUITS
+BARLEY,பார்லி,8,90,Kg,PROVISIONS
+AMLA PICKLE,ஆம்லா ஊறுகாய்,0,800,Piece,PROVISIONS
+KUTHIRAIVALLI BISCUITS,குதிரைவல்லி பிஸ்கட்,8,30,Kg,TREEYAA
+MORINGA NOODLES,மோரிங்கா நூடுல்ஸ்,8,60,Piece,ASTRIYA
+BLACK RICE NOODLES,கருப்பு அரிசி நூடுல்ஸ்,8,70,Piece,ASTRIYA
+CHOLAM NOODLES,சோலம் நூடுல்ஸ்,8,60,Piece,PROVISIONS
+PANAM KARKANDU POWDER,பனம் கற்கண்டு பொடி,8,700,Kg,ASTRIYA
+CAULIFLOWER,காலிஃபிளவர்,8,120,Kg,VEG
+KARAMANI,காராமணி,0,100,Kg,VEG
+PALAK KEERAI,பாலக் கீரை,8,40,Piece,GREENS
+CORIANDER LEAVES HILLS,கொத்தமல்லி மலைகளை விட்டு வெளியேறுகிறது,8,40,Piece,GREENS
+PONNI FARM BOILED RICE,பொன்னி பண்ணை புழுங்கல் அரிசி,8,110,Kg,ASTRIYA
+VENDHAYA KEERAI,வெண்தாய கீரை,8,30,Piece,GREENS
+GREEN GRAPES,பச்சை திராட்சைகள்,8,210,Kg,FRUITS
+GOOSEBERRY,நெல்லிக்காய்,8,120,Kg,FRUITS
+RADISH - RED,முள்ளங்கி - சிவப்பு,8,50,Kg,VEG
+RADISH,முள்ளங்கி,8,80,Kg,VEG
+SAMBAR CUCUMBER,சாம்பார் வெள்ளரிக்காய்,8,60,Kg,VEG
+AVARAKAI,அவரகை,8,160,Kg,VEG
+IVY GOURD - (KOVAIKAI),ஐவி பாக்கு - (கோவைகை),8,80,Kg,VEG
+BOTTLE GOURD - (SURAIKAI),சுரைக்காய் - (சுரைக்காய்),8,80,Kg,VEG
+RIDGE GOURD - (PEERKANKAI),ரிட்ஜ் கோர்ட் - (பீர்க்கங்காய்),8,100,Kg,VEG
+POTATO,உருளைக்கிழங்கு,8,110,Kg,VEG
+LEMON,எலுமிச்சை,8,240,Kg,VEG
+YAM - (SENAI KILANGU),யாம் - (சேனை கிழங்கு),8,120,Kg,VEG
+GREEN CHILLY - (MILAGAI),பச்சை மிளகாய் - (மிளகாய்),8,150,Kg,VEG
+ASH GOURD,சாம்பல் பூசணி,8,80,Kg,VEG
+YELLOW PUMKIN,மஞ்சள் பூசணிக்காய்,8,80,Kg,VEG
+CABBAGE,முட்டைக்கோஸ்,8,80,Kg,VEG
+SMALL ONION,சின்ன வெங்காயம்,8,110,Kg,VEG
+TOMATO,தக்காளி,8,100,Kg,VEG
+VINAYAGAR IDOL 12'',விநாயகர் சிலை 12'',8,750,Piece,ASTRIYA
+VERMICELLI - KUTHIRAIVALLI,வெர்மிசெல்லி - குதிரைவல்லி,8,40,Kg,PROVISIONS
+VERMICELLI - KAMBU,வெர்மிசெல்லி - கம்பு,8,60,Kg,PROVISIONS
+VERMICELLI - MULTI MILLETS,வெர்மிசெல்லி - பல தினைகள்,8,40,Kg,PROVISIONS
+VERMICELLI - SAMAI,வெர்மிசெல்லி - சாமை,8,40,Kg,PROVISIONS
+VERMICELLI - VARAGU,வெர்மிசெல்லி - வரகு,8,40,Kg,PROVISIONS
+VERMICELLI - THINNAI,வெர்மிசெல்லி - திண்ணை,8,40,Kg,PROVISIONS
+VERMICELLI - RAGI,வெர்மிசெல்லி - ராகி,8,60,Kg,PROVISIONS
+VALLARAI SEV,வல்லாரை செவி,8,520,Kg,SNACKS
+THINAI MURUKKU,தினை முறுக்கு,8,560,Kg,SNACKS
+THINAI LADDU,தினை லட்டு,8,600,Kg,SNACKS
+THENKUZHAL MURUKKU,தென்குழல் முறுக்கு,8,640,Kg,SNACKS
+THATTAI THINAI,தட்டை திணை,8,600,Kg,SNACKS
+SPL MIXTURE,SPL கலவை,8,600,Kg,SNACKS
+SEEDAI (SWEET),சீதை (இனிப்பு),8,700,Kg,SNACKS
+REDCHILLI VADAMS,ரெட்சில்லி வடாம்ஸ்,8,350,Kg,PROVISIONS
+RED BANANA CHIPS,சிவப்பு வாழைப்பழ சிப்ஸ்,8,600,Kg,SNACKS
+RAGI MURUKKU,ராகி முறுக்கு,8,600,Kg,SNACKS
+PUTHINA SEV,புதினா SEV,8,520,Kg,SNACKS
+PULIYODARAI MIX,புளியோதரை கலவை,8,1000,Kg,PROVISIONS
+POTATO CHIPS STRIPES,உருளைக்கிழங்கு சிப்ஸ் கோடுகள்,8,600,Kg,SNACKS
+POTATO CHIPS SALT,உருளைக்கிழங்கு சிப்ஸ் உப்பு,8,600,Kg,SNACKS
+POTATO CHIPS REGULAR,உருளைக்கிழங்கு சிப்ஸ் வழக்கமான,8,600,Kg,SNACKS
+PEPPER SEV,மிளகு SEV,8,600,Kg,SNACKS
+PALGOVA,பால்கோவா,8,800,Kg,SNACKS
+ONION SEV,வெங்காயம் SEV,8,520,Kg,SNACKS
+OMAM VADAMS,ஓமம் வடம்ஸ்,8,350,Kg,PROVISIONS
+OMAM PODI,ஓமம் பொடி,8,600,Kg,SNACKS
+NENTHIRAM CHIPS,நெந்திரம் சிப்ஸ்,8,640,Kg,SNACKS
+NAVATHANIYAM MIXTURE,நவதனியம் கலவை,8,680,Kg,SNACKS
+NATTUSAKKARAI PALGOVA,நாட்டுசக்கரை பால்கோவா,8,800,Kg,SNACKS
+MURUKKU,முறுக்கு,8,680,Kg,SNACKS
+MIXTURE SATTUR SEV (NG),கலவை சாத்தூர் SEV (NG),8,600,Kg,SNACKS
+MIXTURE - SATTUR SEV,கலவை - சாத்தூர் SEV,8,600,Kg,SNACKS
+MILLET MURUKKU,தினை முறுக்கு,8,600,Kg,SNACKS
+MAPILLAI SAMBA RICE MURUKKU,மாப்பிள்ளை சம்பா அரிசி முறுக்கு,8,600,Kg,SNACKS
+LITTLE MILLET MURUKKU,சிறிய தினை முறுக்கு,8,720,Kg,SNACKS
+LADIES FINGER PAKODA,பெண்களின் விரல் பக்கோடா,8,400,Kg,SNACKS
+LADDOO,லட்டு,8,600,Kg,TREEYAA
+KEERAI PAKODA,கீரை பக்கோடா,8,520,Kg,SNACKS
+KEELA NALLI,கீல நல்லி,8,30,Kg,GREENS
+KAVUNI WHEAT HALWA,கவுனி கோதுமை அல்வா,8,800,Kg,SNACKS
+KAVUNI KANJI MIX,கவுனி கஞ்சி கலவை,8,550,Kg,PROVISIONS
+KARUPPATI LADOO,கருப்பட்டி லடூ,8,600,Kg,SNACKS
+KARUPATTI WHEAT HALWA,கருப்பட்டி கோதுமை அல்வா,8,720,Kg,SNACKS
+KARUPATTI MITTAI,கருப்பட்டி மிட்டாய்,8,560,Kg,SNACKS
+KARUPATTI KAVUNI HALWA,கருப்பட்டி கவுனி ஹல்வா,8,800,Kg,SNACKS
+KARUPATTI JANGIRI,கருப்பட்டி ஜாங்கிரி,8,720,Kg,TREEYAA
+KARA BOONDI,காரா பூண்டி,8,600,Kg,TREEYAA
+KAJU KATLI,காஜு கட்லி,8,1133,Kg,TREEYAA
+JEERA VADAMS,ஜீரா வடம்ஸ்,8,350,Kg,TREEYAA
+GREENCHILLI VADAMS,கிரீன்சில்லி வடாம்ஸ்,8,350,Kg,TREEYAA
+GARLIC VADAMS,பூண்டு வடாம்கள்,8,350,Kg,PROVISIONS
+ANDHRA THATAI,ஆந்திர தாய்,8,600,Kg,TREEYAA
+ALOO BHUJIYA,ஆலு புஜியா,8,600,Kg,SNACKS
+A2 GHEE MYSORE PA,A2 நெய் மைசூர் பா,8,800,Kg,SNACKS
+RAW TURMERIC PICKLE,பச்சை மஞ்சள் ஊறுகாய்,8,1000,Piece,TREEYAA
+PERUNGAYAM,பெருங்காயம்,8,120,Kg,ASTRIYA
+MANKATTI THUVARAM PARUPU,மண்கட்டி துவரம் பருப்பு,8,260,Kg,PROVISIONS
+AVAKKA MANGO PICKLE,அவக்கா மாங்காய் ஊறுகாய்,8,1000,Piece,PROVISIONS
+BROWN RICE,பிரவுன் ரைஸ்,8,110,Kg,PROVISIONS
+THOOYAMALLI IDYAPPAM FLOUR,தூயமல்லி இடியாப்பம் மாவு,8,200,Kg,PROVISIONS
+THOOYAMALLI RAW BROKEN RICE,தூயமல்லி பச்சை உடைந்த அரிசி,8,90,Kg,PROVISIONS
+THANDU KEERAI,தண்டு கீரை,8,30,Piece,GREENS
+IDLI RICE,இட்லி அரிசி,8,90,Kg,PROVISIONS
+GINGELLY OIL,ஜிஞ்சல்லி எண்ணெய்,8,380,Kg,PROVISIONS
+VALLI KILANGU,வள்ளி கிழங்கு,8,80,Kg,VEG
+RED CHOLAM,சிவப்பு சோளம்,8,125,Kg,PROVISIONS
+KICHALLI SAMBHA,கிச்சல்லி சம்பா,8,100,Kg,PROVISIONS
+VELLAM,வெல்லம்,8,130,Kg,PROVISIONS
+MGS TABASCO CHIPS,எம்ஜிஎஸ் தபாஸ்கோ சிப்ஸ்,8,300,Piece,MANGALSHA
+MGS ROASTED PEANUTS,MGS வறுத்த வேர்க்கடலை,8,200,Piece,MANGALSHA
+MGS THATTAI,எம்ஜிஎஸ் தட்டு,8,250,Piece,MANGALSHA
+WHEEL CHIPS,வீல் சிப்ஸ்,8,10,Piece,MANGALSHA
+RING CHIPS,ரிங் சிப்ஸ்,8,10,Piece,MANGALSHA
+CORN CHIPS,கார்ன் சிப்ஸ்,8,10,Piece,MANGALSHA
+MGS MASALA PEANUTS,எம்ஜிஎஸ் மசாலா வேர்க்கடலை,8,200,Piece,MANGALSHA
+MGS KARABOONDHI,எம்ஜிஎஸ் கராபூந்தி,8,200,Piece,MANGALSHA
+MGS SUGAR SEV,எம்ஜிஎஸ் சுகர் எஸ்இவி,8,200,Piece,MANGALSHA
+MGS POTATO CHILLI,MGS உருளைக்கிழங்கு மிளகாய்,8,200,Piece,MANGALSHA
+MGS POTATO CHIPS,எம்ஜிஎஸ் உருளைக்கிழங்கு சிப்ஸ்,8,200,Piece,MANGALSHA
+MGS NENTHIRAM CHIPS,எம்ஜிஎஸ் நெந்திரம் சிப்ஸ்,8,350,Piece,MANGALSHA
+MGS NICE SEV,எம்ஜிஎஸ் நைஸ் எஸ்இவி,8,200,Piece,MANGALSHA
+MGS BUTTER SEV,எம்ஜிஎஸ் பட்டர் எஸ்இவி,8,200,Piece,MANGALSHA
+MGS MIXTURE,எம்ஜிஎஸ் கலவை,8,200,Piece,MANGALSHA
+MGS RIBBON PAKODA,எம்ஜிஎஸ் ரிப்பன் பகோடா,8,200,Piece,MANGALSHA
+MGS SATTUR SEV,எம்ஜிஎஸ் சாத்தூர் எஸ்இவி,8,200,Piece,MANGALSHA
+MGS PEPPER SEV,எம்ஜிஎஸ் பெப்பர் எஸ்இவி,8,200,Piece,MANGALSHA
+NICE SEV,NICE SEV,8,200,Piece,MANGALSHA
+HILL BANANA,மலை வாழை,8,200,Kg,FRUITS
+PAPAYA,பப்பாளி,8,80,Kg,FRUITS
+BUTTER SEV,வெண்ணெய் SEV,8,600,Kg,TREEYAA
+MAPILLAI SAMBHA RICE FLOUR,மாப்பிள்ளை சம்பா அரிசி மாவு,8,200,Kg,PROVISIONS
+COCONUT KOPARAI,தேங்காய் கொப்பரை,8,280,Kg,PROVISIONS
+PORI KADALAI,பொரி கடலாய்,8,220,Kg,PROVISIONS
+MAPILLAI SAMBHA AVAL,மாப்பிள்ளை சம்ப அவள்,8,140,Kg,PROVISIONS
+KATTU YANAM,கட்டு யானம்,8,130,Kg,PROVISIONS
+RED RICE,சிவப்பு அரிசி,8,100,Kg,PROVISIONS
+CASHEW SPLIT,முந்திரி பிளவு,8,1000,Kg,TREEYAA
+DRY RED CHILLI POWDER,உலர் சிவப்பு மிளகாய் தூள்,8,500,Kg,PROVISIONS
+ALOE VERA GEL,அலோ வேரா ஜெல்,8,400,Kg,TREEYAA
+MYSORE PAK,மைசூர் பாக்,8,200,Kg,ORGANIC FOOD
+DIWALI COMBO 5 1KG,தீபாவளி காம்போ 5 1KG,8,480,Piece,ORGANIC FOOD
+DIWALI COMBO 4 500GMS,தீபாவளி காம்போ 4 500GMS,8,335,Kg,SNACKS
+KARUPATTI KAJU KATILI,கருப்பட்டி காஜு கட்டிலி,8,1375,Kg,SNACKS
+ELLU PODI,எல்லு பொடி,8,1000,Kg,PROVISIONS
+TREEYAA SPL MIXTURE,ட்ரீயா ஸ்பிஎல் கலவை,8,600,Kg,SNACKS
+DIWALI COMBO 1 250GM,தீபாவளி காம்போ 1 250GM,8,199,Piece,ORGANIC FOOD
+DIWALI COMBO 3 1KG,தீபாவளி காம்போ 3 1KG,8,699,Piece,ORGANIC FOOD
+DIWALI COMBO 2 500GM,தீபாவளி காம்போ 2 500GM,8,349,Piece,ORGANIC FOOD
+DRY FRUIT LADDOO,உலர் பழ லட்டு,8,1125,Kg,TREEYAA
+COCONUT POWDER,தேங்காய் பொடி,8,300,Kg,TREEYAA
+REFINED OIL,சுத்திகரிக்கப்பட்ட எண்ணெய்,8,450,Piece,ASTRIYA
+MILK POWDER,பால் பவுடர்,8,455,Kg,ASTRIYA
+AYUDHA POOJA COMBO 250GM,ஆயுத பூஜை காம்போ 250GM,8,199,Kg,TREEYAA
+AYUDHA POOJA COMBO 500GM,ஆயுத பூஜை காம்போ 500GM,8,349,Piece,TREEYAA
+AYUDHA POOJA COMBO 1KG,ஆயுத பூஜை காம்போ 1 கிலோ,8,649,Piece,TREEYAA
+MAAVU ARISI RAW,மாவு அரிசி ரா,8,35,Kg,ASTRIYA
+LADIES FINGER,பெண்களின் விரல்,8,110,Kg,VEG
+COCONUT PURFI,தேங்காய் பர்ஃபி,8,600,Kg,TREEYAA
+GROUND NUT OIL,நிலக்கடலை எண்ணெய்,8,270,Kg,PROVISIONS
+CARROT HALWA,கேரட் அல்வா,8,800,Kg,TREEYAA
+WHEAT BISCUIT,கோதுமை பிஸ்கட்,8,180,Kg,SNACKS
+WHITE SUGAR ORGANIC,ஒயிட் சுகர் ஆர்கானிக்,8,150,Kg,PROVISIONS
+VINAYAGAR POOJA ITEMS,விநாயகர் பூஜை பொருட்கள்,8,35,Piece,GREENS
+VINAYAKAR COMBO PACK,விநாயகர் காம்போ பேக்,8,375,Piece,TREEYAA
+KOZHUKATTAI MAAVU (PONNI),கொழுக்கட்டை மாவு (பொன்னி),8,140,Kg,ASTRIYA
+"VINAYAGAR IDOL 10""","விநாயகர் சிலை 10""",8,550,Piece,ASTRIYA
+"VINAYAGAR IDOL 8""","விநாயகர் சிலை 8""",8,450,Piece,ASTRIYA
+RIBBON PAKKODA,ரிப்பன் பக்கோடா,8,600,Kg,SNACKS
+PACKING COVER,பேக்கிங் கவர்,8,10,Piece,ASTRIYA
+KRISHNA JAYANTHI COMBO PACK,கிருஷ்ண ஜெயந்தி காம்போ பேக்,8,599,Piece,TREEYAA
+BABY POTATO,குழந்தை உருளைக்கிழங்கு,8,70,Kg,VEG
+COCONUT,தேங்காய்,8,45,Kg,VEG
+GARLIC,பூண்டு,8,360,Piece,GREENS
+BRINJAL - PURPLE STRIPES,பிரிஞ்சி - ஊதா நிற கோடுகள்,8,70,Kg,VEG
+SWEET POTATO,இனிப்பு உருளைக்கிழங்கு,8,120,Kg,VEG
+MIXTURE,கலவை,8,600,Kg,SNACKS
+MIXTURE (NON GARLIC),கலவை (பூண்டு அல்லாதது),8,600,Kg,TREEYAA
+CHOLAM BISCUIT,சோளம் பிஸ்கட்,8,30,Kg,SNACKS
+VARAGU BISCUIT,வரகு பிஸ்கட்,8,30,Kg,SNACKS
+SAAMAI BISCUIT,சாமை பிஸ்கட்,8,30,Kg,SNACKS
+THINAI BISCUIT,திணை பிஸ்கட்,8,180,Kg,SNACKS
+KAMBU BISCUIT,கம்பு பிஸ்கட்,8,30,Kg,SNACKS
+RAGI BISCUIT,ராகி பிஸ்கட்,8,30,Kg,SNACKS
+MULTI MILLET ATTA FLOUR,MULTI MILLET ATTA FLOUR,8,200,Kg,PROVISIONS
+NATTUSAKKARAI,நாட்டுசக்கரை,8,130,Kg,PROVISIONS
+PUTHINA,புதினா,8,40,Piece,GREENS
+POMEGRANATE,மாதுளை,8,300,Kg,FRUITS
+NENTHIRAM BANANA,நெந்திரம் வாழை,8,110,Kg,FRUITS
+MOSAMBI,மோசம்பி,8,160,Kg,FRUITS
+PUDALANKAI,புடலங்காய்,8,90,Kg,VEG
+CARROT,கேரட்,8,130,Kg,VEG
+CUCUMBER - (VELLARI PINJU),வெள்ளரி - (வெள்ளரி பிஞ்சு),8,110,Kg,VEG
+BIG ONION,பெரிய வெங்காயம்,8,100,Kg,VEG
+MANI SAMBHA,மணி சம்பா,8,200,Kg,PROVISIONS
+FARM MAPILLAI SAMBHA RICE,பண்ணை மாப்பிள்ளை சம்பா அரிசி,8,110,Kg,PROVISIONS
+KOTHAVARANGA VATHAL,கொத்தவரங்க வத்தல்,8,1500,Kg,PROVISIONS
+KOLLU,கொல்லு,8,140,Kg,PROVISIONS
+KAMBU,கம்பு,8,170,Kg,PROVISIONS
+SAAMAI,SAAMAI,8,130,Kg,PROVISIONS
+HERBAL TEA POWDER,ஹெர்பல் டீ பவுடர்,0,520,Kg,PROVISIONS
+PEANUT IDLI POWDER,கடலை இட்லி பொடி,8,900,Kg,PROVISIONS
+SESAME IDLY POWDER,எள் இட்லி பொடி,8,600,Kg,ORGANIC FOOD
+DRY PEANUTS,உலர் வேர்க்கடலை,8,220,Kg,PROVISIONS
+BENGAL GRAM KADALA PARUPPU,பெங்கால் கிராம் கடல பருப்பு,8,170,Kg,PROVISIONS
+BROWN MOCHAI,பிரவுன் மொச்சை,8,200,Kg,PROVISIONS
+RED SOIL DAL((THUVRAM),சிவப்பு மண் டல் ((துவரம்),8,260,Kg,PROVISIONS
+NARI PAYIRU,நாரி பயிறு,8,175,Kg,PROVISIONS
+JEERAGAM,ஜீரகம்,8,1000,Kg,PROVISIONS
+THUVARAM PARUPU,துவரம் பருப்பு,8,240,Kg,PROVISIONS
+CASHEWNUT,முந்திரி,8,1200,Kg,PROVISIONS
+DRUMSTICK POWDER,முருங்கைக்காய் பொடி,8,1200,Kg,TREEYAA
+CABBAGE PURPLE,முட்டைக்கோஸ் ஊதா,8,90,Kg,VEG
+KULLAKAR RICE,குல்லகர் அரிசி,8,110,Kg,PROVISIONS
+RAGI,ராகி,8,120,Kg,PROVISIONS
+SUKKANGAI VATHAL,சுக்கங்கை வாத்தல்,8,1500,Kg,PROVISIONS
+TRADITIONAL RICE IDLI BATTER,பாரம்பரிய அரிசி இட்லி மாவு,8,110,Kg,TREEYAA
+STALL PRODUCTS,ஸ்டால் தயாரிப்புகள்,8,100,Piece,ORGANIC FOOD
+BANANA FLOWER,வாழைப்பூ,8,40,Kg,VEG
+SEEDAI (KARAM),சீதை (கரம்),8,650,Kg,ORGANIC FOOD
+PIRANDAI PODI,பிறண்டை பொடி,8,1000,Kg,PROVISIONS
+BADAM (ALMOND),பாதாம் (பாதாம்),8,933,Kg,PROVISIONS
+AMLA,ஆம்லா,8,110,Kg,FRUITS
+YELLAKI BANANA,ஏலக்கி வாழைப்பழம்,8,110,Kg,FRUITS
+BETEL LEAVES( VETRILAI),வெற்றிலை (வெற்றிலை),8,10,Piece,GREENS
+CASHEW PAKODA,முந்திரி பக்கோடா,8,680,Kg,TREEYAA
+ANDHRA MURUKKU,ஆந்திர முறுக்கு,8,520,Kg,TREEYAA
+KOLLU KANJI MIX,கொள்ளு கஞ்சி கலவை,8,400,Kg,PROVISIONS
+KUTHIRAIVALLI,குதிரைவல்லி,8,140,Kg,PROVISIONS
+BEANS,பீன்ஸ்,8,170,Kg,VEG
+CORIANDER SEEDS,கொத்தமல்லி விதைகள்,8,350,Kg,PROVISIONS
+ULLUNTHU(BLACK),உளுந்து(கருப்பு),8,200,Kg,PROVISIONS
+SAMBAR POWDER,சாம்பார் பொடி,8,500,Kg,PROVISIONS
+ROMANI MANGO,ரோமானி மாம்பழம்,8,150,Kg,FRUITS
+NEELAM MANGO,நீலம் மாம்பழம்,8,70,Kg,FRUITS
+PALM JAGGERY LADOO,பனை வெல்லம் லடூ,8,600,Kg,ORGANIC FOOD
+KAARA SEV,காரா செவ்,8,600,Kg,ORGANIC FOOD
+PACHAI PATTANI,பச்சை பட்டாணி,8,200,Kg,PROVISIONS
+KAIKUTHAL RICE NOODLES,கைகுத்தல் அரிசி நூடுல்ஸ்,8,75,Packet,PROVISIONS
+KOLLU RASAM POWDER,கொள்ளு ரசம் பொடி,8,900,Kg,PROVISIONS
+INSTANT MILLET IDLY DOSA FLOUR,உடனடி தினை இட்லி தோசை மாவு,8,100,Kg,PROVISIONS
+SATHU MAAVU (HEALTH MIX),சாத்து மாவு (ஹெல்த் மிக்ஸ்),8,360,Kg,PROVISIONS
+SATHUMAVU (LADDU),சாத்துமாவு (லட்டு),8,300,Kg,SNACKS
+MIRACLE POWDER,மிராக்கிள் பவுடர்,8,180,Kg,PROVISIONS
+KARA MURUKKU,கார முறுக்கு,8,520,Kg,SNACKS
+MAAVU PAKODA,மாவு பகோடா,8,520,Kg,SNACKS
+MASALA GROUNDNUT,மசாலா நிலக்கடலை,8,520,Kg,SNACKS
+RED RICE ATHIRASAM,சிவப்பு அரிசி அதிரசம்,8,600,Kg,SNACKS
+KAMBU MURUKKU,கம்பு முறுக்கு,8,600,Kg,SNACKS
+TRADITIONAL RICE MURRUKU,பாரம்பரிய அரிசி முறுக்கு,8,720,Kg,SNACKS
+THANGA SAMBA,தங்க சம்பா,8,110,Kg,PROVISIONS
+BLACK KAVUNI AVAL,கருப்பு கவுனி அவல்,8,230,Kg,PROVISIONS
+POONGAR AVAL,பூங்கர் அவல்,8,130,Kg,PROVISIONS
+KALAN NMAK(BLACK SALT),கலன் நமக் (கருப்பு உப்பு),8,0,Kg,PROVISIONS
+MUSK MELON,கஸ்தூரி முலாம்பழம்,8,110,Kg,FRUITS
+GINGER,இஞ்சி,8,240,Kg,VEG
+BANANA STEM,வாழைத் தண்டு,8,25,Kg,VEG
+CHOW CHOW,சோவ் சோ,8,100,Kg,VEG
+RED BANANA,சிவப்பு வாழைப்பழம்,8,130,Kg,FRUITS
+KARPORAVALI,கற்போரவளி,8,90,Kg,FRUITS
+SUNDAKKAI,சுண்டக்காய்,8,120,Kg,VEG
+THATTAI PAYAR DRY,தட்டைப் பயர் உலர்,8,250,Kg,PROVISIONS
+CUSTARD APPLE,கஸ்டர்ட் ஆப்பிள்,8,120,Kg,FRUITS
+MS IDIYAPPAM FLOUR,எம்.எஸ் இடியப்பம் மாவு,8,200,Kg,PROVISIONS
+WHEAT HALWA,கோதுமை ஹல்வா,8,600,Kg,SNACKS
+SAAMAI MURUKKU,சாமை முறுக்கு,8,600,Kg,ORGANIC FOOD
+MANGO JAM,மாங்காய் ஜாம்,8,750,Kg,PROVISIONS
+MANGO HALWA,மாம்பழ ஹல்வா,8,750,Kg,ORGANIC FOOD
+GUAVA,கொய்யா,8,90,Kg,FRUITS
+SENDHURA,செந்துரா,8,80,Kg,FRUITS
+SIRU KEERAI,சிறு கீரை,8,40,Piece,GREENS
+SONA MASURI RAW,சோனா மசூரி ரா,8,100,Kg,PROVISIONS
+KARUNG KURUVAI,கருங் குருவை,8,120,Kg,PROVISIONS
+SEERAGA SAMBHA RAW,சீரக சம்பா ரா,8,150,Kg,PROVISIONS
+MULAKEERAI,முலகீரை,8,35,Piece,GREENS
+IDLI CHILLI POWDER,இட்லி மிளகாய் தூள்,8,500,Kg,PROVISIONS
+FARM IDLI RICE,பண்ணை இட்லி அரிசி,8,90,Kg,PROVISIONS
+SEASAME LADOO,சீசேம் லடூ,8,600,Kg,SNACKS
+CURD CHILLI VATHAL,தயிர் மிளகாய் வத்தல்,8,2000,Kg,ORGANIC FOOD
+MAPILLAI SAMBA RICE VADAM,மாப்பிள்ளை சம்பா அரிசி வடம்,8,750,Kg,ORGANIC FOOD
+CAPSICUM GREEN,கேப்சிகம் பச்சை,8,130,Kg,VEG
+BRINJAL VATHAL,பிரிஞ்சல் வத்தல்,8,2000,Kg,ORGANIC FOOD
+NARTHANGAI PICKLE,நர்த்தங்கை ஊறுகாய்,8,150,Piece,ORGANIC FOOD
+ALPHONSO MANGO,அல்போன்சா மாம்பழம்,8,200,Kg,FRUITS
+RAW GROUNDNUT (FARM),மூல நிலக்கடலை (பண்ணை),8,120,Kg,VEG
+LEMON PICKLE,எலுமிச்சை ஊறுகாய்,8,750,Piece,PROVISIONS
+MANGO,மாம்பழம்,8,80,Kg,FRUITS
+SAPOTA,சப்போட்டா,8,110,Kg,FRUITS
+POOVAN BANANNA,பூவன் வாழை,8,95,Kg,FRUITS
+PONNAKANI,பொன்னகனி,8,25,Piece,GREENS
+MANATHAKALI KEERAI,மணத்தக்காளி கீரை,8,30,Piece,GREENS
+KHOL KHOL,KHOL KHOL,8,100,Kg,VEG
+WHEAT RAGI PASTA,கோதுமை ராகி பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT KUTHIRAIVALLI PASTA,கோதுமை குதிரைவல்லி பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT THINAI PASTA,கோதுமை தினை பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT BLACK KAVUNI PASTA,கோதுமை கருப்பு கவுனி பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT VARAGU PASTA,கோதுமை வரகு பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT KAMBU PASTA,கோதுமை கம்பு பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT SAAMAI PASTA,கோதுமை சாமை பாஸ்தா,8,70,Kg,PROVISIONS
+WHEAT MULTI MILLET PASTA,கோதுமை மல்டி மில்லட் பாஸ்தா,8,70,Kg,PROVISIONS
+VARAGU,வரகு,8,110,Kg,PROVISIONS
+MULTI GRAIN ATTA FLOUR,மல்டி கிரெய்ன் அட்டா மாவு,8,150,Kg,PROVISIONS
+TURMERIC POWDER,மஞ்சள் தூள்,8,400,Kg,PROVISIONS
+MOONG DAL PAASIPARUPU,மூங் டால் பசிபருப்பு,8,200,Kg,PROVISIONS
+WHITE ULLUNDU WHOLE,வெள்ளை உளுந்து முழுக்க,8,195,Kg,PROVISIONS
+GREEN GRAM,பச்சை கிராம்,8,200,Kg,PROVISIONS
+RAW TURMERIC,பச்சை மஞ்சள்,8,300,Kg,VEG
+SAAMAI LADOO,SAAMAI LADOO,8,600,Kg,SNACKS
+WHITE CHOLAM,வெள்ளை சோளம்,8,100,Kg,PROVISIONS
+MAKKA CHOLAM,மக்கா சோளம்,8,80,Kg,PROVISIONS
+KAVUNI DOSA FLOUR,கவுனி தோசை மாவு,8,200,Kg,PROVISIONS
+ORANGE,ஆரஞ்சு,8,160,Kg,FRUITS
+KOLI AVARAI,கோலி ஆவரை,8,100,Kg,VEG
+STRAW BERRY,வைக்கோல் பெர்ரி,8,140,Kg,FRUITS
+TURNIP,டர்னிப்,8,100,Kg,VEG
+PONMANI IDLI RICE,பொன்மணி இட்லி சாதம்,8,80,Kg,PROVISIONS
+TAMARIND(PULI),புளி(புளி),8,300,Kg,PROVISIONS
+PONNI KAIKUTHAL,பொன்னி கைகூடல்,8,110,Kg,PROVISIONS
+THATAI PEPPER,தாய் மிளகு,8,600,Kg,SNACKS
+RAW BANANA CHIPS,பச்சை வாழைப்பழ சிப்ஸ்,8,500,Kg,SNACKS
+CLUSTER BEANS (KOTHAVARAI),கொத்து பீன்ஸ் (கொத்தவரை),8,80,Kg,VEG
+RADISH KEERAI,முள்ளங்கி கீரை,8,30,Kg,VEG
+GREEN PEAS,பச்சை பட்டாணி,8,300,Kg,VEG
+COCONUT POLI,தேங்காய் போலி,8,20,Kg,SNACKS
+KAALABATH,கலாபத்,8,200,Kg,PROVISIONS
+CAPSICUM RED TYPE-1,கேப்சிகம் சிவப்பு,8,200,Kg,VEG
+DRY LONG RED CHILLI,உலர் நீண்ட சிவப்பு மிளகாய்,8,350,Kg,PROVISIONS
+RAGI RAVA,ராகி ராவா,8,49,Kg,PROVISIONS
+VARAGU RAVA,வரகு ராவா,8,180,Kg,PROVISIONS
+SAAMAI RAVA,சாமை ராவா,8,190,Kg,PROVISIONS
+KAMBU RAVA,கம்பு ரவா,8,150,Kg,PROVISIONS
+KUTHIRAIVALLI RAVA,குதிரைவல்லி ராவா,8,200,Kg,PROVISIONS
+PINEAPPLE,அன்னாசிப்பழம்,8,100,Kg,FRUITS
+CAPSICUM YELLOW,கேப்சிகம் மஞ்சள்,8,180,Kg,VEG
+CAPSICUM RED TYPE-2,கேப்சிகம் சிவப்பு,8,400,Kg,VEG
+APPLE,ஆப்பிள்,8,300,Kg,FRUITS
+SEASAME BLACK,சீசேம் பிளாக்,8,220,Kg,PROVISIONS
+BEETROOT,பீட்ரூட்,8,130,Kg,VEG
+DRY SHORT RED CHILLI,உலர் குறுகிய சிவப்பு மிளகாய்,8,350,Kg,PROVISIONS
+MUSTARD(KADUGU),கடுகு(கடுகு),8,200,Kg,PROVISIONS
+DRY GRAPES,உலர் திராட்சை,8,500,Kg,PROVISIONS
+RAJAMUDI RICE,ராஜமுடி அரிசி,8,120,Kg,PROVISIONS
+RNR RAW RICE,RNR மூல அரிசி,8,110,Kg,PROVISIONS
+THINAI RAVA,திணை ராவா,8,180,Kg,PROVISIONS
+THINAI,திணை,8,140,Kg,PROVISIONS
+KULLAKAAR AVAL,குல்லக்கார் அவள்,0,140,Kg,PROVISIONS
+WHITE AVAL,வெள்ளை அவல்,8,100,Kg,PROVISIONS
+THOOYAMALLI RAW RICE,தூயமல்லி பச்சை அரிசி,8,110,Kg,PROVISIONS
+NAVARA RICE,நவரா அரிசி,8,110,Kg,PROVISIONS
+PEPPER,மிளகு,8,900,Kg,PROVISIONS
+VENDHAYAM,வேந்தயம்,8,400,Kg,PROVISIONS
+INDU UPPU,இந்து உப்பு,8,140,Kg,PROVISIONS
+ULLUNTHU(BLACK SPLIT),உளுந்து (கருப்பு பிளவு),8,170,Kg,PROVISIONS
+BLACK HORSE GRAM,கருப்பு குதிரை கிராம்,8,100,Kg,PROVISIONS
+MULTI NOODLES,பல நூடுல்ஸ்,8,60,Piece,PROVISIONS
+KUTHIRAIVALLI NOODLES,குதிரைவல்லி நூடுல்ஸ்,8,60,Piece,PROVISIONS
+SOYA NOODLES,சோயா நூடுல்ஸ்,8,65,Piece,PROVISIONS
+SAAMAI NOODLES,சாமை நூடுல்ஸ்,8,60,Piece,PROVISIONS
+RAGI NOODLES,ராகி நூடுல்ஸ்,8,60,Piece,PROVISIONS
+KAMBU NOODLES,கம்பு நூடுல்ஸ்,8,65,Piece,PROVISIONS
+VARAGU NOODLES,வரகு நூடுல்ஸ்,8,60,Piece,PROVISIONS
+THINAI NOODLES,தைனை நூடுல்ஸ்,8,60,Piece,PROVISIONS
+RED RICE NOODLES,சிவப்பு அரிசி நூடுல்ஸ்,8,60,Piece,PROVISIONS
+BASUMATHI RICE,பாசுமதி அரிசி,8,150,Kg,PROVISIONS
+RED AVAL,சிவப்பு அவல்,8,120,Kg,PROVISIONS
+CORIANDER POWDER,கொத்தமல்லி தூள்,8,400,Kg,PROVISIONS
+PANIVARAGU,பனிவரகு,8,150,Kg,PROVISIONS
+HAND MURUKKU,கை முறுக்கு,8,500,Kg,SNACKS
+CARDAMOM(YELLAKAI),ஏலக்காய்(யெல்லக்கை),8,1600,Kg,PROVISIONS
+PATTAI(CINNAMON STICK),பட்டை (இலவங்கப்பட்டை),8,500,Kg,PROVISIONS
+BUTTER MURUKKU,வெண்ணெய் முறுக்கு,8,600,Kg,SNACKS
+DIABETIC KANJI MAVU,சர்க்கரை நோய் கஞ்சி மாவு,8,400,Kg,PROVISIONS
+CHILLI POWDER,மிளகாய் தூள்,8,400,Kg,PROVISIONS
+BLACK URAD DALL KANJI MIX,கருப்பு உரட் டால் கஞ்சி கலவை,8,400,Kg,ORGANIC FOOD
+PINK ROCK SALT,பிங்க் ராக் சால்ட்,8,140,Kg,PROVISIONS
+THOOYAMALLI BOILED KAIKUTHAL,தூயமல்லி வேகவைத்த கைகுத்தல்,8,120,Kg,PROVISIONS
+KARUPPU KAVUNI NOODLES,கருப்பு கவுனி நூடுல்ஸ்,8,75,Piece,PROVISIONS
+MAPPILLAI SAMBA NOODLES,மாப்பிள்ளை சம்பா நூடுல்ஸ்,8,75,Piece,PROVISIONS
+KOLLU NO0DLES,கொல்லு நொடில்ஸ்,8,65,Kg,PROVISIONS
+WHEAT NOODLES,கோதுமை நூடுல்ஸ்,8,65,Piece,PROVISIONS
+SEERAGA SAMBHA,சீரக சம்பா,8,140,Kg,PROVISIONS
+BLACK CHANNA,பிளாக் சன்னா,8,150,Kg,PROVISIONS
+WHITE CHANNA,வெள்ளை சன்னா,8,190,Kg,PROVISIONS
+KERALA MATTA RICE,கேரளா மட்டா அரிசி,8,100,Kg,PROVISIONS
+BLACK KAVUNI RICE,கருப்பு கவுனி அரிசி,8,275,Kg,PROVISIONS
+THOOYAMALLI RICE,தூயமல்லி அரிசி,8,110,Kg,PROVISIONS
+PONNI RAW,பொன்னி ரா,8,110,Kg,PROVISIONS
+POONGAR,பூங்கர்,8,110,Kg,PROVISIONS
+MAPILLAI SAMBHA,மாப்பிள்ளை சம்பா,8,110,Kg,PROVISIONS
+KARUPATTI,கருப்பட்டி,8,400,Kg,PROVISIONS
+PANAM KARKANDU,பணம் கற்கண்டு,8,1000,Kg,PROVISIONS
+EGG,முட்டை,8,17,Kg,VEG
+DELIVERY CHARGE,டெலிவரி கட்டணம்,8,20,Kg,VEG
+KAVUNI MURRUKU,கவுனி முறுக்கு,8,600,Kg,SNACKS
+DIWALI ORGANIC SNACKS(500GM),தீபாவளி ஆர்கானிக் ஸ்நாக்ஸ் (500GM),8,399,Kg,SNACKS
+DIWALI ORGANIC SNACKS(1KG),தீபாவளி ஆர்கானிக் ஸ்நாக்ஸ் (1 கிலோ),8,699,Kg,SNACKS
+NATTUSAKKARAI MYSOREPAK,நாட்டுசக்கரை மைசூர்பாக்,8,800,Kg,SNACKS
+DRY FRUITS COCONUT BURFI,உலர் பழங்கள் தேங்காய் பர்ஃபி,8,500,Kg,SNACKS
+BLACK URAD DHALL LADOO,கருப்பு உரத் தால் லடூ,8,600,Kg,SNACKS
+SONA MASURI RICE,சோனா மசூரி அரிசி,8,100,Kg,PROVISIONS
+THOOYAMALLI BROKEN,தூயமல்லி உடைந்தது,8,80,Kg,PROVISIONS
+KARAMANI PAYAR,காராமணி பயர்,8,130,Kg,PROVISIONS
+NAVRATHRI COMBO PACK,நவராத்திரி காம்போ பேக்,8,850,Kg,PROVISIONS
+CURD,தயிர்,8,60,Kg,PROVISIONS
+MASALA ITEMS,மசாலா பொருட்கள்,8,100,Kg,PROVISIONS
+KARUPU KAUVNI MURUKKU,கருப்பு கவுனி முறுக்கு,8,600,Kg,SNACKS
+KICHALLI SAMBHA (RAW),கிச்சல்லி சம்பா (ரா),8,100,Kg,PROVISIONS
+VINAYAGAR IDOL &POT,விநாயகர் சிலை & பானை,8,350,Kg,ASTRIYA
+VILANGA,விலாங்கா,8,100,Kg,FRUITS
+NARTHANKAI,நர்த்தங்காய்,8,120,Kg,VEG
+KOZHUKATTAI MAAVU,கோழிக்கட்டை மாவு,8,130,Kg,PROVISIONS
+ELLU URUNDAI,எழு உருண்டை,0,400,Kg,SNACKS
+PORI VILANGA URUNDAI,பொரி விளாங்க உருண்டை,8,300,Kg,SNACKS
+ATHIRASAM,அதிரசம்,8,600,Kg,SNACKS
+SUKKU (DRY GINGER),சுக்கு (உலர்ந்த இஞ்சி),8,400,Kg,PROVISIONS
+HERBAL TEA,மூலிகை தேநீர்,8,10,Kg,SNACKS
+RAW MANGO,பச்சை மாம்பழம்,8,40,Kg,VEG
+FIG FRUIT,அத்திப்பழம்,8,300,Kg,FRUITS
+OLD BALANCE,பழைய இருப்பு,8,10,Kg,ASTRIYA
+CHAPPATHI,சப்பாத்தி,8,60,Kg,ORGANIC FOOD
+MALKOVA MANGO,மல்கோவா மாம்பழம்,8,200,Kg,FRUITS
+ORGANIC SNACKS,ஆர்கானிக் ஸ்நாக்ஸ்,8,30,Kg,SNACKS
+CASTOR OIL,ஆமணக்கு எண்ணெய்,8,280,Kg,PROVISIONS
+NUNGU (ICE APPLE),நுங்கு (ஐஸ் ஆப்பிள்),8,5,Kg,FRUITS
+MULAIKEERAI SEEDS,முலைகீரை விதைகள்,8,40,Kg,PROVISIONS
+ARAI KEERAI SEEDS,ARAI கீரை விதைகள்,8,40,Kg,PROVISIONS
+VENDHAYA KEERAI SEEDS,வெண்தாய கீரை விதைகள்,8,40,Kg,PROVISIONS
+PALAK KEERAI (SEEDS),பாலக் கீரை (விதைகள்),8,40,Kg,PROVISIONS
+VARAGU LADDU,வரகு லட்டு,8,600,Kg,SNACKS
+ORGANIC SPL MILK,ஆர்கானிக் ஸ்பிஎல் பால்,8,30,Kg,SNACKS
+BANANA BONDA,வாழை போண்டா,8,20,Kg,SNACKS
+ORGANIC CHAAT,ஆர்கானிக் அரட்டை,8,20,Kg,SNACKS
+COCONUT WATER,தேங்காய் தண்ணீர்,8,45,Kg,FRUITS
+PARUPPU KEERAI,பருப்பு கீரை,8,40,Piece,GREENS
+ORGANIC PAYASAM,ஆர்கானிக் பாயாசம்,8,20,Kg,SNACKS
+SUNDAKKA PICKLE,சுண்டக்கா ஊறுகாய்,8,1000,Piece,PROVISIONS
+TOMATO THOKKU,தக்காளி தொக்கு,8,800,Kg,SNACKS
+PARRUPU PODI,பருப்பு பொடி,8,400,Kg,PROVISIONS
+PUTTU MAVU,புட்டு மாவு,8,120,Kg,PROVISIONS
+ORGANIC SOUP,ஆர்கானிக் சூப்,8,20,Kg,SNACKS
+KULLAKAAR AVAL LADDU,குல்லக்கார் அவள் லட்டு,8,300,Kg,SNACKS
+KUDAMPULLI,குடம்புள்ளி,8,500,Kg,PROVISIONS
+RAGI LADDU,ராகி லட்டு,8,300,Kg,SNACKS
+ORGANIC MIXER,ஆர்கானிக் மிக்சர்,8,400,Kg,FRUITS
+ORGANIC PAYAR,ஆர்கானிக் பையர்,8,25,Kg,SNACKS
+ORGANIC KEERAI SOUP,ஆர்கானிக் கீரை சூப்,8,15,Kg,SNACKS
+SEASAME WHITE,கடல் வெள்ளை,8,370,Kg,PROVISIONS
+MANATHAKALI BERRIES,மணத்தக்காளி பெர்ரி,8,360,Kg,VEG
+TURMERIC PLANT,மஞ்சள் செடி,8,50,Kg,PROVISIONS
+PANAKIZHANGU,பனகிழங்கு,8,15,Kg,VEG
+MIXED VEGGIES,கலப்பு காய்கறிகள்,8,150,Kg,VEG
+PONGAL COMBO,பொங்கல் சேர்க்கை,8,699,Kg,PROVISIONS
+SUGARCANE,கரும்பு,8,60,Kg,FRUITS
+ORGANIC IDLI BATTER,ஆர்கானிக் இட்லி மாவு,8,80,Kg,PROVISIONS
+SWEET CORN,ஸ்வீட் கார்ன்,8,80,Kg,VEG
+PEERANDAI,பீரந்தை,8,30,Kg,FRUITS
+KAMALA ORANGE,கமலா ஆரஞ்சு,8,150,Kg,FRUITS
+IDIYAPPAM FLOUR,இடியப்பம் மாவு,8,160,Kg,PROVISIONS
+PEANUT BAR(KADALAI MITTAI),வேர்க்கடலை பார்(கடலை மிட்டாய்),8,50,Kg,SNACKS
+MILLET IDLI BATTER,தினை இட்லி மாவு,8,110,Kg,PROVISIONS
+PACHARISI MURUKKU,பச்சரிசி முறுக்கு,8,400,Kg,SNACKS
+NATTUSAKKARAI LADDU,நாட்டுசக்கரை லட்டு,8,400,Kg,SNACKS
+RAIL KATTAM (SWEET),ரயில் கட்டம் (இனிப்பு),8,65,Kg,SNACKS
+RAIL KATTAM (KARAM),ரயில் கட்டம் (கரம்),8,65,Kg,SNACKS
+THATTAI RAGI,தட்டாய் ராகி,8,600,Kg,SNACKS
+SOMAAS(RAGI),சோமாஸ்(ராகி),8,500,Kg,SNACKS
+SOMAAS(CHOLAM),சோமாஸ்(சோலம்),8,500,Kg,SNACKS
+SOMAAS(KAMBU),சோமாஸ்(கம்பு),8,500,Kg,SNACKS
+SOMAAS(WHEAT),சோமாஸ் (கோதுமை),0,500,Kg,SNACKS
+SWEET BOX (BIG),ஸ்வீட் பாக்ஸ் (பெரிய),8,490,Kg,SNACKS
+SWEET BOX (SMALL),ஸ்வீட் பாக்ஸ் (சிறியது),8,250,Kg,SNACKS
+PANNER GRAPES,பன்னீர் திராட்சை,8,170,Kg,FRUITS
+MAPILLAI SAMBHA PORI,மாப்பிள்ளை சம்ப பொரி,8,140,Kg,PROVISIONS
+FESTIVAL PACK,பண்டிகை பேக்,8,799,Kg,PROVISIONS
+SEPPA KILANGU,செப்ப கிழங்கு,8,120,Kg,VEG
+WHITE MOCHAI,வெள்ளை மொச்சை,8,200,Kg,PROVISIONS
+GHEE,நெய்,8,1500,Kg,PROVISIONS
+KARUVEPILLAI PODI,கருவேப்பிலைப் பொடி,8,1000,Kg,PROVISIONS
+GARLIC HILLS,பூண்டு மலைகள்,0,320,Kg,VEG
+KADALA MAAVU(FLOUR),கடல மாவு (மாவு),8,160,Kg,PROVISIONS
+RAW RICE FLOUR,கச்சா அரிசி மாவு,0,150,Kg,PROVISIONS
+NARTHANKAI LEAVES,நர்த்தங்காய் வெளியேறுகிறது,8,40,Piece,GREENS
+BAJJI MILLAGAI,பஜ்ஜி மில்லகை,8,100,Kg,VEG
+KARUDAN SAMBHA,கருடன் சம்பா,8,120,Kg,PROVISIONS
+ARUKAMPULL,அருகம்புல்,8,10,Kg,PROVISIONS
+MANGO LEAVES,மாங்காய் இலைகள்,8,20,Kg,PROVISIONS
+ERRUKKA MALAI,எருக்க மலை,8,20,Kg,PROVISIONS
+KARISELANGANNI,கரிசெலங்கண்ணி,8,30,Piece,GREENS
+THORANAM,தோரணம்,8,10,Kg,PROVISIONS
+MYIL IRRAGU,மயில் இரகு,8,25,Kg,PROVISIONS
+KUPPAMANNI,குப்பமன்னி,8,30,Piece,GREENS
+THINAI FLOUR,திணை மாவு,8,120,Kg,PROVISIONS
+APPLE (GOLDEN GREEN),ஆப்பிள் (கோல்டன் கிரீன்),8,270,Kg,FRUITS
+CORN,சோளம்,8,65,Kg,VEG
+AMMANPACHARISI,அம்மன்பச்சாரிசி,8,15,Piece,GREENS
+SPINACH RED,கீரை சிவப்பு,8,40,Piece,GREENS
+VARAGU FLOUR,வரகு மாவு,8,120,Kg,PROVISIONS
+SAAMAI FLOUR,சாமை மாவு,8,140,Kg,PROVISIONS
+CURRY LEAVES,கறிவேப்பிலை,8,0,Piece,GREENS
+KALYANA MURUNGAI,கல்யாண முருங்கை,8,30,Piece,GREENS
+PIRANDAI,பிறண்டை,8,30,Piece,GREENS
+MUSAMBI (SATHUKUTTI),முசம்பி (சத்துக்குட்டி),8,130,Kg,FRUITS
+DRUM STICK LEAVES,டிரம் ஸ்டிக் இலைகள்,8,30,Piece,GREENS
+SIVAN SAMBHA,சிவன் சம்பா,8,120,Kg,PROVISIONS
+TOMOTA(BANGALORE),தக்காளி (பெங்களூர்),8,70,Kg,VEG
+PONNI BOILED,பொன்னி கொதித்தது,8,110,Kg,PROVISIONS
+MOTCHA,மோட்சா,8,120,Kg,VEG
+KUTHIRAIVALLI FLOUR,குதிரைவல்லி மாவு,8,140,Kg,PROVISIONS
+WHEAT RAVA,கோதுமை ரவா,8,190,Kg,PROVISIONS
+HERBAL LEAVES,மூலிகை இலைகள்,8,30,Piece,GREENS
+BANANA LEAF,வாழை இலை,8,20,Kg,VEG
+TREE TOMATO,மரம் தக்காளி,8,100,Kg,VEG
+BROCOLI,ப்ரோகோலி,8,285,Kg,VEG
+JAMUN(NAVAL),ஜாமுன் (நாவல்),0,300,Kg,FRUITS
+NEEM OIL,வேப்ப எண்ணெய்,8,400,Kg,PROVISIONS
+MINI YELLOW PUMKIN,மினி மஞ்சள் பூசணிக்காய்,8,90,Kg,VEG
+KARNA KILANGU,கர்ண கிழங்கு,8,90,Kg,VEG
+Mango thokku,மாங்காய் தோக்கு,8,150,Kg,PROVISIONS
+Cut mango pickle,மாங்காய் ஊறுகாயை நறுக்கவும்,8,120,Piece,PROVISIONS
+Roasted peanut,வறுத்த வேர்க்கடலை,8,250,Kg,PROVISIONS
+Kulambu milagai podi,குழம்பு மிளகாய் பொடி,8,700,Kg,PROVISIONS
+Sombu,சோம்பு,8,800,Kg,PROVISIONS
+Organic powder,ஆர்கானிக் தூள்,8,175,Kg,PROVISIONS
+Kavuni rice flour,கவுனி அரிசி மாவு,8,220,Kg,PROVISIONS
+Naarthangai Dry vathal,நார்த்தங்கை உலர் வத்தல்,8,500,Kg,PROVISIONS
+Sundakkai vathal,சுண்டக்காய் வத்தல்,8,1000,Kg,PROVISIONS
+Ladies finger dry vathal,பெண்கள் விரல் உலர் வத்தல்,8,1000,Kg,PROVISIONS
+Ragi flour,ராகி மாவு,8,120,Kg,PROVISIONS
+Kambu Flour,கம்பு மாவு,8,190,Kg,PROVISIONS
+Veppalai oil,வேப்பலை எண்ணெய்,8,300,Kg,PROVISIONS
+Plums,பிளம்ஸ்,8,200,Kg,FRUITS
+Pears-Honey Sweet,பேரிக்காய்-தேன் இனிப்பு,8,260,Kg,FRUITS
+Passion fruit,பேஷன் பழம்,8,120,Kg,FRUITS
+Jack fruit,பலா பழம்,8,200,Kg,FRUITS
+Imampasanth,இமாம்பசாந்த்,8,250,Kg,FRUITS
+Casalat,கசலாட்,8,120,Kg,FRUITS
+Kundu mango,குண்டு மாம்பழம்,8,80,Kg,FRUITS
+Black Grapes (Panner),கருப்பு திராட்சை (பன்னீர்),8,220,Kg,FRUITS
+Banganapalli,பங்கனப்பள்ளி,8,200,Kg,FRUITS
+Rasthali,ரஸ்தாலி,8,100,Kg,FRUITS
+Panjavarnam,பஞ்சவர்ணம்,8,120,Kg,FRUITS
+Pachai nadan,பச்சை நாடன்,8,90,Kg,FRUITS
+Dates Fresh Fruit,தேதிகள் புதிய பழங்கள்,8,150,Kg,FRUITS
+Dragon Fruit,டிராகன் பழம்,8,200,Kg,FRUITS
+Avocado,அவகேடோ,8,210,Kg,FRUITS
+Vallarai,வல்லாரை,8,40,Piece,GREENS
+Pasalai keerai,பசலை கீரை,8,40,Piece,GREENS
+Swiss chad,சுவிஸ் சாட்,8,40,Piece,GREENS
+Agathi Keerai,அகத்தி கீரை,8,30,Piece,GREENS
+Arai keerai,அரை கீரை,0,35,Piece,GREENS
+Red Keerai,சிவப்பு கீரை,8,30,Piece,GREENS
+Mudakathan,முடக்கத்தான்,8,25,Piece,GREENS
+Tapioca,மரவள்ளிக்கிழங்கு,8,70,Kg,VEG
+Killimokku,கிள்ளிமொக்கு,8,50,Kg,VEG
+Bitter Gourd - (pavarkai),பாகற்காய் - (பாவற்காய்),8,90,Kg,VEG
+Butter Beans,பட்டர் பீன்ஸ்,8,130,Kg,VEG

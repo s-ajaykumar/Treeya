@@ -1,5 +1,4 @@
 import config
-import db_ops
 
 import json
 from datetime import datetime
@@ -32,6 +31,17 @@ logging.basicConfig(level = logging.INFO)
 
 
 class TREEYA:
+    def __init__(self):
+        self.user_id = None
+        self.is_user_in_process = None
+        self.users_in_process_database = None
+        self.items_database = self.get_items_database()
+        
+        
+    def delete_order(self, user_id):
+        del self.users_in_process_database[user_id]
+        with open("data/users_in_process.json", "w", encoding = "utf-8") as f:
+            json.dump(self.users_in_process_database, f, indent = 4)
         
     def convert_ogg_to_wav(self, ogg_file_path):
         data, sr = sf.read(ogg_file_path) 
@@ -49,30 +59,35 @@ class TREEYA:
         return response.text
     
     def get_items_database(self):
-        items_database = db_ops.get_items()
-        items_database = str(items_database)
-        '''items_database = open("data/items_version2.json", "r").read()'''
+        items_database = open("data/items_version2.json", "r").read()
         items_database = types.Content(role = "model", parts = [types.Part.from_text(text = items_database)])
-        
+        '''items_database = open("data/items_progress.json", "rb").read()
+        items_database = types.Content(role = "model", parts = [types.Part.from_bytes(mime_type = "application/json", data = items_database)])'''
         return items_database
+    
+    def get_users_in_process_database(self, ):
+        with open("data/users_in_process.json", "r", encoding = "utf-8") as f:
+            users_in_process_database = json.load(f)
+        return users_in_process_database
         
-    def save_conversation(self, user_id, query, response, prev_conv):
-        '''res_obj = json.loads(response)
-        if res_obj['status'] == "success":
+    def save_conversation(self, query, response, prev_conv):
+        res_obj = json.loads(response)
+        '''if res_obj['status'] == "success":
             response = json.dumps({"data" : res_obj['data'], "total_sum" : res_obj['total_sum'], "status" : res_obj['status']}, ensure_ascii = False)
         else:
             response = json.dumps({"data" : res_obj['data'], "status" : res_obj['status']}, ensure_ascii = False)'''
             
         conversation = [{"role" : "user", "data" : query}, {"role" : "model", "data" : response}]
         
-        if prev_conv:
+        if self.is_user_in_process:
             '''if res_obj['status'] == 'success':
                 conversation = [conversation[1]]
             elif res_obj['status'] != 'success':'''
             conversation = prev_conv + conversation
-            
-        conversation = json.dumps({"conversations" : conversation}, encode_ascii = False)
-        db_ops.update_user_in_process_data(partition_key = user_id, data = conversation)
+        
+        self.users_in_process_database[self.user_id] = conversation
+        with open("data/users_in_process.json", "w", encoding = "utf-8") as f:
+            json.dump(self.users_in_process_database, f, indent = 4, ensure_ascii = False)
             
     def add_previous_conversation(self, query, prev_conv):
         contents = []
@@ -102,8 +117,8 @@ class TREEYA:
         )
         return response.transcript
             
-    def TTT(self, contents, items_database):
-        contents = [items_database] + contents
+    def TTT(self, contents):
+        contents = [self.items_database] + contents
         
         response = gemini.models.generate_content(
             model = config.ttt.model,
@@ -120,18 +135,15 @@ class TREEYA:
             
             
     async def main(self, audio_link, text, items_database_link, order_status, user_id):
-        user_in_process_data = db_ops.get_user_in_process_data(partition_key = user_id)
-
+        
         if order_status == "confirm" or order_status == "cancel":
-            result = db_ops.delete_user_in_process(partition_key = user_id)
-            return result
-
-        try:
-            items_database = self.get_items_database()
-            logger.info("Queried Items database successfully")
-        except:
-            logger.info("Querying Items database failed")
-            
+            self.delete_order(user_id)
+            return json.dumps({"data" : "success"})
+        
+        self.user_id = user_id
+        self.users_in_process_database = self.get_users_in_process_database()
+        self.is_user_in_process = user_id in self.users_in_process_database
+        
         if items_database_link:
             urlretrieve(items_database_link, "data/items.xlsx")
             #convert_from_file("student.xls")
@@ -145,9 +157,11 @@ class TREEYA:
 
         query = text
     
-        if user_in_process_data:
-            contents = self.add_previous_conversation(query, user_in_process_data)
+        if self.is_user_in_process:
+            prev_conv = self.users_in_process_database[self.user_id]
+            contents = self.add_previous_conversation(query, prev_conv)
         else:
+            prev_conv = None
             contents = [types.Content(role = "user", parts = [types.Part.from_text(text = query)])]
             
         '''framed_query = self.frame_query(contents)
@@ -156,8 +170,8 @@ class TREEYA:
             
         TTT_response = self.TTT(contents)
         self.save_conversation(framed_query, TTT_response, prev_conv)'''
-        TTT_response = self.TTT(contents, items_database)
-        self.save_conversation(user_id, query, TTT_response, user_in_process_data)
+        TTT_response = self.TTT(contents)
+        self.save_conversation(query, TTT_response, prev_conv)
         
         logger.info(f"user: {query}") 
         #logger.info(f"model: {TTT_response}") 
@@ -180,4 +194,4 @@ async def process_data(
     
   
 if __name__ == '__main__':
-    uvicorn.run("main_version2_concurrent:app", host = "localhost", port = 8000, reload = True)
+    uvicorn.run("mainVersion2Test:app", host = "localhost", port = 8000, reload = True)

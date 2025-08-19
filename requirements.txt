@@ -8,3 +8,4 @@ azure-data-tables
 
 python-multipart
 python-dotenv
+aiohttp
