@@ -42,19 +42,12 @@ class TREEYA:
         sf.write(wav_file_path, data, sr)      
         return wav_file_path  
     
-    async def frame_query(self, contents):
-        response = gemini.aio.models.generate_content(
-            model = config.ttt.model,
-            contents = contents,
-            config = config.ttt.config_2,
-        )
-        return response.text
-    
     async def get_stock_db(self):
         items_database = await db_ops.get_stock_db()
         items_database = str(items_database)
         items_database = types.Content(role = "model", parts = [types.Part.from_text(text = items_database)])
         return items_database
+        
         
     async def save_conversation(self, user_id, query, response, prev_conv):
         conversation = [{"role" : "user", "data" : query}, {"role" : "model", "data" : response}]
@@ -96,9 +89,9 @@ class TREEYA:
             contents = contents,
             config = config.ttt.config_1,
         )
-        
-        print(f"model: {response.text}") 
-        return response.text
+        response = response.text
+        print(f"model: {response}")
+        return response
             
             
     async def main(self, user_id, audio_link, text):
@@ -157,7 +150,7 @@ async def main(request: RequestModel.delete_user_in_process):
 
 @app.post("/update_stock/") 
 async def main(request: RequestModel.update_stock):
-    return await db_ops.update_stock(request.items)
+    return await db_ops.update_stock(request.items, request.ignoreOrder)
 
 @app.post("/upload_stock_db/") 
 async def main(request: RequestModel.upload_stock_db):

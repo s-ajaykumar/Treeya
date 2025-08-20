@@ -13,6 +13,7 @@ class delete_user_in_process(BaseModel):
     
 class update_stock(BaseModel):
     items: list
+    ignoreOrder: bool
     
 class upload_stock_db(BaseModel):
     items_database_link: str

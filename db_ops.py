@@ -3,6 +3,14 @@ from azure.data.tables.aio import TableClient
 from azure.core.exceptions import ResourceNotFoundError
 from azure.data.tables import UpdateMode
 
+from typing import Any, List, Mapping, Tuple, Union
+from azure.data.tables import TableEntity, TransactionOperation
+from azure.data.tables import TableTransactionError
+
+EntityType = Union[TableEntity, Mapping[str, Any]]
+OperationType = Union[TransactionOperation, str]
+TransactionOperationType = Union[Tuple[OperationType, EntityType], Tuple[OperationType, EntityType, Mapping[str, Any]]]
+
 import time
 import json
 from dotenv import load_dotenv
@@ -64,22 +72,31 @@ async def create_conversations(user_id, conversations):
     partition_key = user_id
    
     
-async def update_stock(items):
-    try:
+async def update_stock(items, ignore_order):
+    if ignore_order == True:
+        result = json.dumps({"status" : "success", "data" : "It's a TEST number. I won't update the stock."})
+        print(result)
+        return result
+    else:
+        entities = []
         for item in items:
-            partition_key = item['TANGLISH_NAME']
-            row_key = 'item'
+            partition_key = 'items'
+            row_key = item['TANGLISH_NAME']
             entity = await get_entity(partition_key, row_key)
             updated_quantity = entity['QUANTITY'] - item['QUANTITY']
             entity['QUANTITY'] = updated_quantity
-            await items_table.update_entity(mode = UpdateMode.REPLACE, entity = entity)
-        result = json.dumps({"status" : "success", "data" : "Updated the stock successfully."})
-        print(result)
-        return result
-    except Exception as e:
-        result = json.dumps({"status" : "failure", "data" : f"Failed to update the stock. See the error below:\n\n{e}"})
-        print(result)
-        return result
+            entities.append(("update", entity, {"mode": "replace"}))
+            
+        operations: List[TransactionOperationType] = entities
+        try:
+            await items_table.submit_transaction(operations)
+            result = json.dumps({"status" : "success", "data" : "Updated the stock successfully."})
+            print(result)
+            return result
+        except TableTransactionError as e:
+            result = json.dumps({"status" : "failure", "data" : f"Failed to update the stock. See the error below:\n\n{e}"})
+            print(result)
+            return result
         
     
 async def upload_stock_db(link):
@@ -107,12 +124,13 @@ if __name__ == "__main__":
 '''# CREATE entities
 async def create_entities():
     with open('items.csv', mode='r', newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        i = 1
-        for row in reader:
+        reader = list(csv.DictReader(csvfile))
+        length = len(reader)-1
+        entities = []
+        for i, row in enumerate(reader):
             entity = {
-                'PartitionKey': row['TANGLISH_NAME'].strip(),
-                'RowKey': 'item',
+                'PartitionKey': 'items',
+                'RowKey': row['TANGLISH_NAME'].strip(),
                 'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
                 'TAMIL_NAME': row['TAMIL_NAME'].strip(),
                 'QUANTITY': float(row['QUANTITY']),
@@ -120,9 +138,18 @@ async def create_entities():
                 'QUANTITY_TYPE': row['QUANTITY_TYPE'].strip(),
                 'CATEGORY': row['CATEGORY'].strip()
             }
-            await items_table.create_entity(entity = entity)
-            print(i)
-            i += 1
+            entities.append(("create", entity))
+            if (i+1) % 100 == 0 or i == length:
+                operations: List[TransactionOperationType] = entities
+                try:
+                    await items_table.submit_transaction(operations)
+                    print("Uploaded batch")
+                    entities = []
+                    
+                except TableTransactionError as e:
+                    print("There was an error with the transaction operation")
+                    print(f"Error: {e}")
+
         
 if __name__ == "__main__":
     asyncio.run(create_entities())'''
