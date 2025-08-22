@@ -16,4 +16,4 @@ class update_stock(BaseModel):
     ignoreOrder: bool
     
 class upload_stock_db(BaseModel):
-    items_database_link: str
+    link: str

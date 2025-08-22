@@ -1,4 +1,4 @@
-from main_version1 import app
+from main_version2 import app
 
 if __name__ == "__main__":
     import uvicorn

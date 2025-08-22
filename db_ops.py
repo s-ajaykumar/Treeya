@@ -1,6 +1,8 @@
 from azure.data.tables.aio import TableClient
+from azure.data.tables.aio import TableServiceClient
 
 from azure.core.exceptions import ResourceNotFoundError
+from azure.core.exceptions import ResourceExistsError
 from azure.data.tables import UpdateMode
 
 from typing import Any, List, Mapping, Tuple, Union
@@ -99,63 +101,97 @@ async def update_stock(items, ignore_order):
             return result
         
     
-async def upload_stock_db(link):
-    pass
+async def del_and_create_table():
+    async for entity in items_table.list_entities():
+        await items_table.delete_entity(row_key = entity['RowKey'], partition_key = entity['PartitionKey'])
+    print("Items entities deleted")
+    '''global items_table
+    async with TableServiceClient.from_connection_string(CONNECTION_STRING) as table_service_client:
+        try:
+            table_deleted = await table_service_client.delete_table(table_name = "items")
+            print(f"Deleted items table")
+        except Exception as e:
+            print(f"Failed to delete items table. See the error below:")
+            print(e)
+            
+        while True:
+            tables = [t.name async for t in table_service_client.list_tables()]
+            if "items" not in tables:
+                break
+            print("Waiting for table to be deleted...")
+            await asyncio.sleep(2)  
+            
+        try:
+            await table_service_client.create_table(table_name = "items")
+            print(f"Created table items successfully!")
+        except ResourceExistsError:
+            print("Table already exists")
+    items_table = TableClient.from_connection_string(CONNECTION_STRING, table_name = "items")'''
+            
+            
+async def create_entities(df):
+    await del_and_create_table()
+    records = df.to_dict(orient = "records")
+    print("RECORDS:\n\n",records[0])
+    length = len(records)-1
+    entities = []
+    for i, record in enumerate(records):
+        '''entity = {
+            "PartitionKey": "items",            
+            "RowKey": record['TANGLISH_NAME'],         
+            **record                             
+        }'''
+        record["PartitionKey"] =  "items"
+        record["RowKey"] = record['TANGLISH_NAME']
+        entities.append(("create", record))
+        if (i+1) % 100 == 0 or i == length:
+            operations: List[TransactionOperationType] = entities
+            try:
+                await items_table.submit_transaction(operations)
+                print("Uploaded batch")
+                entities = []
+                
+            except TableTransactionError as e:
+                print("Failed to upload stock db. Below is the error:")
+                print(f"Error: {e}")
+    print("Uploaded stock db successfully")
 
 
 
 
-if __name__ == "__main__":
-    asyncio.run(get_stock_db())
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-'''# CREATE entities
-async def create_entities():
-    with open('items.csv', mode='r', newline='', encoding='utf-8') as csvfile:
-        reader = list(csv.DictReader(csvfile))
-        length = len(reader)-1
-        entities = []
-        for i, row in enumerate(reader):
-            entity = {
-                'PartitionKey': 'items',
-                'RowKey': row['TANGLISH_NAME'].strip(),
-                'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
-                'TAMIL_NAME': row['TAMIL_NAME'].strip(),
-                'QUANTITY': float(row['QUANTITY']),
-                'SELLING_PRICE': float(row['SELLING_PRICE']),
-                'QUANTITY_TYPE': row['QUANTITY_TYPE'].strip(),
-                'CATEGORY': row['CATEGORY'].strip()
-            }
-            entities.append(("create", entity))
-            if (i+1) % 100 == 0 or i == length:
-                operations: List[TransactionOperationType] = entities
+'''async def create_entities():
+    with open('data/items.csv', mode='r', newline='', encoding='utf-8') as csvfile:
+            reader = list(csv.DictReader(csvfile))
+            entities = []
+            for i, row in enumerate(reader):
+                entity = {
+                    'PartitionKey': 'items',
+                    'RowKey': row['TANGLISH_NAME'].strip(),
+                    'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
+                    'TAMIL_NAME': row['TAMIL_NAME'].strip(),
+                    'QUANTITY': float(row['QUANTITY']),
+                    'SELLING_PRICE': float(row['SELLING_PRICE']),
+                    'QUANTITY_TYPE': row['QUANTITY_TYPE'].strip(),
+                    'CATEGORY': row['CATEGORY'].strip()
+                }
                 try:
-                    await items_table.submit_transaction(operations)
-                    print("Uploaded batch")
-                    entities = []
+                    await items_table.create_entity(entity = entity)
+                except Exception as e:
+                    print(entity['RowKey'], "---", e)
+                entities.append(("create", entity))
+                if len(entities) == 100 or i == len(reader)-1:
+                    operations: List[TransactionOperationType] = entities
+                    try:
+                        await items_table.submit_transaction(operations)
+                        print("Uploaded batch")
+                        entities = []
+                        
+                    except TableTransactionError as e:
+                        print("There was an error with the transaction operation")
+                        print(f"Error: {e}")
+asyncio.run(create_entities())'''
                     
-                except TableTransactionError as e:
-                    print("There was an error with the transaction operation")
-                    print(f"Error: {e}")
-
-        
-if __name__ == "__main__":
-    asyncio.run(create_entities())'''
-
-
-
-
-
-

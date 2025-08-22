@@ -1,4 +1,4 @@
-[
+{ "items" : [
     {
         "TANGLISH_NAME": "MANGO PICKLE",
         "TAMIL_NAME": "மாங்காய் ஊறுகாய்",
@@ -4471,4 +4471,4 @@
         "QUANTITY_TYPE": "Kg",
         "CATEGORY": "VEG"
     }
-]
+]}

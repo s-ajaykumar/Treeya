@@ -1,5 +1,6 @@
 import config
 import db_ops
+import upload_stock
 import RequestModel
 
 import os
@@ -154,7 +155,7 @@ async def main(request: RequestModel.update_stock):
 
 @app.post("/upload_stock_db/") 
 async def main(request: RequestModel.upload_stock_db):
-    return await db_ops.upload_stock_db(request.items_database_link)
+    return await upload_stock.main(request.link)
 
 
 

@@ -1,5 +1,6 @@
 google-genai
 sarvamai
+googletrans
 
 fastapi
 uvicorn
