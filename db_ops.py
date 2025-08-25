@@ -174,7 +174,7 @@ async def create_entities(df):
                 'RowKey': row['TANGLISH_NAME'].strip(),
                 'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
                 'TAMIL_NAME': row['TAMIL_NAME'].strip(),
-                'JSON_QUANTITY': float(row['JSON_QUANTITY']),
+                'JSON_QUANTITY': float(row['JSON_QUANTITY']) + 10.0,
                 'JSON_QUANTITY_TYPE': row['JSON_QUANTITY_TYPE'].strip(),
                 'SELLING_PRICE': float(row['SELLING_PRICE']),
                 'CATEGORY': row['CATEGORY'].strip()
@@ -195,3 +195,54 @@ async def create_entities(df):
                     print(f"Error: {e}")
 asyncio.run(create_entities())'''
                     
+                    
+                    
+'''from google import genai
+from google.genai import types
+import config
+import pandas as pd
+gemini = genai.Client()
+
+
+
+
+
+
+
+async def generate_tamil_names(tanglish_names: list):
+    contents = json.dumps({"items" : tanglish_names.to_list()}, ensure_ascii = False)
+    print(str(tanglish_names.to_list()))
+    print("generating tamil names...")
+    response = await gemini.aio.models.generate_content(
+        model = config.ttt.model,
+        contents = contents,
+        config = config.ttt.config_2,
+    )
+    response = response.text
+    response = json.loads(response)
+    return response['items']
+
+async def remove_whitespaces(df):
+    for c in df.columns:
+        if c == "JSON_QUANTITY" or c == "SELLING_PRICE":
+            continue
+        df[c] = df[c].str.strip()
+    return df
+
+async def convert_quantity_type_into_float(df):
+    df['JSON_QUANTITY'] = df['JSON_QUANTITY'].astype(float)
+    df['SELLING_PRICE'] = df['SELLING_PRICE'].astype(float)
+    return df
+
+async def main():
+    with open("data/items.json", "r") as f:
+        obj = json.load(f)
+        tamil_names = obj['items']
+    df = pd.read_csv("data/items.csv")
+    df = await remove_whitespaces(df)
+    df = await convert_quantity_type_into_float(df)
+    df['TANGLISH_NAME'] = [name.upper() for name in df['TANGLISH_NAME']]
+    df['TAMIL_NAME'] = tamil_names
+    df.to_csv("data/items_processed.csv", index = False, encoding = "utf-8-sig")
+        
+asyncio.run(main())'''

@@ -1699,7 +1699,14 @@ translate2 = """
 
 
 
-
+translate_item_names = """
+You will be provided with a list of grocery item names in TANGLISH. 
+Your task is to translate the item names in TAMIL and return the JSON response as:
+{
+    "items" : [tamil_name1, tamil_name2, ...]
+} 
+Put the TAMIL names in the "items" list.
+"""
 
 
 

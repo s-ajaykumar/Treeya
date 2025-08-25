@@ -6,6 +6,12 @@ fastapi
 uvicorn
 gunicorn
 azure-data-tables
+pandas
+deep_translator
 
 python-dotenv
 aiohttp
+aiofiles
+soundfile
+pydantic
+starlette
