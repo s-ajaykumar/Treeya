@@ -50,13 +50,8 @@ class TREEYA:
         return items_database
         
         
-    async def save_conversation(self, user_id, query, response, prev_conv):
-        conversation = [{"role" : "user", "data" : query}, {"role" : "model", "data" : response}]
-        
-        if prev_conv:
-            conversation = prev_conv + conversation
-            
-        conversation = json.dumps(conversation, ensure_ascii = False)
+    async def save_conversation(self, user_id, contents):
+        conversation = json.dumps(contents, ensure_ascii = False)
         update_result = await db_ops.update_user_in_process_data(partition_key = user_id, conversations = conversation)
         print(update_result)
             
@@ -73,7 +68,11 @@ class TREEYA:
         contents += [query]
         return contents
        
+    async def add_content(self, prev_contents, role, data):
+        prev_contents = prev_contents + [{"role" : role, "data" : data}]
+        return prev_contents
         
+           
     def STT(self, file_path):
         response = stt_client.speech_to_text.transcribe(
             file = open(file_path, "rb"),
@@ -82,6 +81,7 @@ class TREEYA:
         )
         return response.transcript
             
+            
     async def TTT(self, contents):
         response = await gemini.aio.models.generate_content(
             model = config.ttt.model,
@@ -89,27 +89,27 @@ class TREEYA:
             config = config.ttt.config_1,
         )
         response = response.text
+        type = json.loads(response)['type']
         print(f"model: {response}")
         print("-" * 50)
-        return response
+        return response, type
             
-    async def search_stock(self, response, items_database):
-        res_obj = json.loads(response)
-        if res_obj['type'] == "search_stock":
-            contents = [types.Content(role = "user", parts = [types.Part.from_text(text = response)])]
-            contents = [items_database] + contents
-            response = await gemini.aio.models.generate_content(
-                model = config.ttt.model,
-                contents = contents,
-                config = config.ttt.config_2,
-            )
-            response = response.text
-            print("SEARCH STOCK RESPONSE:\n", response)
-            contents = [types.Content(role = "user", parts = [types.Part.from_text(text = response)])]
-            response = await self.TTT(contents)
-            return response
-        else:
-            return None
+    async def search_stock(self, prev_contents, response, items_database):
+        contents = [items_database] + [types.Content(role = "user", parts = [types.Part.from_text(text = response)])]
+        response = await gemini.aio.models.generate_content(
+            model = config.ttt.model,
+            contents = contents,
+            config = config.ttt.config_2,
+        )
+        response1 = response.text
+        print("SEARCH STOCK RESPONSE:\n", response1)
+        
+        contents = self.add_previous_conversation(response1, prev_contents)
+        response2, type = await self.TTT(contents)
+        
+        prev_contents = await self.add_content(prev_contents, "user", response1)
+        prev_contents = await self.add_content(prev_contents, "model", response2)
+        return response2, prev_contents
                    
     async def main(self, user_id, audio_link, text):
         t1 = time.time()
@@ -137,17 +137,21 @@ class TREEYA:
     
         if user_in_process_data:
             contents = self.add_previous_conversation(query, user_in_process_data)
+            prev_contents = user_in_process_data
+            prev_contents = await self.add_content(prev_contents, "user", query)
         else:
             contents = [types.Content(role = "user", parts = [types.Part.from_text(text = query)])]
+            prev_contents = await self.add_content([], "user", query)
             
         t1 = time.time()
-        TTT_response = await self.TTT(contents)
-        search_stock_result = await self.search_stock(TTT_response, items_database)
-        TTT_response = TTT_response if search_stock_result is None else search_stock_result
+        TTT_response, type = await self.TTT(contents)
+        prev_contents = await self.add_content(prev_contents, "model", TTT_response)
+        if type == "search_stock":
+            TTT_response, prev_contents = await self.search_stock(prev_contents, TTT_response, items_database)
         t2 = time.time()
         print(f"Time taken for TTT: {(t2-t1)*1000:2f} ms")
         
-        await self.save_conversation(user_id, query, TTT_response, user_in_process_data)
+        await self.save_conversation(user_id, prev_contents)
         print(f"user: {query}") 
         return TTT_response
     
