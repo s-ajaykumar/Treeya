@@ -1,4 +1,4 @@
-TANGLISH_NAME,TAMIL_NAME,CATEGORY,QUANTITY_TYPE,QUANTITY,SELLING_PRICE
+TANGLISH_NAME,TAMIL_NAME,CATEGORY,JSON_QUANTITY_TYPE,JSON_QUANTITY,SELLING_PRICE
 CAPSICUM RED TYPE A,காப்சிகம் சிவப்பு வகை ஏ,VEG,KG,0,400
 A2 GHEE MYSORE PA,A2 நெய் மைசூர் பா,SNACKS,KG,0,800
 Agathi Keerai,அகத்தி கீரை,GREENS,PCS,1,30
@@ -23,11 +23,11 @@ AYUDHA POOJA COMBO 250GM,ஆயுத பூஜை காம்போ 250GM,SNAC
 AYUDHA POOJA COMBO 500GM,ஆயுத பூஜை காம்போ 500GM,SNACKS,KG,0,349
 BABY POTATO,குழந்தை உருளைக்கிழங்கு,VEG,KG,19.62,70
 BADAM (ALMOND),பாதாம் (பாதாம்),PROVISIONS,KG,0,933
-BAJJI MILLAGAI,பஜ்ஜி மிளகாய்,VEG,KG,0,100
+BAJJI MILLAGAI,பஜ்ஜி மில்லகை,VEG,KG,0,100
 BANANA BONDA,வாழை போண்டா,SNACKS,PCS,0,20
 BANANA FLOWER,வாழைப்பூ,VEG,KG,5,40
 BANANA LEAF,வாழை இலை,VEG,KG,3,20
-BANANA STEM,வாழைத் தண்டு,VEG,PCS,1,25
+BANANA STEM,வாழை தண்டு,VEG,PCS,1,25
 Banganapalli,பங்கனப்பள்ளி,FRUITS,KG,34.49,200
 BARLEY,பார்லி,PROVISIONS,KG,0,90
 BASUMATHI RICE,பாசுமதி அரிசி,PROVISIONS,KG,0,150
@@ -79,7 +79,7 @@ CLUSTER BEANS (KOTHAVARAI),கொத்து பீன்ஸ் (கொத்�
 COCONUT,தேங்காய்,VEG,PCS,16,30
 COCONUT KOPARAI,தேங்காய் கொப்பரை,PROVISIONS,KG,0,280
 COCONUT OIL,தேங்காய் எண்ணெய்,PROVISIONS,LTRS,7.5,490
-COCONUT POLI,தேங்காய் போலி,SNACKS,PCS,0,20
+COCONUT POLI,தேங்காய் பொலி,SNACKS,PCS,0,20
 COCONUT POWDER,தேங்காய் பொடி,PROVISIONS,KG,0,300
 COCONUT PURFI,தேங்காய் பர்ஃபி,SNACKS,KG,0,600
 COCONUT WATER,தேங்காய் தண்ணீர்,FRUITS,KG,0,45
@@ -233,7 +233,7 @@ LEMON,எலுமிச்சை,VEG,KG,6.66,160
 LEMON PICKLE,எலுமிச்சை ஊறுகாய்,READY TO EAT,KG,0,750
 LITTLE MILLET MURUKKU,சிறிய தினை முறுக்கு,SNACKS,KG,0,720
 MAAVU ARISI RAW,மாவு அரிசி ரா,PROVISIONS,KG,0,35
-MAAVU PAKODA,மாவு பக்கோடா,SNACKS,KG,0,520
+MAAVU PAKODA,மாவு பகோடா,SNACKS,KG,0,520
 MAKKA CHOLAM,மக்கா சோளம்,PROVISIONS,KG,0,80
 MALKOVA MANGO,மல்கோவா மாம்பழம்,FRUITS,KG,34.09,200
 MANATHAKALI BERRIES,மணத்தக்காளி பெர்ரி,VEG,KG,0,360

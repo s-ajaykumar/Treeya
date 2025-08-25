@@ -11,7 +11,7 @@ def csv_to_json():
     with open('items.csv', mode='r', newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            row["QUANTITY"] = float(row['QUANTITY']) 
+            row["JSON_QUANTITY"] = float(row['JSON_QUANTITY']) 
             row['SELLING_PRICE'] = float(row['SELLING_PRICE'])
             data.append(row)
 

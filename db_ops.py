@@ -34,7 +34,7 @@ async def get_entity(partition_key, row_key):
     
 async def get_stock_db():
     items = []
-    queried_entities = items_table.query_entities(query_filter = "", select=["TAMIL_NAME", "TANGLISH_NAME", "QUANTITY", "QUANTITY_TYPE", "SELLING_PRICE", "CATEGORY"])
+    queried_entities = items_table.query_entities(query_filter = "", select=["TAMIL_NAME", "TANGLISH_NAME", "JSON_QUANTITY", "JSON_QUANTITY_TYPE", "SELLING_PRICE", "CATEGORY"])
     async for entity in queried_entities:
         items.append(entity)
     return items
@@ -75,6 +75,7 @@ async def create_conversations(user_id, conversations):
    
     
 async def update_stock(items, ignore_order):
+    print(items)
     if ignore_order == True:
         result = json.dumps({"status" : "success", "data" : "It's a TEST number. I won't update the stock."})
         print(result)
@@ -85,8 +86,8 @@ async def update_stock(items, ignore_order):
             partition_key = 'items'
             row_key = item['TANGLISH_NAME']
             entity = await get_entity(partition_key, row_key)
-            updated_quantity = entity['QUANTITY'] - item['QUANTITY']
-            entity['QUANTITY'] = updated_quantity
+            updated_quantity = entity['JSON_QUANTITY'] - item['USER_PROVIDED_QUANTITY']
+            entity['JSON_QUANTITY'] = updated_quantity
             entities.append(("update", entity, {"mode": "replace"}))
             
         operations: List[TransactionOperationType] = entities
@@ -165,33 +166,32 @@ async def create_entities(df):
 
 '''async def create_entities():
     with open('data/items.csv', mode='r', newline='', encoding='utf-8') as csvfile:
-            reader = list(csv.DictReader(csvfile))
-            entities = []
-            for i, row in enumerate(reader):
-                entity = {
-                    'PartitionKey': 'items',
-                    'RowKey': row['TANGLISH_NAME'].strip(),
-                    'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
-                    'TAMIL_NAME': row['TAMIL_NAME'].strip(),
-                    'QUANTITY': float(row['QUANTITY']),
-                    'SELLING_PRICE': float(row['SELLING_PRICE']),
-                    'QUANTITY_TYPE': row['QUANTITY_TYPE'].strip(),
-                    'CATEGORY': row['CATEGORY'].strip()
-                }
+        reader = list(csv.DictReader(csvfile))
+        entities = []
+        for i, row in enumerate(reader):
+            entity = {
+                'PartitionKey': 'items',
+                'RowKey': row['TANGLISH_NAME'].strip(),
+                'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
+                'TAMIL_NAME': row['TAMIL_NAME'].strip(),
+                'JSON_QUANTITY': float(row['JSON_QUANTITY']),
+                'JSON_QUANTITY_TYPE': row['JSON_QUANTITY_TYPE'].strip(),
+                'SELLING_PRICE': float(row['SELLING_PRICE']),
+                'CATEGORY': row['CATEGORY'].strip()
+            }
+            entities.append(("create", entity))
+            if len(entities) == 100 or i == len(reader)-1:
+                operations: List[TransactionOperationType] = entities
                 try:
-                    await items_table.create_entity(entity = entity)
-                except Exception as e:
-                    print(entity['RowKey'], "---", e)
-                entities.append(("create", entity))
-                if len(entities) == 100 or i == len(reader)-1:
-                    operations: List[TransactionOperationType] = entities
-                    try:
-                        await items_table.submit_transaction(operations)
-                        print("Uploaded batch")
-                        entities = []
-                        
-                    except TableTransactionError as e:
-                        print("There was an error with the transaction operation")
-                        print(f"Error: {e}")
+                    await items_table.submit_transaction(operations)
+                    print("Uploaded batch")
+                    entities = []
+                    if i == len(reader)-1:
+                        print("Last item added")
+                        break
+                    
+                except TableTransactionError as e:
+                    print("There was an error with the transaction operation")
+                    print(f"Error: {e}")
 asyncio.run(create_entities())'''
                     
