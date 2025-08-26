@@ -28,16 +28,20 @@ users_in_process_table = TableClient.from_connection_string(CONNECTION_STRING, t
 
 
 
-async def get_entity(partition_key, row_key):
-    return await items_table.get_entity(partition_key = partition_key, row_key = row_key)
+'''async def get_entity(partition_key, row_key):
+    return await items_table.get_entity(partition_key = partition_key, row_key = row_key)'''
     
     
 async def get_stock_db():
     items = []
-    queried_entities = items_table.query_entities(query_filter = "", select=["TAMIL_NAME", "TANGLISH_NAME", "JSON_QUANTITY", "JSON_QUANTITY_TYPE", "SELLING_PRICE", "CATEGORY"])
-    async for entity in queried_entities:
-        items.append(entity)
-    return items
+    try:
+        queried_entities = items_table.query_entities(query_filter = "", select=["TAMIL_NAME", "TANGLISH_NAME", "JSON_QUANTITY", "JSON_QUANTITY_TYPE", "SELLING_PRICE", "CATEGORY"])
+        async for entity in queried_entities:
+            items.append(entity)
+        print("Fetched STOCK DB successfully.")
+        return items
+    except Exception as e:
+        print("Failed to fetch STOCK DB. Below is the error:\n", e)
 
 
 async def get_user_in_process_data(partition_key, row_key = "conversations"):
@@ -46,6 +50,8 @@ async def get_user_in_process_data(partition_key, row_key = "conversations"):
         return json.loads(entity['conversations'])  # -> List of conversations
     except ResourceNotFoundError:
         return None
+    except Exception as e:
+        print("Failed to fetch user_in_process_DB. Below is the error:\n", e)
     
     
 async def delete_user_in_process(partition_key, row_key = "conversations"):
@@ -74,7 +80,7 @@ async def create_conversations(user_id, conversations):
     partition_key = user_id
    
     
-async def update_stock(items, ignore_order):
+'''async def update_stock(items, ignore_order):
     print(items)
     if ignore_order == True:
         result = json.dumps({"status" : "success", "data" : "It's a TEST number. I won't update the stock."})
@@ -99,7 +105,7 @@ async def update_stock(items, ignore_order):
         except TableTransactionError as e:
             result = json.dumps({"status" : "failure", "data" : f"Failed to update the stock. See the error below:\n\n{e}"})
             print(result)
-            return result
+            return result'''
         
     
 async def del_and_create_table():
@@ -165,7 +171,7 @@ async def create_entities(df):
 
 
 '''async def create_entities():
-    with open('data/items.csv', mode='r', newline='', encoding='utf-8') as csvfile:
+    with open('data/items_processed.csv', mode='r', newline='', encoding='utf-8-sig') as csvfile:
         reader = list(csv.DictReader(csvfile))
         entities = []
         for i, row in enumerate(reader):
@@ -174,7 +180,7 @@ async def create_entities(df):
                 'RowKey': row['TANGLISH_NAME'].strip(),
                 'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
                 'TAMIL_NAME': row['TAMIL_NAME'].strip(),
-                'JSON_QUANTITY': float(row['JSON_QUANTITY']) + 10.0,
+                'JSON_QUANTITY': float(row['JSON_QUANTITY']),
                 'JSON_QUANTITY_TYPE': row['JSON_QUANTITY_TYPE'].strip(),
                 'SELLING_PRICE': float(row['SELLING_PRICE']),
                 'CATEGORY': row['CATEGORY'].strip()
