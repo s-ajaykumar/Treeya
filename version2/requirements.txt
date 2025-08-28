@@ -1,0 +1,16 @@
+google-genai
+google-cloud-aiplatform
+sarvamai
+
+fastapi
+uvicorn
+gunicorn
+azure-data-tables
+pandas
+
+python-dotenv
+aiohttp
+aiofiles
+soundfile
+pydantic
+starlette

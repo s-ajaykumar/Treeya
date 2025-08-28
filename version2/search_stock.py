@@ -1,0 +1,94 @@
+import json
+import aiohttp
+from google import genai
+from google.genai import types
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+ZILLIZ_ENDPOINT = os.environ['ZILLIZ_ENDPOINT']
+ZILLIZ_TOKEN = os.environ['ZILLIZ_TOKEN']
+client = genai.Client()
+
+
+
+async def generate_embeddings(items):
+    contents = [types.Content(role = "user", parts = [types.Part.from_text(text = json.dumps(items, ensure_ascii = False))])]
+    try:
+        result = await client.aio.models.embed_content(
+                model = "gemini-embedding-001",
+                contents = contents)
+        emb = [emb.values for emb in result.embeddings]
+        return emb
+    except Exception as e:
+        return {"status" : "failure", "data" : f"Failed to GENERATE EMBEDDINGS{e}"}
+   
+
+async def search_stock(items):
+    result = []
+    emb = await generate_embeddings(items)
+    if type(emb) == dict:
+        return json.dumps(emb)
+    async with aiohttp.ClientSession() as session:
+        for e in emb:
+            url = ZILLIZ_ENDPOINT + "/v2/vectordb/entities/search"
+            headers = {
+                "Authorization" : ZILLIZ_TOKEN,
+                "Content-Type" : "application/json"
+            }
+            payload = {
+                "collectionName": "treeyaa_stock_db",
+                "data": [e],
+                "searchParams" : {
+                    "params" : {
+                        "radius" : 0.75
+                    }
+                },
+                "annsField": "embedding",
+                "limit": 50,
+                "outputFields": [
+                    "data"
+                ]
+            }
+            response = await session.post(url, headers = headers, json = payload)
+            result.append(await response.json())
+    
+    result = [{"query" : items[ix], "search_result" : i['data']} for ix, i in enumerate(result)]
+    result = json.dumps(result, ensure_ascii = False)
+    return result
+    
+
+
+
+def upload_data_zilliz():
+    with open("data/tamil_name_embeddings.json", "r", encoding = "utf-8-sig") as f, \
+        open("data/items.json", "r", encoding = "utf-8-sig") as f3,\
+        open("data/treeyaa_stock.json", "w", encoding = "utf-8") as f2:
+        data = json.load(f)
+        data2 = json.load(f3)
+        ls = []
+        for i, d in enumerate(data):
+            ls.append({"id" : str(i), "embedding" : d, "data" : data2[str(i)]})
+        json.dump(ls, f2, ensure_ascii = False, indent = 1)
+
+        
+    with open("data/treeyaa_stock.json", "r") as f:
+        file = json.load(f)
+        
+    file = [file[i:i+100] for i in range(0, len(file), 100)]
+    
+    url = ZILLIZ_ENDPOINT + "/v2/vectordb/entities/insert"
+    headers = {
+        "Authorization" : ZILLIZ_TOKEN,
+        "Content-Type" : "application/json"
+    }
+
+    for j in file:
+        payload = {
+            "collectionName" : "treeyaa_stock_db",
+            "data" : j
+        }
+        response = requests.post(url, headers = headers, json = payload)
+        print(response.status_code, response.json())
+
+#upload_data_zilliz()
