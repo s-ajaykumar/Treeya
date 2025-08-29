@@ -1,7 +1,7 @@
 import config
 import db_ops
-import search_stock
-import upload_stock
+from search_stock import search_stock
+#import upload_stock
 import RequestModel
 
 import os
@@ -45,23 +45,19 @@ class TREEYA:
         sf.write(wav_file_path, data, sr)      
         return wav_file_path  
     
+    
     async def get_stock_db(self):
         items_database = await db_ops.get_stock_db()
         items_database = str(items_database)
         items_database = types.Content(role = "model", parts = [types.Part.from_text(text = items_database)])
         return items_database
-        
-        
-    async def save_conversation(self, user_id, contents):
-        conversation = json.dumps(contents, ensure_ascii = False)
-        update_result = await db_ops.update_user_in_process_data(partition_key = user_id, conversations = conversation)
-        print(update_result)
             
     def add_previous_conversation(self, query, prev_conv):
         contents = []
         query = types.Content(role = "user", parts = [types.Part.from_text(text = query)])
         
         for conv in prev_conv:
+            conv = json.loads(conv)
             role = conv['role'] 
             data = conv['data']
             content = types.Content(role = role, parts = [types.Part.from_text(text = data)])
@@ -71,7 +67,7 @@ class TREEYA:
         return contents
        
     async def add_content(self, prev_contents, role, data):
-        prev_contents = prev_contents + [{"role" : role, "data" : data}]
+        prev_contents = prev_contents + [json.dumps({"role" : role, "data" : data}, ensure_ascii = False)]
         return prev_contents
         
     def remove_empty_stock(self, search_stock_result):
@@ -102,8 +98,11 @@ class TREEYA:
             
             
     async def call_search_stock(self, prev_contents, TTT_response):
+        res_obj = json.loads(TTT_response)
+        items = [item['USER_REQUESTED_ITEM'] for item in res_obj['user_requested_items']]
+        
         t1 = time.time()
-        response = await search_stock(TTT_response)
+        response = await search_stock(items)
         t2 = time.time()
         print(f"Time taken: Search_Stock: {(t2-t1)*1000:2f} ms")
         
@@ -169,10 +168,9 @@ class TREEYA:
             TTT_response, prev_contents = await self.call_search_stock(prev_contents, TTT_response)
         
         for c in prev_contents:
-            print(c['role'])
-            print(c['data'])
+            print(c)
             
-        await self.save_conversation(user_id, prev_contents)
+        await db_ops.update_user_in_process_data(user_id, prev_contents)
         return TTT_response
     
   
@@ -195,9 +193,9 @@ async def main(request: RequestModel.delete_user_in_process):
 async def main(request: RequestModel.update_stock):
     return await db_ops.update_stock(request.items, request.ignoreOrder)'''
 
-@app.post("/upload_stock_db/") 
+'''@app.post("/upload_stock_db/") 
 async def main(request: RequestModel.upload_stock_db):
-    return await upload_stock.main(request.link)
+    return await upload_stock.main(request.link)'''
 
 
 

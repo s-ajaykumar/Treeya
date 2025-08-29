@@ -4,6 +4,7 @@ from google import genai
 from google.genai import types
 import os
 from dotenv import load_dotenv
+import asyncio
 
 load_dotenv()
 ZILLIZ_ENDPOINT = os.environ['ZILLIZ_ENDPOINT']
@@ -13,7 +14,7 @@ client = genai.Client()
 
 
 async def generate_embeddings(items):
-    contents = [types.Content(role = "user", parts = [types.Part.from_text(text = json.dumps(items, ensure_ascii = False))])]
+    contents = [types.Content(role = "user", parts = [types.Part.from_text(text = item)]) for item in items]
     try:
         result = await client.aio.models.embed_content(
                 model = "gemini-embedding-001",
@@ -52,7 +53,6 @@ async def search_stock(items):
             }
             response = await session.post(url, headers = headers, json = payload)
             result.append(await response.json())
-    
     result = [{"query" : items[ix], "search_result" : i['data']} for ix, i in enumerate(result)]
     result = json.dumps(result, ensure_ascii = False)
     return result
@@ -92,3 +92,8 @@ def upload_data_zilliz():
         print(response.status_code, response.json())
 
 #upload_data_zilliz()
+
+
+
+if __name__ == "__main__":
+    asyncio.run(search_stock(['கோழி']))

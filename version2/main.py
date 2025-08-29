@@ -227,4 +227,4 @@ async def main(request: RequestModel.upload_stock_db):
 
 
 if __name__ == '__main__':
-    uvicorn.run("mainVersion2Agent:app", host = "localhost", port = 8000, reload = True)
+    uvicorn.run("main:app", host = "localhost", port = 8000, reload = True)
