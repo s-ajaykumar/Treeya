@@ -6,6 +6,8 @@ import os
 from dotenv import load_dotenv
 import asyncio
 
+import requests
+
 load_dotenv()
 ZILLIZ_ENDPOINT = os.environ['ZILLIZ_ENDPOINT']
 ZILLIZ_TOKEN = os.environ['ZILLIZ_TOKEN']
@@ -68,7 +70,7 @@ def upload_data_zilliz():
         data2 = json.load(f3)
         ls = []
         for i, d in enumerate(data):
-            ls.append({"id" : str(i), "embedding" : d, "data" : data2[str(i)]})
+            ls.append({"id" : str(i), "embedding" : d})
         json.dump(ls, f2, ensure_ascii = False, indent = 1)
 
         

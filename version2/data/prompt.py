@@ -263,7 +263,7 @@ After you got quantity for all the requested items, proceed to STEP_5.
 STEP_5:
 Check the quantity type of the requested items. 
 While checking,
- - If quantity type is not provided by the user (or) quantity type provided by the user does not match with the QUANTITY_TYPE in the JSON file for a requested FRUIT (or) VEGETABLE, then consider the quantity type needed for the requested item as None. If provided quantity type matches with the QUANTITY TYPE in the JSON file then keep the provided quantity type as it is like:
+ - If quantity type is not provided by the user (or) quantity type provided by the user does not match with the QUANTITY_TYPE in the JSON file for a requested FRUIT (or) VEGETABLE, then consider the quantity type needed for the requested item as null. If provided quantity type matches with the QUANTITY TYPE in the JSON file then keep the provided quantity type as it is like:
   user: 5 வெங்காயம்
   your thinking: வெங்காயம் is a VEGETABLE and user didn't provide quantity type. So, I'll consider the quantity type as None.
   user: 5 Kg வெங்காயம்
@@ -570,6 +570,12 @@ main_version2_progress = """
 * When a user asks for any NON-GROCERY items, return the following JSON response:
 {"type" : "list", "data" : "The user asks for NON-GROCERY items. So, list some items our store has."}
 
+* When a user talks to you other than related to grocery items, respond to them. Use the following JSON response template to respond.
+{"type" : "in_process", "data" : ""}
+Example:
+user: I have paid the amount
+model: {"type" : "in_process", "data" : "Thanks! we'll check with the admin and let me inform you!"}
+
 * When a user asks to modify the grocery order, modify it like:
   model: {
     "data" : [
@@ -581,10 +587,10 @@ main_version2_progress = """
             "JSON_QUANTITY" : 6.06,
             "JSON_QUANTITY_TYPE" : "KG",
             "SELLING_PRICE" : 60.0,
-            "TOTAL_PRICE" : None
+            "TOTAL_PRICE" : null
         }
     ],
-    "total_sum" : None,
+    "total_sum" : null,
     "type" : "success"
   }
 
@@ -599,21 +605,21 @@ main_version2_progress = """
             "JSON_QUANTITY" : 6.06,
             "JSON_QUANTITY_TYPE" : "KG",
             "SELLING_PRICE" : 60.0,
-            "TOTAL_PRICE" : None
+            "TOTAL_PRICE" : null
         }
     ],
-    "total_sum" : None,
+    "total_sum" : null,
     "type" : "success"
   }  
 
 To call $search_stock tool, fill and return the following JSON response using the user query:
 {
     "type" : "search_stock",
-    "user_requested_items" : [{"USER_REQUESTED_ITEM" : "item_name", "USER_REQUESTED_QUANTITY" : FLOAT/None, "USER_REQUESTED_QUANTITY_TYPE" : ""/None}, ...]
+    "user_requested_items" : [{"USER_REQUESTED_ITEM" : "item_name", "USER_PROVIDED_QUANTITY_" : FLOAT/null, "USER_PROVIDED_QUANTITY_TYPE" : ""/null}, ...]
 }
 Fill the USER_REQUESTED_ITEM with the requested item names from the user query.
-If user provided quantity needed for a requested item then put it in the "USER_REQUESTED_QUANTITY" field else fill it as None.
-If user provided quantity type needed for a requested item then put it in the "USER_REQUESTED_QUANTITY_TYPE" field else fill it as None.
+If user provided, quantity needed for a requested item then put it in the "USER_PROVIDED_QUANTITY_" field else fill it as null.
+If user provided, quantity type needed for a requested item then put it in "English" in the "USER_PROVIDED_QUANTITY_TYPE" field else fill it as null.
 
 TASK_A:
 * Check in the $search_result JSON.
@@ -625,31 +631,34 @@ TASK_A:
    your thinking: There is an EXACT match for 'முருக்கு' in it's search_result(MURUKKU - முருக்கு). So I'll order MURUKKU.
  * If the "query" don't have an EXACT MATCH but has MULTIPLE MATCHES in it's search_result then list the TANGLISH_NAME of the MULTIPLE MATCHES to the user and ask the user to choose from the list.
    While listing the matches,
+   * Don't list matches that have JSON_QUANTITY - 0.0
    * Show option number, "TANGLISH_NAME", "SELLING_PRICE" of each match.
    * While listing options for more than 1 item, continue the option number from the previous item options.
    * Return **ONLY** a monospace table wrapped in triple backticks (for WhatsApp). Columns: Name (string), ₹ (string). 
    * Some item names may be more than two words. For those items, provide the words that are after the first two words in the next row. A row can contain maximum of two words.
    * Align columns using spaces so the table looks neat on mobile. Do not add any extra text, explanation, headings, or punctuation outside the triple backticks.
-   * After the user chooses from the list (or) if the user says they don't want to choose from the list, proceed to the below STEP_4.
+   When the user doesn't want to choose from the list, proceed to the below STEP_4.
+   When the user chooses from the list, don't ask for quantity needed. Consider the quantity needed for the chosen item as USER_PROVIDED_QUANTITY for that USER_REQUESTED_ITEM and proceed to the below STEP_4. 
+   
 
 TASK_B:
 * Check in your $search_stock JSON response in your previous conversations with the user.
 * While checking,
-  * If USER_PROVIDED_QUANTITY is not None for a USER_REQUESTED_ITEM then accept the USER_PROVIDED_QUANTITY. 
-  * If USER_PROVIDED_QUANTITY is None for a USER_REQUESTED_ITEM then ask the user for the USER_PROVIDED_QUANTITY. Use the "data" field of IN_PROCESS_TEMPLATE to ask it. While the user responds with a quantity (or) quantity type, accept the quantity (or) quantity type as it is. 
+  * If USER_PROVIDED_QUANTITY is not null for a USER_REQUESTED_ITEM then accept the USER_PROVIDED_QUANTITY. 
+  * If USER_PROVIDED_QUANTITY is null for a USER_REQUESTED_ITEM then ask the user for the USER_PROVIDED_QUANTITY. Use the "data" field of IN_PROCESS_TEMPLATE to ask it. While the user responds with a quantity (or) quantity type, accept the quantity (or) quantity type as it is. 
 
 TASK_C:
-* GREENS are not FRUITS and not VEGETABLES.
+* Other than CATEGORY - FRUITS and VEG, the remaining all are not FRUITS and not VEGETABLES like GREENS, PROVISIONS, ... are not FRUITS and not VEGETABLES.
 * condition: The USER_PROVIDED_QUANTITY_TYPE should match with the JSON_QUANTITY_TYPE of the USER_REQUESTED_ITEM.
-* For USER_REQUESTED_ITEM that are FRUITS and VEGETABLES, if the condition fails then don't calculate TOTAL_PRICE for those USER_REQUESTED_ITEM in the below STEP_6.
-* For USER_REQUESTED_ITEM that are not FRUITS and not VEGETABLES, if the condition fails then consider the USER_PROVIDED_QUANTITY_TYPE as JSON_QUANTITY_TYPE and calculate TOTAL_PRICE for those in th ebelow STEP_6.
+* For USER_REQUESTED_ITEM that are FRUITS (or) VEGETABLES, if the condition fails then don't calculate TOTAL_PRICE for those USER_REQUESTED_ITEM in the below STEP_6.
+* For USER_REQUESTED_ITEM that are not FRUITS and not VEGETABLES, if the condition fails then consider the USER_PROVIDED_QUANTITY_TYPE as JSON_QUANTITY_TYPE and calculate TOTAL_PRICE for those in the below STEP_6.
 
 TASK_D:
-* Follow the results of STEP_5 if it says don't calculate TOTAL_PRICE for some items. Fill the TOTAL_PRICE of those items as None.
+* Follow the results of STEP_5 if it says don't calculate TOTAL_PRICE for some items. Fill the TOTAL_PRICE of those items as null.
 * For each USER_REQUESTED_ITEM, multiply it's USER_PROVIDED_QUANTITY with it's SELLING_PRICE and the result is the TOTAL_PRICE.
 * Sum the calculated TOTAL_PRICE of each item and the result is the "total_sum".
-* When a item's TOTAL_PRICE is set as None then set the "total_sum" also as None
-* Finally, fill the SUCCESS_RESPONSE_TEMPLATE with the calculated details and return it.
+* When a item's TOTAL_PRICE is set as null then set the "total_sum" also as null
+* Finally, fill the SUCCESS_RESPONSE_TEMPLATE with the calculated details and return it. 
 
 
 To create a grocery order, follow the below steps one by one in the given order. NEVER skip any step.
@@ -677,20 +686,20 @@ Do TASK_D to calculate the TOTAL_PRICE of each item in the $user_requested_items
 
 
 SUCCESS_RESPONSE_TEMPLATE:
-{
+{   
     "data" : [
         {   
             "TAMIL_NAME" :  "",
             "TANGLISH_NAME" : "",
-            "USER_PROVIDED_QUANTITY" : FLOAT/None,                              
-            "USER_PROVIDED_QUANTITY_TYPE" : ""/None,
+            "USER_PROVIDED_QUANTITY" : FLOAT/null,                              
+            "USER_PROVIDED_QUANTITY_TYPE" : ""/null,
             "JSON_QUANTITY" : FLOAT, 
             "JSON_QUANTITY_TYPE" : "",
             "SELLING_PRICE" : FLOAT,
-            "TOTAL_PRICE" : FLOAT/None
+            "TOTAL_PRICE" : FLOAT/null
         }
     ],
-    "total_sum" : FLOAT/None,
+    "total_sum" : FLOAT/null,
     "type" : "success"
 }
 
@@ -707,9 +716,9 @@ user: 2 பாக்கெட் முள்ளங்கி கொத்தம�
 model: {
     "type": "search_stock",
     "user_requested_items": [
-        {"USER_REQUESTED_ITEM" : "முள்ளங்கி", "USER_REQUESTED_QUANTITY" : 2.0, "USER_REQUESTED_QUANTITY_TYPE" : "PACKET"},
-        {"USER_REQUESTED_ITEM" : "கொத்தமல்லி", "USER_REQUESTED_QUANTITY" : None, "USER_REQUESTED_QUANTITY_TYPE" : None},
-        {"USER_REQUESTED_ITEM" : "கோழி", "USER_REQUESTED_QUANTITY" : None, "USER_REQUESTED_QUANTITY_TYPE" : None}
+        {"USER_REQUESTED_ITEM" : "முள்ளங்கி", "USER_PROVIDED_QUANTITY_" : 2.0, "USER_PROVIDED_QUANTITY_TYPE" : "PACKET"},
+        {"USER_REQUESTED_ITEM" : "கொத்தமல்லி", "USER_PROVIDED_QUANTITY_" : null, "USER_PROVIDED_QUANTITY_TYPE" : null},
+        {"USER_REQUESTED_ITEM" : "கோழி", "USER_PROVIDED_QUANTITY_" : null, "USER_PROVIDED_QUANTITY_TYPE" : null}
     ]
 }
 
@@ -769,7 +778,7 @@ user: [{
                 "JSON_QUANTITY": 1.31,
                 "JSON_QUANTITY_TYPE": "KG",
                 "SELLING_PRICE": 300.0,
-                "TOTAL_PRICE": None
+                "TOTAL_PRICE": null
                 }
             ]
         }
@@ -811,7 +820,7 @@ model:
             "JSON_QUANTITY" : 6.06,
             "JSON_QUANTITY_TYPE" : "KG",
             "SELLING_PRICE" : 60.0,
-            "TOTAL_PRICE" : None
+            "TOTAL_PRICE" : null
         },
         {
             "TAMIL_NAME" :  "கொத்தமல்லி விதைகள்",
@@ -824,7 +833,7 @@ model:
             "TOTAL_PRICE" : 2800.00   
         },
     ],
-    "total_sum" : None,
+    "total_sum" : null,
     "type" : "success"
 }
 
@@ -838,9 +847,9 @@ user: 2
 model: {
     "type": "search_stock",
     "user_requested_items": [
-        {"USER_REQUESTED_ITEM" : "thakkali", "USER_REQUESTED_QUANTITY" : 2.0, "USER_REQUESTED_QUANTITY_TYPE" : "KG"},
-        {"USER_REQUESTED_ITEM" : "கொத்தமல்லி", "USER_REQUESTED_QUANTITY" : None, "USER_REQUESTED_QUANTITY_TYPE" : None},
-        {"USER_REQUESTED_ITEM" : "கோழி", "USER_REQUESTED_QUANTITY" : None, "USER_REQUESTED_QUANTITY_TYPE" : None}
+        {"USER_REQUESTED_ITEM" : "thakkali", "USER_PROVIDED_QUANTITY_" : 2.0, "USER_PROVIDED_QUANTITY_TYPE" : "KG"},
+        {"USER_REQUESTED_ITEM" : "கொத்தமல்லி", "USER_PROVIDED_QUANTITY_" : null, "USER_PROVIDED_QUANTITY_TYPE" : null},
+        {"USER_REQUESTED_ITEM" : "கோழி", "USER_PROVIDED_QUANTITY_" : null, "USER_PROVIDED_QUANTITY_TYPE" : null}
     ]
 }
 
@@ -867,7 +876,7 @@ model: {
             "JSON_QUANTITY" : 6.06,
             "JSON_QUANTITY_TYPE" : "KG",
             "SELLING_PRICE" : 60.0,
-            "TOTAL_PRICE" : None
+            "TOTAL_PRICE" : null
         },
         {
             "TAMIL_NAME" :  "கொத்தமல்லி விதைகள்",
@@ -890,7 +899,7 @@ model: {
             "TOTAL_PRICE" : 160.00     
         }
     ],
-    "total_sum" : None,
+    "total_sum" : null,
     "type" : "success"
 }
 </EXAMPLE_1>
@@ -900,7 +909,7 @@ user: 7 uh seeragha sambha
 model: {
     "type": "search_stock",
     "user_requested_items": [
-        {"USER_REQUESTED_ITEM" : "seeragha sambha", "USER_REQUESTED_QUANTITY" : 7.0, "USER_REQUESTED_QUANTITY_TYPE" : None}
+        {"USER_REQUESTED_ITEM" : "seeragha sambha", "USER_PROVIDED_QUANTITY_" : 7.0, "USER_PROVIDED_QUANTITY_TYPE" : null}
     ]
 }
 
@@ -918,8 +927,8 @@ model: {
 "user_requested_items": [
 {
 "USER_REQUESTED_ITEM": "தக்காளி",
-"USER_REQUESTED_QUANTITY": 17,
-"USER_REQUESTED_QUANTITY_TYPE": "KG"
+"USER_PROVIDED_QUANTITY": 17,
+"USER_PROVIDED_QUANTITY_TYPE": "KG"
 }
 ]
 }

@@ -90,7 +90,7 @@ async def update_user_in_process_data(user_id, contents):
             "RowKey" : str(i),
             "data" : content
         }
-        entities.append(("update_replace", entity))
+        entities.append(("upsert", entity))
         if (i+1) % 100 == 0 or i == length:
             operations: List[TransactionOperationType] = entities
             try:
@@ -129,14 +129,14 @@ async def update_user_in_process_data(user_id, contents):
         except TableTransactionError as e:
             result = json.dumps({"status" : "failure", "data" : f"Failed to update the stock. See the error below:\n\n{e}"})
             print(result)
-            return result'''
+            return result
         
     
 async def del_and_create_table():
     async for entity in items_table.list_entities():
         await items_table.delete_entity(row_key = entity['RowKey'], partition_key = entity['PartitionKey'])
     print("Items entities deleted")
-    '''global items_table
+    global items_table
     async with TableServiceClient.from_connection_string(CONNECTION_STRING) as table_service_client:
         try:
             table_deleted = await table_service_client.delete_table(table_name = "items")
@@ -157,7 +157,7 @@ async def del_and_create_table():
             print(f"Created table items successfully!")
         except ResourceExistsError:
             print("Table already exists")
-    items_table = TableClient.from_connection_string(CONNECTION_STRING, table_name = "items")'''
+    items_table = TableClient.from_connection_string(CONNECTION_STRING, table_name = "items")
             
             
 async def create_entities(df):
@@ -167,11 +167,11 @@ async def create_entities(df):
     length = len(records)-1
     entities = []
     for i, record in enumerate(records):
-        '''entity = {
+        entity = {
             "PartitionKey": "items",            
             "RowKey": record['TANGLISH_NAME'],         
             **record                             
-        }'''
+        }
         record["PartitionKey"] =  "items"
         record["RowKey"] = record['TANGLISH_NAME']
         entities.append(("create", record))
@@ -185,13 +185,10 @@ async def create_entities(df):
             except TableTransactionError as e:
                 print("Failed to upload stock db. Below is the error:")
                 print(f"Error: {e}")
-    print("Uploaded stock db successfully")
+    print("Uploaded stock db successfully")'''
 
 
 
-
-if __name__ == "__main__":
-    asyncio.run(delete_user_in_process("ajay"))
 
 
 

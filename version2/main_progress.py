@@ -1,7 +1,7 @@
 import config
 import db_ops
 from search_stock import search_stock
-#import upload_stock
+from upload_stock import upload_stock
 import RequestModel
 
 import os
@@ -86,7 +86,7 @@ class TREEYA:
     
     def STT(self, file_path):
         try:
-            response = stt_client.speech_to_text.transcribe(
+            response = sarvam.speech_to_text.transcribe(
                 file = open(file_path, "rb"),
                 model = "saarika:v2.5",
                 language_code = "ta-IN"
@@ -95,7 +95,19 @@ class TREEYA:
         except Exception as e:
             print("STT failed. Below is the error:\n", e)
             return json.dumps({"type" : "failure", "data" : "Hey! Just a quick note\n\nPlease keep your *audio note* under *30 seconds* so we can move forward smoothly.\n\nThanks! 😊"}, ensure_ascii = False), "failure"
-            
+       
+       
+    def text_translate(self, text):
+        try:
+            response = sarvam.text.translate(
+                input = text,
+                source_language_code = "en-IN",
+                target_language_code ="ta-IN"
+            )
+            print("Translated text successfully")
+            return response.translated_text
+        except Exception as e:
+            print("Text translation failed. Below is the error:\n", e)     
             
     async def call_search_stock(self, prev_contents, TTT_response):
         res_obj = json.loads(TTT_response)
@@ -147,7 +159,9 @@ class TREEYA:
                 print(f"Time taken: STT: {(t2-t1)*1000:2f} ms")
                 if type_ == "failure":
                     return text
-
+        else:
+            text = await run_in_threadpool(self.text_translate, text)
+    
         query = json.dumps(text, ensure_ascii = False)
     
         if user_in_process_data:
@@ -175,7 +189,7 @@ class TREEYA:
     
   
 
-stt_client = SarvamAI(api_subscription_key = os.environ['SARVAM_AI_API'])  
+sarvam = SarvamAI(api_subscription_key = os.environ['SARVAM_AI_API'])  
 gemini = genai.Client()
 treeya = TREEYA() 
 app = FastAPI()    
@@ -193,9 +207,9 @@ async def main(request: RequestModel.delete_user_in_process):
 async def main(request: RequestModel.update_stock):
     return await db_ops.update_stock(request.items, request.ignoreOrder)'''
 
-'''@app.post("/upload_stock_db/") 
+@app.post("/upload_stock_db/") 
 async def main(request: RequestModel.upload_stock_db):
-    return await upload_stock.main(request.link)'''
+    return await upload_stock(request.link)
 
 
 
