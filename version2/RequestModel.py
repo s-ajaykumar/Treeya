@@ -7,6 +7,7 @@ class user_request(BaseModel):
     user_id: str
     audio_link: Optional[str] = None
     text: Optional[str] = None
+    audio: Optional[str] = None
     
 class delete_user_in_process(BaseModel):
     user_id: str

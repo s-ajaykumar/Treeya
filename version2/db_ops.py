@@ -1,9 +1,6 @@
 from azure.data.tables.aio import TableClient
-from azure.data.tables.aio import TableServiceClient
 
 from azure.core.exceptions import ResourceNotFoundError
-from azure.core.exceptions import ResourceExistsError
-from azure.data.tables import UpdateMode
 
 from typing import Any, List, Mapping, Tuple, Union
 from azure.data.tables import TableEntity, TransactionOperation
@@ -13,95 +10,216 @@ EntityType = Union[TableEntity, Mapping[str, Any]]
 OperationType = Union[TransactionOperation, str]
 TransactionOperationType = Union[Tuple[OperationType, EntityType], Tuple[OperationType, EntityType, Mapping[str, Any]]]
 
-import time
 import json
 from dotenv import load_dotenv
 import os
-import csv
-import asyncio
+from datetime import datetime, timezone
 
 load_dotenv()
 
 CONNECTION_STRING = os.environ["AZURE_TABLE_STORAGE_CONNECTION_STRING"]
 items_table = TableClient.from_connection_string(CONNECTION_STRING, table_name = "items")
 users_in_process_table = TableClient.from_connection_string(CONNECTION_STRING, table_name = "usersInProcess")
-
-
-
-'''async def get_entity(partition_key, row_key):
-    return await items_table.get_entity(partition_key = partition_key, row_key = row_key)'''
     
     
-async def get_stock_db():
+async def get_items(item_codes, partition_key = "items"):
     items = []
     try:
-        queried_entities = items_table.query_entities(query_filter = "", select=["TAMIL_NAME", "TANGLISH_NAME", "JSON_QUANTITY", "JSON_QUANTITY_TYPE", "SELLING_PRICE", "CATEGORY"])
-        async for entity in queried_entities:
+        for item_code in item_codes:
+            entity = await items_table.get_entity(partition_key = partition_key, row_key = item_code, select = ["RowKey", "TAMIL_NAME", "TANGLISH_NAME", "JSON_QUANTITY", "JSON_QUANTITY_TYPE", "SELLING_PRICE", "CATEGORY"])
             items.append(entity)
-        print("Fetched STOCK DB successfully.")
         return items
     except Exception as e:
-        print("Failed to fetch STOCK DB. Below is the error:\n", e)
+        print("Failed to fetch items from Azure Table Storage. Below is the error:\n", e)
 
 
 async def get_user_in_process_data(partition_key):
     try:
         filter_query = f"PartitionKey eq '{partition_key}'"
         entities = []
-        async for entity in users_in_process_table.list_entities(filter = filter_query):
-            entities.append(entity['data'])
-        return entities
+        async for entity in users_in_process_table.query_entities(
+            query_filter = filter_query
+        ):
+            entities.append(entity['data']) 
+        entities_length = len(entities)
+        return entities, entities_length
     except ResourceNotFoundError:
-        return None
+        return None, None
     except Exception as e:
         print("Failed to fetch user_in_process_DB. Below is the error:\n", e)
     
     
+async def get_user_in_process_row_keys(partition_key):
+    try:
+        filter_query = f"PartitionKey eq '{partition_key}'"
+        row_keys = []
+        async for entity in users_in_process_table.query_entities(
+            query_filter = filter_query
+        ):
+            row_keys.append(entity['RowKey'])   
+        return row_keys
+    except Exception as e:
+        print("Failed to get_user_in_process_row_keys. Below is the error:\n", e)
+        
 async def delete_user_in_process(partition_key):
-    entities = await get_user_in_process_data(partition_key)
-    length = len(entities)
+    row_keys = await get_user_in_process_row_keys(partition_key)
     try:
         entities = []
-        for i in range(length):
+        for row_key in row_keys:
             entity = {
                 "PartitionKey" : partition_key,
-                "RowKey" : str(i)
+                "RowKey" : row_key
             }
             entities.append(("delete", entity))
-            if i+1 == 100 or i == length-1:
-                operations: List[TransactionOperationType] = entities
-                try:
-                    await users_in_process_table.submit_transaction(operations)
-                    entities = []
-                except TableTransactionError as e:
-                    print(f"Failed to delete user in process data for {partition_key}. Below is the error:\n\n{e}")
+        entity_ls = [entities[i:i+100] for i in range(0, len(entities), 100)]
+        
+        for entity_sub_ls in entity_ls:
+            operations: List[TransactionOperationType] = entity_sub_ls
+            try:
+                await users_in_process_table.submit_transaction(operations)
+            except TableTransactionError as e:
+                print(f"Failed to delete user in process data for {partition_key}. Below is the error:\n\n{e}")
         print(f"Deleted user in process data for {partition_key} successfully")
         return json.dumps({"status" : "success", "data" : f"Deleted user in process[{partition_key}] successfully"})
     except:
         return json.dumps({"status" : "failure", "data" : f"failed to delete user in process[{partition_key}]"})
     
     
-async def update_user_in_process_data(user_id, contents):
-    length = len(contents)-1
+async def update_user_in_process_data(user_id, contents, entities_length):
     entities = []
+    contents = contents[entities_length:] # Ignore previous contents
     for i, content in enumerate(contents):
         entity = {
             "PartitionKey" : user_id,
-            "RowKey" : str(i),
+            "RowKey" : datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%f') + f"-{i:03d}",
             "data" : content
         }
-        entities.append(("upsert", entity))
-        if (i+1) % 100 == 0 or i == length:
-            operations: List[TransactionOperationType] = entities
-            try:
-                await users_in_process_table.submit_transaction(operations)
-                entities = []
-                
-            except TableTransactionError as e:
-                print(f"Failed to update user in process data for {user_id}. Below is the error:\n\n{e}")
+        entities.append(("create", entity))
+        
+    entity_ls = [entities[i:i+100] for i in range(0, len(entities), 100)]
+    for entity_sub_ls in entity_ls:
+        operations: List[TransactionOperationType] = entity_sub_ls
+        try:
+            await users_in_process_table.submit_transaction(operations)  
+        except TableTransactionError as e:
+            print(f"Failed to update user in process data for {user_id}. Below is the error:\n\n{e}")
     print(f"Updated user in process data for {user_id} successfully")
         
         
+   
+  
+class UPLOAD_STOCK():
+    async def delete_items(self, to_delete_item_codes, partition_key = "items"):
+        entities = []
+        for j, item_code in enumerate(to_delete_item_codes):
+            entity = {
+                "PartitionKey" : partition_key,
+                "RowKey" : item_code
+            }
+            entities.append(("delete", entity))
+        entities = [entities[i:i+100] for i in range(0, len(entities), 100)]
+        try:
+            for entity_ls in entities:
+                operations: List[TransactionOperationType] = entity_ls
+                await items_table.submit_transaction(operations)
+            print(f"Deleted items: {str(to_delete_item_codes)} in items table successfully")
+        except TableTransactionError as e:
+            print(f"Failed to delete items: {str(to_delete_item_codes)} in items table. Below is the error:\n\n{e}")
+    
+       
+    async def insert_items(self, insert_input, partition_key = "items"):
+        to_insert_items = insert_input['to_insert_items']
+        tamil_names = insert_input['tamil_names']
+        
+        TANGLISH_NAME = "ITEM NAME"
+        CATEGORY = "GROUP NAME"	
+        JSON_QUANTITY_TYPE = "UNIT NAME"
+        JSON_QUANTITY = "STOCKS"
+        SELLING_PRICE = "PRICE"
+        
+        entities = []
+        for i, item in enumerate(to_insert_items):
+            entity = {
+                "PartitionKey"      : partition_key,
+                "RowKey"            : item['ITEM CODE'],
+                "TANGLISH_NAME"     : item[TANGLISH_NAME].upper().strip(),
+                "TAMIL_NAME"        : tamil_names[i].strip(),
+                "JSON_QUANTITY"     : item[JSON_QUANTITY],
+                "JSON_QUANTITY_TYPE": item[JSON_QUANTITY_TYPE].strip(),
+                "SELLING_PRICE"     : item[SELLING_PRICE],
+                "CATEGORY"          : item[CATEGORY].strip(),
+            }
+            entities.append(("create", entity))
+        entities = [entities[i:i+100] for i in range(0, len(entities), 100)]
+        try:
+            for entity_ls in entities:
+                operations: List[TransactionOperationType] = entity_ls
+                await items_table.submit_transaction(operations)
+            print(f"Created items in items table successfully")
+        except TableTransactionError as e:
+            print(f"Failed to create items in items table. Below is the error:\n\n{e}")
+            
+    
+    async def update_items(self, update_input, update_codes, partition_key = "items"):
+        TANGLISH_NAME = "ITEM NAME"
+        TAMIL_NAME = "TAMIL_NAME"
+        CATEGORY = "GROUP NAME"	
+        JSON_QUANTITY_TYPE = "UNIT NAME"
+        JSON_QUANTITY = "STOCKS"
+        SELLING_PRICE = "PRICE"
+        try:
+            entities = items_table.query_entities(
+                query_filter=f"PartitionKey eq '{partition_key}'",
+                select=["RowKey", "TAMIL_NAME"]
+            )
+            tamil_names_dic = {}
+            async for e in entities:
+                if e["RowKey"] in update_codes:
+                    tamil_names_dic[e["RowKey"]] = e["TAMIL_NAME"]
+        except Exception as e:
+            print("Failed to update items in items table. Below is the error:\n\n", e)
+            
+        entities = []
+        for i, item in enumerate(update_input):
+            entity = {
+                "PartitionKey"      : partition_key,
+                "RowKey"            : item['ITEM CODE'],
+                "TANGLISH_NAME"     : item[TANGLISH_NAME].upper().strip(),
+                "TAMIL_NAME"        : tamil_names_dic[item['ITEM CODE']],
+                "JSON_QUANTITY"     : item[JSON_QUANTITY],
+                "JSON_QUANTITY_TYPE": item[JSON_QUANTITY_TYPE].strip(),
+                "SELLING_PRICE"     : item[SELLING_PRICE],
+                "CATEGORY"          : item[CATEGORY].strip(),
+            }
+            entities.append(("update", entity))
+        entities = [entities[i:i+100] for i in range(0, len(entities), 100)]
+        operations: List[TransactionOperationType] = entities
+        try:
+            for entity_ls in entities:
+                operations: List[TransactionOperationType] = entity_ls
+                await items_table.submit_transaction(operations)
+            print(f"Updated items in items table successfully")
+        except TableTransactionError as e:
+            print(f"Failed to update items in items table. Below is the error:\n\n{e}")
+                
+        
+        
+    async def run(self, insert_input, to_delete_item_codes, update_input, update_codes):
+        if update_input:
+            await self.update_items(update_input, update_codes)
+        
+        if insert_input:
+            await self.insert_items(insert_input)
+        else:
+            print("No new items need to be inserted in the items table")
+            
+        if to_delete_item_codes:
+            await self.delete_items(to_delete_item_codes)
+        else:
+            print("No items need to be deleted in the items table")
+         
+upload_stock = UPLOAD_STOCK()
+   
    
     
 '''async def update_stock(items, ignore_order):
@@ -129,116 +247,12 @@ async def update_user_in_process_data(user_id, contents):
         except TableTransactionError as e:
             result = json.dumps({"status" : "failure", "data" : f"Failed to update the stock. See the error below:\n\n{e}"})
             print(result)
-            return result
-        
-    
-async def del_and_create_table():
-    async for entity in items_table.list_entities():
-        await items_table.delete_entity(row_key = entity['RowKey'], partition_key = entity['PartitionKey'])
-    print("Items entities deleted")
-    global items_table
-    async with TableServiceClient.from_connection_string(CONNECTION_STRING) as table_service_client:
-        try:
-            table_deleted = await table_service_client.delete_table(table_name = "items")
-            print(f"Deleted items table")
-        except Exception as e:
-            print(f"Failed to delete items table. See the error below:")
-            print(e)
-            
-        while True:
-            tables = [t.name async for t in table_service_client.list_tables()]
-            if "items" not in tables:
-                break
-            print("Waiting for table to be deleted...")
-            await asyncio.sleep(2)  
-            
-        try:
-            await table_service_client.create_table(table_name = "items")
-            print(f"Created table items successfully!")
-        except ResourceExistsError:
-            print("Table already exists")
-    items_table = TableClient.from_connection_string(CONNECTION_STRING, table_name = "items")
-            
-            
-async def create_entities(df):
-    await del_and_create_table()
-    records = df.to_dict(orient = "records")
-    print("RECORDS:\n\n",records[0])
-    length = len(records)-1
-    entities = []
-    for i, record in enumerate(records):
-        entity = {
-            "PartitionKey": "items",            
-            "RowKey": record['TANGLISH_NAME'],         
-            **record                             
-        }
-        record["PartitionKey"] =  "items"
-        record["RowKey"] = record['TANGLISH_NAME']
-        entities.append(("create", record))
-        if (i+1) % 100 == 0 or i == length:
-            operations: List[TransactionOperationType] = entities
-            try:
-                await items_table.submit_transaction(operations)
-                print("Uploaded batch")
-                entities = []
-                
-            except TableTransactionError as e:
-                print("Failed to upload stock db. Below is the error:")
-                print(f"Error: {e}")
-    print("Uploaded stock db successfully")'''
+            return result'''
 
 
 
 
-
-
-
-'''async def create_entities():
-    with open('data/items_processed.csv', mode='r', newline='', encoding='utf-8-sig') as csvfile:
-        reader = list(csv.DictReader(csvfile))
-        entities = []
-        for i, row in enumerate(reader):
-            entity = {
-                'PartitionKey': 'items',
-                'RowKey': row['TANGLISH_NAME'].strip(),
-                'TANGLISH_NAME' : row['TANGLISH_NAME'].strip(),
-                'TAMIL_NAME': row['TAMIL_NAME'].strip(),
-                'JSON_QUANTITY': float(row['JSON_QUANTITY']),
-                'JSON_QUANTITY_TYPE': row['JSON_QUANTITY_TYPE'].strip(),
-                'SELLING_PRICE': float(row['SELLING_PRICE']),
-                'CATEGORY': row['CATEGORY'].strip()
-            }
-            entities.append(("create", entity))
-            if len(entities) == 100 or i == len(reader)-1:
-                operations: List[TransactionOperationType] = entities
-                try:
-                    await items_table.submit_transaction(operations)
-                    print("Uploaded batch")
-                    entities = []
-                    if i == len(reader)-1:
-                        print("Last item added")
-                        break
-                    
-                except TableTransactionError as e:
-                    print("There was an error with the transaction operation")
-                    print(f"Error: {e}")
-asyncio.run(create_entities())'''
-                    
-                    
-                    
-'''from google import genai
-from google.genai import types
-import config
-import pandas as pd
-gemini = genai.Client()
-
-
-
-
-
-
-
-async def generate_tamil_names(tanglish_names: list):
+'''async def generate_tamil_names(tanglish_names: list):
     contents = json.dumps({"items" : tanglish_names.to_list()}, ensure_ascii = False)
     print(str(tanglish_names.to_list()))
     print("generating tamil names...")

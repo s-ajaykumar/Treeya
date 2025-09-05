@@ -1,12 +1,12 @@
+import db_ops
+
 import json
+import time
 import aiohttp
 from google import genai
 from google.genai import types
 import os
 from dotenv import load_dotenv
-import asyncio
-
-import requests
 
 load_dotenv()
 ZILLIZ_ENDPOINT = os.environ['ZILLIZ_ENDPOINT']
@@ -27,12 +27,14 @@ async def generate_embeddings(items):
         return {"status" : "failure", "data" : f"Failed to GENERATE EMBEDDINGS{e}"}
    
 
-async def search_stock(items):
-    result = []
-    emb = await generate_embeddings(items)
+async def search_stock(item_names):
+    search_result = []
+    final_result = []
+    emb = await generate_embeddings(item_names)
     if type(emb) == dict:
         return json.dumps(emb)
     async with aiohttp.ClientSession() as session:
+        t1 = time.time()
         for e in emb:
             url = ZILLIZ_ENDPOINT + "/v2/vectordb/entities/search"
             headers = {
@@ -40,7 +42,7 @@ async def search_stock(items):
                 "Content-Type" : "application/json"
             }
             payload = {
-                "collectionName": "treeyaa_stock_db",
+                "collectionName": "treeyaa_vector_store",
                 "data": [e],
                 "searchParams" : {
                     "params" : {
@@ -50,19 +52,28 @@ async def search_stock(items):
                 "annsField": "embedding",
                 "limit": 50,
                 "outputFields": [
-                    "data"
+                    "ITEM_CODE"
                 ]
             }
             response = await session.post(url, headers = headers, json = payload)
-            result.append(await response.json())
-    result = [{"query" : items[ix], "search_result" : i['data']} for ix, i in enumerate(result)]
-    result = json.dumps(result, ensure_ascii = False)
-    return result
+            search_result.append(await response.json())
+        t2 = time.time()
+        print(f"Time taken: Search Embeddings: {(t2-t1)*1000:2f} ms")
+        
+    t1 = time.time()
+    for ix, result in enumerate(search_result):
+        item_codes = [res['ITEM_CODE'] for res in result['data']]
+        fetched_items = await db_ops.get_items(item_codes)
+        final_result.append({"query" : item_names[ix], "search_result" : fetched_items})
+    t2 = time.time()
+    print(f"Time taken: Fetch Items From AzureDB: {(t2-t1)*1000:2f} ms")
+    final_result = json.dumps(final_result, ensure_ascii = False)
+    return final_result
     
 
 
 
-def upload_data_zilliz():
+'''def upload_data_zilliz():
     with open("data/tamil_name_embeddings.json", "r", encoding = "utf-8-sig") as f, \
         open("data/items.json", "r", encoding = "utf-8-sig") as f3,\
         open("data/treeyaa_stock.json", "w", encoding = "utf-8") as f2:
@@ -93,9 +104,5 @@ def upload_data_zilliz():
         response = requests.post(url, headers = headers, json = payload)
         print(response.status_code, response.json())
 
-#upload_data_zilliz()
+#upload_data_zilliz()'''
 
-
-
-if __name__ == "__main__":
-    asyncio.run(search_stock(['கோழி']))

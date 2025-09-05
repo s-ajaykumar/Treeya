@@ -1,6 +1,7 @@
 import config
 import db_ops
-import upload_stock
+from search_stock import search_stock
+from upload_stock import upload_stock
 import RequestModel
 
 import os
@@ -44,23 +45,13 @@ class TREEYA:
         sf.write(wav_file_path, data, sr)      
         return wav_file_path  
     
-    async def get_stock_db(self):
-        items_database = await db_ops.get_stock_db()
-        items_database = str(items_database)
-        items_database = types.Content(role = "model", parts = [types.Part.from_text(text = items_database)])
-        return items_database
-        
-        
-    async def save_conversation(self, user_id, contents):
-        conversation = json.dumps(contents, ensure_ascii = False)
-        update_result = await db_ops.update_user_in_process_data(partition_key = user_id, conversations = conversation)
-        print(update_result)
             
     def add_previous_conversation(self, query, prev_conv):
         contents = []
         query = types.Content(role = "user", parts = [types.Part.from_text(text = query)])
         
         for conv in prev_conv:
+            conv = json.loads(conv)
             role = conv['role'] 
             data = conv['data']
             content = types.Content(role = role, parts = [types.Part.from_text(text = data)])
@@ -70,26 +61,29 @@ class TREEYA:
         return contents
        
     async def add_content(self, prev_contents, role, data):
-        prev_contents = prev_contents + [{"role" : role, "data" : data}]
+        prev_contents = prev_contents + [json.dumps({"role" : role, "data" : data}, indent = 4, ensure_ascii = False)]
         return prev_contents
+       
+       
+    async def call_search_stock(self, prev_contents, res_obj):
+        items = [item['USER_REQUESTED_ITEM'] for item in res_obj['user_requested_items']]
         
-    def remove_empty_stock(self, search_stock_result):
-        user_requested_items = search_stock_result["user_requested_items"]
-        for j, item in enumerate(user_requested_items):
-            if item['match'] == "EXACT" and not item['JSON_item']:
-                item['match'] = "OUT_OF_STOCK"
-            if item['match'] == "EXACT" and item['JSON_item'] and item['JSON_item'][0]['JSON_QUANTITY'] == 0:
-                item['match'] = "OUT_OF_STOCK"
-            if item['match'] == "MULTIPLE":
-                item['JSON_item'] = [m for m in item['JSON_item'] if m['JSON_QUANTITY'] != 0]
-            user_requested_items[j] = item
-        return json.dumps(user_requested_items, ensure_ascii = False)
-                    
+        response = await search_stock(items)
         
+        contents = self.add_previous_conversation(response, prev_contents)
+        t1 = time.time()
+        response1, res_obj = await self.TTT(contents)
+        t2 = time.time()
+        print(f"Time taken: TTT: {(t2-t1)*1000:2f} ms")
+        
+        prev_contents = await self.add_content(prev_contents, "model", response)
+        prev_contents = await self.add_content(prev_contents, "model", response1)
+        return response1, prev_contents
+             
     
     def STT(self, file_path):
         try:
-            response = stt_client.speech_to_text.transcribe(
+            response = sarvam.speech_to_text.transcribe(
                 file = open(file_path, "rb"),
                 model = "saarika:v2.5",
                 language_code = "ta-IN"
@@ -98,51 +92,21 @@ class TREEYA:
         except Exception as e:
             print("STT failed. Below is the error:\n", e)
             return json.dumps({"type" : "failure", "data" : "Hey! Just a quick note\n\nPlease keep your *audio note* under *30 seconds* so we can move forward smoothly.\n\nThanks! 😊"}, ensure_ascii = False), "failure"
+       
+    def text_translate(self, text):
+        try:
+            t1 = time.time()
+            response = sarvam.text.translate(
+                input = text,
+                source_language_code = "en-IN",
+                target_language_code ="ta-IN"
+            )
+            t2 = time.time()
+            print(f"Time taken: Text Translation : {(t2-t1)*1000:2f} ms")
+            return response.translated_text
+        except Exception as e:
+            print("Text translation failed. Below is the error:\n", e)     
             
-            
-    async def search_stock(self, prev_contents, TTT_response):
-        t1 = time.time()
-        items_database = await self.get_stock_db()
-        t2 = time.time()
-        print(f"Time taken: Fetch STOCK_DB: {(t2-t1)*1000:2f} ms")
-        
-        contents = [items_database] + [types.Content(role = "user", parts = [types.Part.from_text(text = TTT_response)])]
-        t1 = time.time()
-        response = await gemini.aio.models.generate_content(
-            model = config.ttt.model,
-            contents = contents,
-            config = config.ttt.config_2,
-        )
-        t2 = time.time()
-        print(f"Time taken: Search_Stock: {(t2-t1)*1000:2f} ms")
-        response = response.text
-        
-        '''contents = [types.Content(role = "user", parts = [types.Part.from_text(text = response)])]
-        t1 = time.time()
-        response = await gemini.aio.models.generate_content(
-            model = config.ttt.model,
-            contents = contents,
-            config = config.ttt.config_3,
-        )
-        t2 = time.time()
-        print(f"Time taken: Remove empty stock: {(t2-t1)*1000:2f} ms")
-        response1 = response.text'''
-        t1 = time.time()
-        response1 = self.remove_empty_stock(json.loads(response))
-        t2 = time.time()
-        print(f"Time taken: Remove empty stock: {(t2-t1)*1000:2f} ms")
-        
-        contents = self.add_previous_conversation(response1, prev_contents)
-        t1 = time.time()
-        response2, type_ = await self.TTT(contents)
-        t2 = time.time()
-        print(f"Time taken: TTT: {(t2-t1)*1000:2f} ms")
-        
-        prev_contents = await self.add_content(prev_contents, "user", response1)
-        prev_contents = await self.add_content(prev_contents, "model", response2)
-        return response2, prev_contents
-    
-           
     async def TTT(self, contents):
         response = await gemini.aio.models.generate_content(
             model = config.ttt.model,
@@ -150,16 +114,24 @@ class TREEYA:
             config = config.ttt.config_1,
         )
         response = response.text
-        type_ = json.loads(response)['type']
-        return response, type_
+        res_obj = json.loads(response)
+        return response, res_obj
                    
        
                    
-    async def main(self, user_id, audio_link, text):
+    async def main(self, user_id, audio_link, text, audio):
         t1 = time.time()
-        user_in_process_data = await db_ops.get_user_in_process_data(partition_key = user_id)
+        user_in_process_data, entities_length = await db_ops.get_user_in_process_data(partition_key = user_id)
         t2 = time.time()
         print(f"Time taken: Fetch user_in_process DB: {(t2-t1)*1000:2f} ms")
+        
+        if audio:
+            t1 = time.time()
+            text, type_ = await run_in_threadpool(self.STT, audio)
+            t2 = time.time()
+            print(f"Time taken: STT: {(t2-t1)*1000:2f} ms")
+            if type_ == "failure":
+                return text
             
         if audio_link:    
             with tempfile.TemporaryDirectory() as temp_dir:                 
@@ -173,7 +145,9 @@ class TREEYA:
                 print(f"Time taken: STT: {(t2-t1)*1000:2f} ms")
                 if type_ == "failure":
                     return text
-
+        '''else:
+            text = await self.text_translate(text)'''
+    
         query = json.dumps(text, ensure_ascii = False)
     
         if user_in_process_data:
@@ -185,24 +159,23 @@ class TREEYA:
             prev_contents = await self.add_content([], "user", query)
             
         t1 = time.time()
-        TTT_response, type_ = await self.TTT(contents)
+        TTT_response, res_obj = await self.TTT(contents)
         t2 = time.time()
-        print(f"Time taken for TTT: {(t2-t1)*1000:2f} ms")
+        print(f"Time taken: TTT: {(t2-t1)*1000:2f} ms")
         prev_contents = await self.add_content(prev_contents, "model", TTT_response)
         
-        if type_ == "search_stock":
-            TTT_response, prev_contents = await self.search_stock(prev_contents, TTT_response)
+        if res_obj['type'] == "search_stock":
+            TTT_response, prev_contents = await self.call_search_stock(prev_contents, res_obj)
         
         for c in prev_contents:
-            print(c['role'])
-            print(c['data'])
+            print(c, "\n")
             
-        await self.save_conversation(user_id, prev_contents)
+        await db_ops.update_user_in_process_data(user_id, prev_contents, entities_length)
         return TTT_response
     
   
 
-stt_client = SarvamAI(api_subscription_key = os.environ['SARVAM_AI_API'])  
+sarvam = SarvamAI(api_subscription_key = os.environ['SARVAM_AI_API'])  
 gemini = genai.Client()
 treeya = TREEYA() 
 app = FastAPI()    
@@ -210,7 +183,7 @@ app = FastAPI()
     
 @app.post("/user_request/") 
 async def main(request: RequestModel.user_request):
-    return await treeya.main(request.user_id, request.audio_link, request.text)
+    return await treeya.main(request.user_id, request.audio_link, request.text, request.audio)
 
 @app.post("/delete_user_in_process/") 
 async def main(request: RequestModel.delete_user_in_process):
@@ -222,9 +195,9 @@ async def main(request: RequestModel.update_stock):
 
 @app.post("/upload_stock_db/") 
 async def main(request: RequestModel.upload_stock_db):
-    return await upload_stock.main(request.link)
+    return await upload_stock(request.link)
 
 
 
 if __name__ == '__main__':
-    uvicorn.run("main:app", host = "localhost", port = 8000, reload = True)
+    uvicorn.run("main:app", host = "localhost", port = 8000, reload = False)

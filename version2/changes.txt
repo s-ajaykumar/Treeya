@@ -1,0 +1,5 @@
+Current: I will provide "list_items" when the user asks for a particular category of items.
+To_Modify: Provide "list_items" when the user asks for the list or when the user asks for what are the items you have etc.
+
+Current: Options format: field names - "Name", "rupee symbol". Item names and prices is separated by vertical lines.
+To_Modify: Change the vertical lines to rupee symbol and change the field name as a single name: Names & Prices
